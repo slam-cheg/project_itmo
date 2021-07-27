@@ -1,0 +1,11 @@
+.projects__filter-list-item {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    width: 100%;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    cursor: pointer;
+}

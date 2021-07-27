@@ -1,0 +1,12 @@
+.projects__card-button {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 20px rgb(1 54 157 / 15%);
+    border-radius: 36px;
+    border: none;
+    width: 40px;
+    height: 40px;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
