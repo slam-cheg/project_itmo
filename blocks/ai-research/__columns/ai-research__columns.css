@@ -1,0 +1,6 @@
+.ai-research__columns {
+    display: grid;
+    grid-template-columns: repeat(2, 540px);
+    padding-bottom: 80px;
+    gap: 30px;
+}
