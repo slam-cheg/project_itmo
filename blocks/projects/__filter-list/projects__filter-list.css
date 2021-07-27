@@ -1,0 +1,7 @@
+.projects__filter-list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin: 0;
+    padding-bottom: 60px;
+}

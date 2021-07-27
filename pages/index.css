@@ -64,10 +64,11 @@
 /* Наши проекты */
 
 @import url(../blocks/projects/projects.css);
-@import url(../blocks/projects/__title/projects__title.css);;
+@import url(../blocks/projects/__title/projects__title.css);
 @import url(../blocks/projects/__filter/projects__filter.css);
 @import url(../blocks/projects/__filter-list/projects__filter-list.css);
 @import url(../blocks/projects/__filter-list-item/projects__filter-list-item.css);
+@import url(../blocks/projects/__filter-list-item/_active/projects__filter-list-item_active.css);
 
 @import url(../blocks/);
 
