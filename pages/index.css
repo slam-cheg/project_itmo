@@ -1,6 +1,6 @@
 /*fonts, header, content, footer*/
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__content/page__content.css);
 @import url(../blocks/header/header.css);
@@ -22,6 +22,7 @@
  @import url(../blocks/home-screen/home-screen.css);
  @import url(../blocks/home-screen/__intro/home-screen__intro.css);
  @import url(../blocks/home-screen/__title/home-screen__title.css);
+ @import url(../blocks/home-screen/__text/home-screen__text.css);
  @import url(../blocks/home-screen/__subtitle/home-screen__subtitle.css);
  @import url(../blocks/home-screen/__button/home-screen__button.css);
 
@@ -29,7 +30,8 @@
  @import url(../blocks/about/about.css);
  @import url(../blocks/about/__title/about__title.css);
  @import url(../blocks/about/__subtitle/about__subtitle.css);
- @import url(../blocks/about/__subtitle/about__subtitle.css);
+ @import url(../blocks/about/__list/about__list.css);
+ @import url(../blocks/about//__selector-card/about__selector-card.css);
 
 /* ai research*/
 
@@ -70,10 +72,13 @@
 @import url(../blocks/projects/__filter-list-item/projects__filter-list-item.css);
 @import url(../blocks/projects/__filter-list-item/_active/projects__filter-list-item_active.css);
 
-@import url(../blocks/);
 
 /* card */
 @import url(../blocks/card/card.css);
+@import url(../blocks/card/__date/card__date.css);
+@import url(../blocks/card/__title/
+@import url(../blocks/card/card.css);
+
 /*education*/
 @import url(../blocks/education/education.css);
 @import url(../blocks/education/__link/education__link.css);
@@ -81,6 +86,12 @@
 @import url(../blocks/education/__tab_a/education__tab_a.css);
 @import url(../blocks/education/__tab_b/education__tab_b.css);
 @import url(../blocks/education/__title/education__title.css);
+
+/* publication */
+@import url(../blocks/publications/publications.css);
+@import url(../blocks/publications/__title/publication__title.css);
+
+
 
 /* footer */
 @import url(../blocks/logo/_place/logo_place_footer.css);

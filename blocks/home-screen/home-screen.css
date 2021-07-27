@@ -7,4 +7,14 @@
     border: 0;
     background-image: url(../../images/home-screen.png);
     background-size: cover;
+    background-position: center;
 }
+
+@media (max-width: 1023px) {
+    .home-screen {
+        justify-content: flex-start;
+        padding-right: 0;
+        padding-left: 39px;
+
+    }
+  }
