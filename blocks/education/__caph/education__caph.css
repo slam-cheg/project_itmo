@@ -1,0 +1,9 @@
+.education__caph {
+  color: #000D26;
+  text-decoration: none;
+}
+
+.education__caph:hover {
+  opacity: 0.3;
+  transition: all 5s 1s;
+}
