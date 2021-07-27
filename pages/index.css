@@ -32,13 +32,19 @@
  @import url(../blocks/about/__subtitle/about__subtitle.css);
 /* card */
 @import url(../blocks/card/card.css);
+
 /*education*/
 @import url(../blocks/education/education.css);
 @import url(../blocks/education/__link/education__link.css);
-@import url(../blocks/education/__links/education__links.css);
+@import url(../blocks/education/__inner/education__inner.css);
+@import url(../blocks/education/__title/education__title.css);
+@import url(../blocks/education/__img/education__img.css);
+@import url(../blocks/education/__paragaph/education__paragaph.css);
+@import url(../blocks/education/__paragaphs/education__paragaphs.css);
+@import url(../blocks/education/__caph/education__caph.css);
+@import url(../blocks/education/__tab/education__tab.css);
 @import url(../blocks/education/__tab_a/education__tab_a.css);
 @import url(../blocks/education/__tab_b/education__tab_b.css);
-@import url(../blocks/education/__title/education__title.css);
 
 /* footer */
 @import url(../blocks/logo/_place/logo_place_footer.css);
