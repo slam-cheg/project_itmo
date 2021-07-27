@@ -1,23 +1,59 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="pages/index.css">
+  <link rel="stylesheet" href = "pages/index.css">
   <title>project_itmo</title>
 </head>
-
-<body class="page">
+<body class = "page">
 
   <!--header-->
-  <header>
-
+  <header class = "header page__content">
+    <img src="images/Logo_AI 1.jpg" alt="лого страницы" class = "logo logo_place_header">
+    <nav>
+      <ul class="header__list-links">
+        <li class = "header__list-item"> <a href="" class = "link"> О нас </a></li>
+        <li class = "header__list-item">  <a href=""  class = "link">Лаборатория</a></li>
+        <li class = "header__list-item"> <a href=""  class = "link"> Проекты</a></li>
+        <li class = "header__list-item"> <a href="" class = "link">Образование</a></li>
+        <li class = "header__list-item">  <a href="" class = "link">Публикации</a></li>
+        <li class = "header__list-item"> <a href="" class = "link">Команда</a></li>
+      </ul>
+    </nav>
+  
   </header>
 
   <!--Начинается основной контент страницы-->
 
-  <main>
+  <main class = "content page__content">
+    
+    <section class="home-screen">
+      <div class = home-screen__intro>
+        <h1 class = "home-screen__title" ><span class = >Когнитивные технологии </span>, машинное обучение</h1>
+        <p class = "home-screen__subtitle">Системы прикладного искусственного интеллекта.</p>
+        <button type = "button" class = home-screen__button> наши проекты </button>
+      </div>
+
+    </section>
+    
+     <section class="about">
+      <h2 class = "about__title" >Несколько слов о нас</h2>
+      <p class = "about__subtitle">Национальный центр когнитивных разработок – центр национальной технологической инициативы (НТИ), 
+        получивший государственную поддержку по направлению «Технологии машинного обучения 
+        и когнитивные технологии».</p>
+       <ul class = about__list>
+        <template id = "template-place"> 
+          <li class = "card card_about">
+            <button class="card__delete-button"></button>
+            <h3 class = card__title></h3>
+            <p class = "card__desciption"></p>
+          </li>
+        </template>
+
+       </ul>
+
+    </section>
     <section class="ai-research">
       <div class="ai-research__background">
         <h2 class="ai-research__title">INDUSTRIAL AI RESEARCH LAB</h2>
@@ -38,16 +74,15 @@
             <div class="ai-research__image ai-research__image_right"></div>
           </div>
         </div>
-
         <div class="ai-research__cards">
-            <div class="ai-research__card ai-research__card_analysis">
-              <p class="ai-research__card-title">Анализ социальных данных</p>
-              <div class="ai-research__icon-background">
-                <div class="ai-research__card-icon ai-research__card-icon_analysis"></div>
-              </div>
-              <p class="ai-research__card-description">Направление включает в&nbsp;себя исследования и&nbsp;разработки
-                технологий МО&nbsp;и&nbsp;КТ</p>
-              <button class="ai-research__card-button" type="button" aria-label="подробнее">Подробнее</button>
+          <div class="ai-research__card ai-research__card_analysis">
+            <p class="ai-research__card-title">Анализ социальных данных</p>
+            <div class="ai-research__icon-background">
+              <div class="ai-research__card-icon ai-research__card-icon_analysis"></div>
+            </div>
+            <p class="ai-research__card-description">Направление включает в&nbsp;себя исследования и&nbsp;разработки
+              технологий МО&nbsp;и&nbsp;КТ</p>
+            <button class="ai-research__card-button" type="button" aria-label="подробнее">Подробнее</button>
           </div>
           <div class="ai-research__card ai-research__card_infrastructure">
             <p class="ai-research__card-title">Инфраструктура больших&nbsp;данных</p>
@@ -77,9 +112,25 @@
             <button class="ai-research__card-button" type="button" aria-label="подробнее">Подробнее</button>
           </div>
         </div>
+
+
+
+
+    <section class="projects">
+      <div class="projects__background">
+        <h2 class="projects__title">НАШИ ПРОЕКТЫ</h2>
+        <div class="projects__filter">
+          <ul class="projects__filter-list">
+            <li class="projects__filter-list-item">ВСЕ ПРОЕКТЫ</li>
+            <li class="projects__filter"></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>
       </div>
     </section>
-  </main>
+  
+
 
   <!-- блок education-->
   <section class="education">
@@ -92,10 +143,14 @@
       </div>
   </section>
 
-  <!--Начинается блок footer-->
-  <footer class="footer page__content">
+
+  
+        
+</main>
+ <!--Начинается блок footer-->
+  <footer class = "footer page__content">
+    <img src="images/Logo_AI 1.jpg" alt="лого страницы" class = "logo_place_footer">  
 
   </footer>
 </body>
-
 </html>
