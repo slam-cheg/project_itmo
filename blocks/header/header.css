@@ -5,3 +5,11 @@
     align-items: center;
     background-color: #000D26;
 }
+
+
+@media (max-width: 1023px) {
+    .header{
+        justify-content: center;
+
+    }
+  }

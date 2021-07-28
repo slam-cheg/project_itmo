@@ -1,0 +1,9 @@
+.selector-card {
+    margin: 0;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    width: 68px;
+    list-style: none;
+    z-index: 100;
+}
