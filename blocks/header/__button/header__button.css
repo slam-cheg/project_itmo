@@ -1,0 +1,36 @@
+.header__button {
+    width: 20px;
+    display: none;
+    box-sizing: border-box;
+    position: absolute;
+    border-top: 2px solid #fff;
+    cursor: pointer;
+
+}
+
+.header__button::before{
+    background-color: #fff;
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 3px;
+  }
+
+  .header__button::after{
+    background-color: #fff;
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    bottom: 5px;
+  }
+  
+
+@media screen and (max-width: 767px) {
+    .header__button  {
+       display: inline-block;
+       align-self: center;
+       left: 41px;
+    }
+}
