@@ -1,0 +1,15 @@
+.our-team__title {
+  width: 472px;
+  height: 66px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 68px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  color: #000D26;
+  margin-top: 0;
+  margin-bottom: 0;
+}

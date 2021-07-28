@@ -1,0 +1,15 @@
+.our-team__text {
+ /*  width: 245px; */
+  height: 19px;
+  font-family: Open Sans;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #009FAC;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-top: 4px;
+  margin-bottom: 0;
+}
