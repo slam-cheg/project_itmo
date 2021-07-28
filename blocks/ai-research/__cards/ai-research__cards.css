@@ -2,3 +2,10 @@
     display: flex;
     padding-bottom: 80px;
 }
+
+@media screen and (max-width: 1180px) {
+    .ai-research__cards {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(150px, 255px));
+    }   
+}

@@ -7,4 +7,11 @@
     color: #001337;
     margin: 0;
     padding: 0 0 50px 0;
+    z-index: 2;
 }
+
+@media screen and (max-width: 1180px) {
+    .ai-research__card-title{
+        font-size: 12px;
+    }
+};
