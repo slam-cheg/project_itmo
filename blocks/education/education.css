@@ -1,7 +1,10 @@
 .education {
-    min-height: 80px;
+    max-width: 1440px;
+    height: 990px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: #000D26;
+    flex-direction: column;
+    background-color: #009FAC;
+    margin: 0 auto;
 }

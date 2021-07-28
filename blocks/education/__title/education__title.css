@@ -1,7 +1,17 @@
 .education__title {
-  min-height: 80px;
+  max-width: 472px;
+  max-height: 66px;
+  margin-top: 80px;
+  margin-bottom: 0;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #000D26;
+  align-self: center;
+  color: #fff;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 68px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
 }

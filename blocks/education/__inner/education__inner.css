@@ -1,0 +1,14 @@
+.education__inner {
+  width: 1169px;
+  height: 429px;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 445px 1fr;
+  column-gap: 40px;
+  row-gap: 48px;
+  border-radius: 10px;
+  background-color: #fff;
+  grid-template-areas:
+  "title img"
+  "title se";
+}
