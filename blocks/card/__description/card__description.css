@@ -1,6 +1,8 @@
 .card__description {
+    margin: 0;
     font-size: 14px;
     line-height: 19px;
     font-weight: 400;
+    
 }
 }

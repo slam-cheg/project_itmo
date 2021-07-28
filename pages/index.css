@@ -26,12 +26,22 @@
  @import url(../blocks/home-screen/__subtitle/home-screen__subtitle.css);
  @import url(../blocks/home-screen/__button/home-screen__button.css);
 
+/* selector-card */
+@import url(../blocks/selector-card/selector-card.css);
+@import url(../blocks/selector-card/__radio/selector-card__radio.css);
+@import url(../blocks/selector-card/__radio/_active/selector-card__radio_active.css);
+@import url(../blocks/selector-card/__radio/_color/selector-card__radio_color_blue.css);
+@import url(../blocks/selector-card/_position/selector-card_position_about.css);
+@import url(../blocks/selector-card/_position/selector-card_position_publications.css);
+
+/* rotate*/
+@import url(../blocks/rotate/rotate.css);
 /* about */
  @import url(../blocks/about/about.css);
  @import url(../blocks/about/__title/about__title.css);
  @import url(../blocks/about/__subtitle/about__subtitle.css);
  @import url(../blocks/about/__list/about__list.css);
- @import url(../blocks/about//__selector-card/about__selector-card.css);
+ @import url(../blocks/about/__news/about__news.css);
 
 /* ai research*/
 
@@ -75,9 +85,20 @@
 
 /* card */
 @import url(../blocks/card/card.css);
-@import url(../blocks/card/__date/card__date.css);
-@import url(../blocks/card/__title/
-@import url(../blocks/card/card.css);
+@import url(../blocks/card/__img/card__img.css);
+@import url(../blocks/card/__info/card__info.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__title/_lower/card__title_lower.css);
+@import url(../blocks/card/__description/card__description.css);
+@import url(../blocks/card/__icon-fixed/card__icon-fixed.css);
+@import url(../blocks/card/_position/card_position_about.css);
+@import url(../blocks/card/_position/card_position_publications.css);
+
+/* button-slider */
+@import url(../blocks/button-slider/button-slider.css);
+@import url(../blocks/button-slider/__rotate/button-slider_rotate.css);
+@import url(../blocks/button-slider/_forward/button-slider_forward.css);
+@import url(../blocks/button-slider/_theme/button-slider_theme_dark.css);
 
 /*education*/
 @import url(../blocks/education/education.css);
@@ -87,9 +108,11 @@
 @import url(../blocks/education/__tab_b/education__tab_b.css);
 @import url(../blocks/education/__title/education__title.css);
 
-/* publication */
+/* publications */
 @import url(../blocks/publications/publications.css);
 @import url(../blocks/publications/__title/publication__title.css);
+@import url(../blocks/publications/__list/publications__list.css);
+@import url(../blocks/publications/__articles/publications__articles.css);
 
 
 
