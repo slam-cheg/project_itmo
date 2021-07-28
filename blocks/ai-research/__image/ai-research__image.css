@@ -5,4 +5,12 @@
     background-repeat: no-repeat;
     background-clip: border-box;
     background-size: contain;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1180px) {
+    .ai-research__image {
+        background-size: cover;
+        background-position: top right;
+    }
 }
