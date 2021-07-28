@@ -1,3 +1,9 @@
 .ai-research__image_right {
     background-image: url(../../../../images/image\ 35.png);
 }
+
+@media screen and (max-width: 1180px) {
+    .ai-research__image_right {
+        background-image: url(../../../../images/image\ right\ 2.png);
+    }
+}
