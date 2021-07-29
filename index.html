@@ -12,17 +12,26 @@
   
   <!--header-->
   <header class="header">
-    <div class = "page_content_header">
-      <div class = "header__button"></div>
+    <div class = "header_wrapper">
+      <div class = "header__button">
+        <span class="header__button-level"></span>
+        <span class="header__button-level"></span>
+        <span class="header__button-level"></span>
+      </div>
       <img src="images/Logo_AI 1.png" alt="лого страницы" class="logo logo_place_header">
       <nav>
         <ul class="header__list-links">
-          <li class="header__list-item"> <a href="" class="link"> О нас </a></li>
-          <li class="header__list-item"> <a href="" class="link">Лаборатория</a></li>
-          <li class="header__list-item"> <a href="#projects" class="link"> Проекты</a></li>
-          <li class="header__list-item"> <a href="" class="link">Образование</a></li>
-          <li class="header__list-item"> <a href="" class="link">Публикации</a></li>
-          <li class="header__list-item"> <a href="" class="link">Команда</a></li>
+          <li class="header__list-item"> <a href="" class="link link_active"> О нас </a></li>
+          <li class="header__list-item"> <a href="" class="link link_active">Лаборатория</a></li>
+          <li class="header__list-item"> <a href="#projects" class="link link_active"> Проекты</a></li>
+          <li class="header__list-item"> <a href="" class="link link_active">Образование</a>
+            <ul class = "header__list-second-links">
+              <li class="header__list-item"> <a href="" class="link">Аспирантура</a></li>
+              <li class="header__list-item"> <a href="" class="link">Магистратура</a></li>
+            </ul>  
+          </li>
+          <li class="header__list-item"> <a href="" class="link link_active">Публикации</a></li>
+          <li class="header__list-item"> <a href="" class="link link_active">Команда</a></li>
         </ul>
       </nav>
     </div>
@@ -32,7 +41,7 @@
 
   <main class="content page__content">
      <!--Секция home-screen -->
-    <section class="home-screen">
+    <section class="home-screen home-screen_wrapper">
       <div class=home-screen__intro>
         <h1 class="home-screen__title"><span class="home-screen__text">Когнитивные технологии </span>, машинное обучение</h1>
         <p class="home-screen__subtitle">Системы прикладного искусственного интеллекта.</p>
@@ -60,6 +69,8 @@
             <h3 class=card__title>ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</h3>
             <p class="card__desciption">Университет ИТМО провел научно-исследовательскую стажировку для группы магистрантов из Евразийского национального 
             университета имени Л.Н. Гумилева. Ведущие преподаватели  в течение десяти дней рассказывали им об основах машинного обучения. </p>
+           
+           
           </li>
           <li class="card card_about">
             <button class="card__icon-fixed"></button>
@@ -381,6 +392,7 @@
     <div class = "publications__articles">
       <button type = "button" class="button-slider button-slider_theme_dark"></button>
       <ul class="publications__list">
+
         <li class="card card_position_publications">
           <img src="images/publications/1_я  карточка.jpg" alt="" class = "card__img">  
           <h3 class="card__title card__title_lower">Topic-driven Ensemble for Online Advertising Generation</h3>
@@ -389,6 +401,7 @@
             for those selling products. Usually having a form of a banner, advertising engages users into visiting a corresponding webpage.
             Professional generation of banners requires creative and writing skills and a basi… </p>
         </li>
+
         <li class="card card_position_publications">
           <img src="images/publications/2_я карточка.jpg" alt="" class = "card__img">
           <h3 class="card__title  card__title_lower">Convolutional neural networks with hierarchical context transfe…</h3>
@@ -396,7 +409,14 @@
           <p class="card__desciption">In this work, we consider a problem of predicting the next state of a given area 
             using retrospective information. The proposed concept of hierarchical context transfer (HCT) operates on several
             spatial levels of the input data to overcome major issues of next state prediction problems - density variability, a sig… </p>
+           <!-- Зеленая полка у карточки-->
+          <div class = "card__read-more">
+            <p class = "card__read-full">Читать полностью</p>
+            <span class = "card__arrow"></span>
+            <span class = "card__share"></span>
+          </div>
         </li>
+
         <li class="card card_position_publications">
           <img src="images/publications/3-я карточка.jpg" alt="" class = "card__img">
           <h3 class="card__title  card__title_lower">Spatiotemporal Filtering Pipeline for Efficient Social Networks Dat…</h3>
@@ -408,7 +428,19 @@
       </ul>
       <button type = "button" class="button-slider button-slider_theme_dark rotate"></button>
     </div>
-
+     <!--popup для карточек-публикаций-->
+    <div class="popup popup_no-opacity">
+      <div class="popup__container popup__container_share">
+        <ul class ="popup__list-links">
+          <a href="" > <img src="images/vk.svg" alt="" class="popup__icon"></a>
+          <a href="" >  <img src="images/facebook.svg" alt="" class="popup__icon"></a>
+          <a href="" > <img src="images/Telegram.svg" alt="" class="popup__icon"></a>
+          <a href="" > <img src="images/instagram.svg" alt="" class="popup__icon"></a>
+          <a href="" > <img src="images/You Tube.svg" alt="" class="popup__icon"></a>
+        </ul>
+  
+      </div>
+      <!-- Селектор карточек-->
     <ul class="selector-card selector-card_position_publications">
       <li class = "selector-card__radio selector-card__radio_active selector-card__radio_color_blue"></li>
       <li class = "selector-card__radio selector-card__radio_color_blue"></li>
@@ -418,8 +450,7 @@
     </ul>
 
      <!-- Три карточки для теста верстки и адаптивности, потом их надо закомментить и  юзать темплате-->
-
-
+      
       <template id="template-publication">
         <li class="card card_position_publications">
           <img src="images/publications/3-я карточка.jpg" alt="" class = "card__img">
@@ -432,8 +463,7 @@
     </ul>
 
   </section>
-
-
+  </div>
   </main>
   <!--Начинается блок footer-->
   <footer class="footer page__content">

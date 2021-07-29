@@ -1,0 +1,9 @@
+.popup__container_share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 56px;
+    width: 184px;
+}
+    
+    

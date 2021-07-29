@@ -1,7 +1,8 @@
-.page_content_header {
+/*.page_content_header {
   margin: 0 auto;
   box-sizing: border-box;
-  width: 1110px;
+  max-width: 1110px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,8 +10,9 @@
 }
 
 
-@media (max-width: 1023px) {
+@media (max-width: 767px) {
   .page_content_header {
       justify-content: center;
   }
 }
+*/
