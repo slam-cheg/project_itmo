@@ -1,3 +1,7 @@
 .our-team__button {
-    
+  background-color: #fff;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  opacity: .5;
 }

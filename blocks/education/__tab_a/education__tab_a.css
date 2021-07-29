@@ -2,7 +2,6 @@
   width: 270px;
   height: 60px;
   display: flex;
-  font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -17,4 +16,6 @@
   box-sizing: border-box;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+/*   z-index: 2;
+  transform: translateX(-5px); */
 }
