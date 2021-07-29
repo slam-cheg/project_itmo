@@ -1,3 +1,4 @@
 .projects__card_active {
     width: 540px;
+    transition: .3s;
 }

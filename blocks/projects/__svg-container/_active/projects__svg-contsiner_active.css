@@ -1,0 +1,6 @@
+.projects__svg-container_active {
+    align-self: flex-end;
+    max-width: 112px;
+    margin-bottom: 20px;
+    z-index: 4;
+}

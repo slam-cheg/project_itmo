@@ -11,4 +11,20 @@
     width: 254px;
     height: 100%;
     flex-direction: column;
+    z-index: 2;
+}
+
+.projects__card-preview:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../../../images/project_gazprom.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: content-box;
+    z-index: 3;
 }

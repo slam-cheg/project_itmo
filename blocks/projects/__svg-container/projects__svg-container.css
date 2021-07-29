@@ -1,4 +1,5 @@
 .projects__svg-container {
-    max-width: 112px;
+    max-width: 100%;
     margin-bottom: 20px;
+    z-index: 4;
 }

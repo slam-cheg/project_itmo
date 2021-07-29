@@ -7,4 +7,5 @@
     color: #001337;
     margin: 0 0 20px 0;
     max-width: 265px;
+    z-index: 5;
 }
