@@ -121,6 +121,7 @@
 @import url(../blocks/education/__inner/education__inner.css);
 @import url(../blocks/education/__title/education__title.css);
 @import url(../blocks/education/__img/education__img.css);
+@import url(../blocks/education/__inner/_pic/education__inner_pic.css);
 @import url(../blocks/education/__paragaph/education__paragaph.css);
 @import url(../blocks/education/__paragaphs/education__paragaphs.css);
 @import url(../blocks/education/__item/education__item.css);
@@ -141,9 +142,11 @@
 @import url(../blocks/our-team/__name/our-team__name.css);
 @import url(../blocks/our-team/__text/our-team__text.css);
 @import url(../blocks/our-team/__title/our-team__title.css);
+@import url(../blocks/our-team/__slider/our-team__slider.css);
 @import url(../blocks/our-team/__control-left/our-team__control-left.css);
 @import url(../blocks/our-team/__control-right/our-team__control-right.css);
 @import url(../blocks/our-team/__button/our-team__button.css);
+@import url(../blocks/our-team/__button/_active/our-team__button_active.css);
 
 /* publications */
 @import url(../blocks/publications/publications.css);
