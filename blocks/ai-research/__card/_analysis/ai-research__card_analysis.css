@@ -1,8 +1,9 @@
 .ai-research__card_analysis::before {
     background-image: url(../../../../images/Project.png);
+    border-radius: 10px;
     content: '';
     position: absolute;
-    background-position: center;
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     top: 0;

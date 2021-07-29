@@ -12,3 +12,10 @@
 .ai-research__text:last-of-type {
     padding-bottom: 0;
 }
+
+@media screen and (max-width: 1180px) {
+    .ai-research__text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}

@@ -1,6 +1,7 @@
 .ai-research__card_calculations::before {
     background-image: url(../../../../images/Data.png);
-    background-position: center;
+    border-radius: 10px;
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     top: 0;

@@ -1,6 +1,7 @@
 .ai-research__card_infrastructure::before {
     background-image: url(../../../../images/Machine-learning.png);
-    background-position: center;
+    border-radius: 10px;
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     top: 0;

@@ -10,3 +10,11 @@
     padding-bottom: 50px;
     z-index: 4;
 }
+
+@media screen and (max-width: 1180px) {
+    .ai-research__card-description {
+        font-size: 10px;
+        line-height: 14px;
+        padding-bottom: 20px;
+    }
+}
