@@ -20,3 +20,9 @@
         height: 41px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .ai-research__icon-background {
+        margin-bottom: 16px;
+    }
+}

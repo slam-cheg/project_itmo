@@ -15,3 +15,9 @@
 .ai-research__card_systems:hover {
     background-color: #009FAC;
 }
+
+@media screen and (max-width: 767px) {
+    .ai-research__card_systems::before{
+        display: none;
+    }
+}

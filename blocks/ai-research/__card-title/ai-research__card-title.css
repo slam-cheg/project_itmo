@@ -19,3 +19,12 @@
         padding-bottom: 20px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .ai-research__card-title {
+        max-width: 120px;
+        font-size: 10px;
+        line-height: 14px;
+        padding-bottom: 16px;
+    }
+}
