@@ -167,8 +167,46 @@
 @import url(../blocks/publications/__list/publications__list.css);
 @import url(../blocks/publications/__articles/publications__articles.css);
 
+/* partners */
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__content/partners__content.css);
+@import url(../blocks/partners/__who-we-work/partners__who-we-work.css);
+@import url(../blocks/partners/title/partners__title.css);
+@import url(../blocks/partners/__text/partners__text.css);
+@import url(../blocks/partners/__logo-zone/partners__logo-zone.css);
 
+/* feedback */
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__content/feedback__content.css);
+@import url(../blocks/feedback/__title/feedback__title.css);
+@import url(../blocks/feedback/__subtitle/feedback__subtitle.css);
+
+/* form */
+@import url(../blocks/form/form.css);
 
 /* footer */
-@import url(../blocks/logo/_place/logo_place_footer.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__wrapper/footer__wrapper.css);
+@import url(../blocks/footer/__content/footer__content.css);
+@import url(../blocks/footer/__description/footer__description.css);
+@import url(../blocks/footer/description-copyright/footer__description-copyrating.css);
+@import url(../blocks/footer/__column-links/footer__column-links.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__link/_title/footer__link_title.css);
+@import url(../blocks/footer/__link/_bold/footer__link_bold.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__contact/footer__contact.css);
+@import url(../blocks/footer/__copyrating/footer__copyrating.css);
+
+
+
+  
+
+  
+
+  
+
+  
+
 

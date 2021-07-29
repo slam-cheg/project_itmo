@@ -1,0 +1,8 @@
+.partners__logo-zone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1060px;
+  flex-wrap: wrap;
+  margin: 0;
+}

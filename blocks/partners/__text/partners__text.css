@@ -1,0 +1,14 @@
+.partners__text {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+  margin: 0 auto 30px;
+}
+
+.partners__text:last-of-type {
+  margin: 0 auto 0;
+}
