@@ -1,4 +1,4 @@
-.header__button-level {
+.header__burger-line {
    display: block;
    width: 100%;
    height: 2px; 
@@ -9,6 +9,6 @@
 
 }
 
-.header__button-level:last-of-type {
+.header__burger-line:last-of-type {
     margin-bottom: 0;
 }

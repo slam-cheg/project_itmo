@@ -1,6 +1,9 @@
 .card__img {
+
     width: 310px;
+    min-height: 158px;
     object-fit: cover;
-    object-position: center;
+    object-position: top left;
     margin-bottom: 20px;
+    border-radius: 10px;
 }

@@ -6,3 +6,11 @@
     border-radius: 10px;
 
 }
+
+.card:hover  .card__article{
+    transform: translate();
+}
+
+.card:hover  .card__img {
+    height: 158px;
+}

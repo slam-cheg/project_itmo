@@ -13,13 +13,17 @@
   <!--header-->
   <header class="header">
     <div class = "header_wrapper">
-      <div class = "header__button">
-        <span class="header__button-level"></span>
-        <span class="header__button-level"></span>
-        <span class="header__button-level"></span>
-      </div>
+      <button type = "button" class = "header__button-burger">
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+      </button>
       <img src="images/Logo_AI 1.png" alt="лого страницы" class="logo logo_place_header">
-      <nav>
+      <nav class = "header__nav-bar header__nav-bar_active">
+        <div class = "header__burger-menu">
+          <img src="images/Logo_AI 1.png" alt="" class = "logo logo_place_header"> 
+          <button type = "button" class = "header__button-close"></button>
+        </div>
         <ul class="header__list-links">
           <li class="header__list-item"> <a href="" class="link link_active"> О нас </a></li>
           <li class="header__list-item"> <a href="" class="link link_active">Лаборатория</a></li>
@@ -204,8 +208,8 @@
                 alt="подробнее"></button>
           </div>
         </div>
-
-        <div class="projects__card">
+         
+        <!--<div class="projects__card">
           <div class="projects__card-content">
             <p class="projects__card-text">Направление включает в&nbsp;себя исследования и&nbsp;разработки
               технологий&nbsp;МО и&nbsp;КТ. Модули для внедрения в&nbsp;предметные сетевые программы магистратуры
@@ -339,9 +343,9 @@
         </div>
       </div>
     </section>
-
+    -->
   <!-- блок education-->
-  <section class="education">
+  <!-- <section class="education">
     <h3 class="education__title">ОБРАЗОВАНИЕ</h3>
     <p class="education__link">В образовательной деятельности НЦКР активно использует существующую в Университете ИТМО инфраструктуру и опыт 
       реализации сетевых форм обучения, опираясь на вузы-диссеминаторы (ННГУ, ДВФУ, ФГБОУ ВО «МГТУ «СТАНКИН», НовГУ), а также профильную компанию ООО «НЦЭО» 
@@ -368,10 +372,10 @@
       <button class="education__tab_a">АСПИРАНТУРА</button>
       <button class="education__tab_b">МАГИСТРАТУРА</button>
     </div>
-  </section>
+  </section> -->
 
     <!-- блок education-->
-    <section class="education">
+    <!--<section class="education">
       <h3 class="education__title">ОБРАЗОВАНИЕ</h3>
       <p class="education__link">В образовательной деятельности НЦКР активно использует существующую в Университете ИТМО
         инфраструктуру и опыт реализации сетевых форм обучения, опираясь на вузы-диссеминаторы (ННГУ, ДВФУ, ФГБОУ ВО
@@ -382,8 +386,7 @@
         <button class="education__tab_a"></button>
         <button class="education__tab_b"></button>
       </div>
-    </section>
-
+    </section>-->
 
 
     <!-- блок publications-->
@@ -394,12 +397,14 @@
       <ul class="publications__list">
 
         <li class="card card_position_publications">
-          <img src="images/publications/1_я  карточка.jpg" alt="" class = "card__img">  
+          <img src="images/publications/1_я  карточка.jpg" alt="" class = "card__img">
+          <div class="card__article">
           <h3 class="card__title card__title_lower">Topic-driven Ensemble for Online Advertising Generation</h3>
           <p class="card__info">Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim Petrov, Denis Nasonov</p>
           <p class="card__desciption">Online advertising is one of the most widespread ways to reach and increase a target audience 
             for those selling products. Usually having a form of a banner, advertising engages users into visiting a corresponding webpage.
             Professional generation of banners requires creative and writing skills and a basi… </p>
+          </div>    
         </li>
 
         <li class="card card_position_publications">
@@ -409,12 +414,24 @@
           <p class="card__desciption">In this work, we consider a problem of predicting the next state of a given area 
             using retrospective information. The proposed concept of hierarchical context transfer (HCT) operates on several
             spatial levels of the input data to overcome major issues of next state prediction problems - density variability, a sig… </p>
+
            <!-- Зеленая полка у карточки-->
           <div class = "card__read-more">
             <p class = "card__read-full">Читать полностью</p>
             <span class = "card__arrow"></span>
             <span class = "card__share"></span>
           </div>
+          <div class="popup popup_share popup_no-opacity popup_opened">
+            <div class="popup__container popup__container_share">
+              <ul class ="popup__list-links">
+                <a href="" > <img src="images/vk.svg" alt="" class="popup__icon"></a>
+                <a href="" > <img src="images/facebook.svg" alt="" class="popup__icon"></a>
+                <a href="" > <img src="images/Telegram.svg" alt="" class="popup__icon"></a>
+                <a href="" > <img src="images/instagram.svg" alt="" class="popup__icon"></a>
+                <a href="" > <img src="images/You Tube.svg" alt="" class="popup__icon"></a>
+              </ul>
+        
+            </div>
         </li>
 
         <li class="card card_position_publications">
@@ -425,21 +442,12 @@
             networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to improve quality of living,
             enhance urban management, and advance the development of smart cities. But it is widely known that the… </p>
         </li>
+       
       </ul>
       <button type = "button" class="button-slider button-slider_theme_dark rotate"></button>
     </div>
      <!--popup для карточек-публикаций-->
-    <div class="popup popup_no-opacity">
-      <div class="popup__container popup__container_share">
-        <ul class ="popup__list-links">
-          <a href="" > <img src="images/vk.svg" alt="" class="popup__icon"></a>
-          <a href="" >  <img src="images/facebook.svg" alt="" class="popup__icon"></a>
-          <a href="" > <img src="images/Telegram.svg" alt="" class="popup__icon"></a>
-          <a href="" > <img src="images/instagram.svg" alt="" class="popup__icon"></a>
-          <a href="" > <img src="images/You Tube.svg" alt="" class="popup__icon"></a>
-        </ul>
-  
-      </div>
+    
       <!-- Селектор карточек-->
     <ul class="selector-card selector-card_position_publications">
       <li class = "selector-card__radio selector-card__radio_active selector-card__radio_color_blue"></li>
@@ -451,13 +459,24 @@
 
      <!-- Три карточки для теста верстки и адаптивности, потом их надо закомментить и  юзать темплате-->
       
-      <template id="template-publication">
+      <template id="template-card">
         <li class="card card_position_publications">
           <img src="images/publications/3-я карточка.jpg" alt="" class = "card__img">
           <h3 class="card__title  card__title_lower"></h3>
           <p class="card__info"></p>
           <p class="card__desciption"> </p>
         </li>
+        <div class="popup popup_share popup_no-opacity">
+          <div class="popup__container popup__container_share">
+            <ul class ="popup__list-links">
+              <a href="" > <img src="images/vk.svg" alt="" class="popup__icon"></a>
+              <a href="" > <img src="images/facebook.svg" alt="" class="popup__icon"></a>
+              <a href="" > <img src="images/Telegram.svg" alt="" class="popup__icon"></a>
+              <a href="" > <img src="images/instagram.svg" alt="" class="popup__icon"></a>
+              <a href="" > <img src="images/You Tube.svg" alt="" class="popup__icon"></a>
+            </ul>
+      
+          </div>
       </template>
 
     </ul>
@@ -469,6 +488,7 @@
   <footer class="footer page__content">
     <img src="images/Logo_AI 1.jpg" alt="лого страницы" class="logo_place_footer">
   </footer>
+  <script src = main.js> </script>
 </body>
 
 </html>

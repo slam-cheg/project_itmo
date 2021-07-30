@@ -6,11 +6,12 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/footer/footer.css);
+
+ /* logo */
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
-
-
+@import url(../blocks/logo/_place/logo_place_nav-bar.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/link/_active/link__active.css);
 
@@ -19,10 +20,14 @@
 @import url(../blocks/header/_content/header_content.css);
 @import url(../blocks/header/__list-links/header__list-links.css);
 @import url(../blocks/header/__list-item/header__list-item.css);
-@import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__button-burger/header__button-burger.css);
 @import url(../blocks/header/_wrapper/header_wrapper.css);
-@import url(../blocks/header/__button-level/header__button-level.css);
+@import url(../blocks/header/__burger-line/header__burger-line.css);
 @import url(../blocks/header/__list-second-links/header__list-second-links.css);
+@import url(../blocks/header/__nav-bar/header__nav-bar.css);
+@import url(../blocks/header/__nav-bar/_active/header__nav-bar_active.css);
+@import url(../blocks/header/__burger-menu/header__burger-menu.css);
+@import url(../blocks/header/__button-close/header__button-close.css);
 
  /* home-screen */
  @import url(../blocks/home-screen/home-screen.css);
@@ -117,6 +122,7 @@
 @import url(../blocks/card/__read-full/card__read-full.css);
 @import url(../blocks/card/__arrow/card__arrow.css);
 @import url(../blocks/card/__share/card__share.css);
+@import url(../blocks/card/__article/card__article.css);
 
 
 /* button-slider */
@@ -145,11 +151,13 @@
 
 /* popup*/
 @import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/_no-opacity/popup_no-opacity.css);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__container/_share/popup__container_share.css);
 @import url(../blocks/popup/__list-links/popup__list-links.css);
-@import url(../blocks/popup/__icon/
+@import url(../blocks/popup/__icon/popup__icon.css);
+
 
 
 /* footer */

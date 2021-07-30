@@ -1,0 +1,18 @@
+.header__burger-menu {
+    display: none;
+    background-color: inherit;
+}
+
+@media (max-width: 1023px) {
+    .header__burger-menu {
+       padding-left: 39px;
+       padding-right: 30px;
+       height: 60px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       z-index: 100;
+       margin-bottom: 20px;
+    }
+  }
+  
