@@ -6,6 +6,11 @@
     padding: 20px;
     box-sizing: border-box;
     position: relative;
-    margin-bottom: 30px;
     transition: .3s;
+}
+
+@media screen and (max-width:1180px) {
+    .projects__card {
+        width: 100%;
+    }
 }
