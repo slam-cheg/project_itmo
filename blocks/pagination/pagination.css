@@ -1,0 +1,7 @@
+.projects__pagination {
+    display: flex;
+    max-width: 344px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}

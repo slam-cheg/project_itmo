@@ -1,0 +1,4 @@
+.projects__card-logo_deactive {
+    display: none;
+    transition: .3s;
+}

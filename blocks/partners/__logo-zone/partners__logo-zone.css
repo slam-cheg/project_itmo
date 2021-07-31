@@ -1,0 +1,12 @@
+.partners__logo-zone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1110px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.partners__logo-zone:last-of-type {
+  margin: 0;
+}

@@ -1,4 +1,6 @@
 .projects__card-text_preview {
     color: #FFFFFF;
     margin-bottom: 0;
+    max-height: 80px;
 }
+
