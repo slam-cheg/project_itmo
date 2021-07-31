@@ -231,6 +231,7 @@
   color: #009FAC;
   border: none;
   box-sizing: border-box;
+  padding-left: 20px;
 }
 
 /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -272,6 +273,7 @@
 .form__input_type_message {
   grid-area: message;
   min-height: 60px;
+  padding-top: 20px;
 }
 
 .form__button {
