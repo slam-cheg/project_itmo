@@ -1,15 +1,3 @@
 .education__paragaphs {
-  font-style: normal;
-  font-weight: 600;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 30px;
-  letter-spacing: 0.1px;
-  color: #000D26;
     
-}
-@media screen and (max-width: 767px) {
-  .education__paragaphs {
-   /*  max-width: calc(100% - 320px); */
-  }
 }

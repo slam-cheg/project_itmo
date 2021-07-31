@@ -9,28 +9,44 @@
 </head>
 
 <body class="page">
-
+  
   <!--header-->
-  <header class="header page__content">
-    <img src="images/Logo_AI 1.png" alt="лого страницы" class="logo logo_place_header">
-    <nav>
-      <ul class="header__list-links">
-        <li class="header__list-item"> <a href="" class="link"> О нас </a></li>
-        <li class="header__list-item"> <a href="" class="link">Лаборатория</a></li>
-        <li class="header__list-item"> <a href="#projects" class="link"> Проекты</a></li>
-        <li class="header__list-item"> <a href="" class="link">Образование</a></li>
-        <li class="header__list-item"> <a href="" class="link">Публикации</a></li>
-        <li class="header__list-item"> <a href="" class="link">Команда</a></li>
-      </ul>
-    </nav>
-
+  <header class="header">
+    <div class = "header_wrapper">
+      <button type = "button" class = "header__button-burger">
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+        <span class="header__burger-line"></span>
+      </button>
+      <img src="images/Logo_AI 1.png" alt="лого страницы" class="logo logo_place_header">
+      <nav class = "header__nav-bar">
+        <div class = "header__burger-menu">
+          <img src="images/Logo_AI 1.png" alt="" class = "logo logo_place_header"> 
+          <button type = "button" class = "header__button-close"></button>
+        </div>
+        <ul class="header__list-links">
+          <li class="header__list-item"> <a href="" class="link link_active link_place_header"> О нас </a></li>
+          <li class="header__list-item"> <a href="" class="link link_active link_place_header">Лаборатория</a></li>
+          <li class="header__list-item"> <a href="#projects" class="link link_active link_place_header"> Проекты</a></li>
+          <li class="header__list-item"> <a href="" class="link link_active link_place_header">Образование</a>
+            <ul class = "header__list-second-links">
+              <li class="header__list-second-item"> <a href="" class="link link_place_header">Аспирантура</a></li>
+              <li class="header__list-second-item"> <a href="" class="link link_place_header">Магистратура</a></li>
+            </ul>  
+          </li>
+          <li class="header__list-item"> <a href="" class="link link_active link_place_header">Публикации</a></li>
+          <li class="header__list-item"> <a href="" class="link link_active link_place_header">Команда</a></li>
+          <li class="header__list-item"> <a href="" class="link link_active link_place_header">Связаться</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <!--Начинается основной контент страницы-->
 
   <main class="content page__content">
      <!--Секция home-screen -->
-    <section class="home-screen">
+    <section class="home-screen home-screen_wrapper">
       <div class=home-screen__intro>
         <h1 class="home-screen__title"><span class="home-screen__text">Когнитивные технологии </span>, машинное обучение</h1>
         <p class="home-screen__subtitle">Системы прикладного искусственного интеллекта.</p>
@@ -58,6 +74,8 @@
             <h3 class=card__title>ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</h3>
             <p class="card__desciption">Университет ИТМО провел научно-исследовательскую стажировку для группы магистрантов из Евразийского национального 
             университета имени Л.Н. Гумилева. Ведущие преподаватели  в течение десяти дней рассказывали им об основах машинного обучения. </p>
+           
+           
           </li>
           <li class="card card_about">
             <button class="card__icon-fixed"></button>
@@ -155,7 +173,7 @@
             <button class="ai-research__card-button" type="button" aria-label="подробнее">Подробнее</button>
           </div>
         </div>
-      </section>
+    </section>
 
     <!-- Блок проекты -->
 
@@ -191,7 +209,7 @@
                 alt="подробнее"></button>
           </div>
         </div>
-
+         
         <div class="projects__card">
           <div class="projects__card-content">
             <p class="projects__card-text">Направление включает в&nbsp;себя исследования и&nbsp;разработки
@@ -326,146 +344,116 @@
         </div>
       </div>
     </section>
+  <!-- блок education-->
+  <!-- <section class="education">
+    <h3 class="education__title">ОБРАЗОВАНИЕ</h3>
+    <p class="education__link">В образовательной деятельности НЦКР активно использует существующую в Университете ИТМО инфраструктуру и опыт 
+      реализации сетевых форм обучения, опираясь на вузы-диссеминаторы (ННГУ, ДВФУ, ФГБОУ ВО «МГТУ «СТАНКИН», НовГУ), а также профильную компанию ООО «НЦЭО» 
+      в области электронного и дистанционного образования. Реализуются образовательные программы различных форматов.</p>
+    <article class="education__inner">
+      <img alt="" class="education__img">
+      <div class="education__paragaph">
+        <h4 class=""></h4>
+        <p class="education__paragaphs">Образовательные программы аспирантуры в области МО и КТ</p>
+          <ul>
+            <li>Прикладные технологии искусственного интеллекта;</li>
+            <li>Машинное обучение и искусственный интеллект;</li>
+            <li>Биометрические информационные системы;</li>
+            <li>Речевые информационные системы;</li>
+            <li>Когнитивные вычисления и квантовый интеллект;</li>
+            <li>Большие данные и экстренные вычисления;</li>
+            <li>Семантические системы и инженерия знаний;</li>
+            <li>Технологии разработки компьютерных игр</li>
+          </ul>
+        <p class="education__caph">Подробнее &rarr;</p>
+      </div>
+    </article>
+    <div class="education__tab">
+      <button class="education__tab_a">АСПИРАНТУРА</button>
+      <button class="education__tab_b">МАГИСТРАТУРА</button>
+    </div>
+  </section> -->
 
     <!-- блок education-->
-    <section class="education">
-      <h2 class="education__title">ОБРАЗОВАНИЕ</h2>
-      <p class="education__link">В образовательной деятельности НЦКР активно использует существующую в Университете ИТМО инфраструктуру и опыт реализации сетевых форм обучения, опираясь на вузы-диссеминаторы (ННГУ, ДВФУ, ФГБОУ ВО «МГТУ «СТАНКИН», НовГУ), а также профильную компанию ООО «НЦЭО» 
-      в области электронного и дистанционного образования. Реализуются образовательные программы различных форматов.</p>
-      <article id="PostgraduateSchool" class="education__inner">
-        <img alt="" class="education__img">
-        <div class="education__paragaph">
-          <h3 class="education__paragaphs">Образовательные программы аспирантуры в области МО и КТ</h3>
-            <ul class="education__list">
-              <li class="education__item">Прикладные технологии искусственного интеллекта;</li>
-              <li class="education__item">Машинное обучение и искусственный интеллект;</li>
-              <li class="education__item">Биометрические информационные системы;</li>
-              <li class="education__item">Речевые информационные системы;</li>
-              <li class="education__item">Когнитивные вычисления и квантовый интеллект;</li>
-              <li class="education__item">Большие данные и экстренные вычисления;</li>
-              <li class="education__item">Семантические системы и инженерия знаний;</li>
-              <li class="education__item">Технологии разработки компьютерных игр</li>
-            </ul>
-          <p href="#" class="education__caph">Подробнее &rarr;</p>
-        </div>
-      </article>
-      <!--article id="Master'sDegree" class="education__inner education__inner_bic">
-        <img alt="" class="education__img" src="./images/Aspirant.png" >
-        <div class="education__paragaph">
-          <h4 class="education__paragaphs">Образовательные программы аспирантуры в области МО и КТ</h4>
-            <ul class="education__list">
-              <li class="education__item">Прикладные технологии искусственного интеллекта;</li>
-              <li class="education__item">Машинное обучение и искусственный интеллект;</li>
-              <li class="education__item">Биометрические информационные системы;</li>
-              <li class="education__item">Речевые информационные системы;</li>
-              <li class="education__item">Когнитивные вычисления и квантовый интеллект;</li>
-              <li class="education__item">Большие данные и экстренные вычисления;</li>
-              <li class="education__item">Семантические системы и инженерия знаний;</li>
-              <li class="education__item">Технологии разработки компьютерных игр</li>
-            </ul>
-          <p href="#" class="education__caph">Подробнее &rarr;</p>
-        </div>
-      </article-->
-      <div class="education__tab">
-        <button href="#" type="button" class="education__tab_a education__tab_active">АСПИРАНТУРА</button>
-        <button href="#" type="button" class="education__tab_b">МАГИСТРАТУРА</button>
+    <!--<section class="education">
+      <h3 class="education__title">ОБРАЗОВАНИЕ</h3>
+      <p class="education__link">В образовательной деятельности НЦКР активно использует существующую в Университете ИТМО
+        инфраструктуру и опыт реализации сетевых форм обучения, опираясь на вузы-диссеминаторы (ННГУ, ДВФУ, ФГБОУ ВО
+        «МГТУ «СТАНКИН», НовГУ), а также профильную компанию ООО «НЦЭО»
+        в области электронного и дистанционного образования. Реализуются образовательные программы различных форматов.
+      </p>
+      <div class="education__links">
+        <button class="education__tab_a"></button>
+        <button class="education__tab_b"></button>
       </div>
-    </section>
-
-    <!--блок our team-->
-    <div class="our-team__div"></div>
-    <section class="our-team">
-      <h2 class="our-team__title">наша команда</h2>
-      <div class="our-team__aside">
-        <button type="button" class="our-team__control-left"></button>
-        <ul class="our-team__list">
-          <li id="one" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img" src="./images/man photo.png">
-            <h3 class="our-team__name">Бобцов&#171; &#160;&#160;Алексей Алексеевич</h3>
-            <p class="our-team__text">Директор, профессор, ДТН</p>
-          </li>
-          <li id="" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img" src="./images/man photo-1.png">
-            <h3 class="our-team__name">Буханоский Александр Валерьевич</h3>
-            <p class="our-team__text">Директор, руководитель, ДТН</p>
-          </li>
-          <li id="" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img" src="./images/man photo-2.png" >
-            <h3 class="our-team__name">Муромцев Дмитрий Ильич</h3>
-            <p class="our-team__text">Руководитель, доцент, КТН</p>
-          </li>
-          <li id="" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img" src="./images/man photo-3.png" >
-            <h3 class="our-team__name">Матвеев Юрий Николаевич</h3>
-            <p class="our-team__text">Руководитель, профессор, ДТН</p>
-          </li>
-          <!--li id="" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img">
-            <h3 class="our-team__name"></h3>
-            <p class="our-team__text"></p>
-          </li>
-          <li id="" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img">
-            <h3 class="our-team__name"></h3>
-            <p class="our-team__text"></p>
-          </li>
-          <li id="" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img">
-            <h3 class="our-team__name"></h3>
-            <p class="our-team__text"></p>
-          </li>
-          <li id="" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img">
-            <p class="our-team__name"></p>
-            <p class="our-team__text"></p>
-          </li-->
-        </ul>
-        <button type="button" class="our-team__control-right"></button>
-      </div>
-      <ul class="our-team__slider our-team__slider_about">
-        <li class="our-team__button our-team__button_active"></li>
-        <li class="our-team__button"></li>
-        <li class="our-team__button"></li>
-        <lu class="our-team__button"></lu>
-      </ul>
-    </section>
+    </section>-->
 
 
     <!-- блок publications-->
-
   <section class="publications">
     <h3 class="publications__title">публикации</h3>
     <div class = "publications__articles">
       <button type = "button" class="button-slider button-slider_theme_dark"></button>
       <ul class="publications__list">
+
         <li class="card card_position_publications">
-          <img src="images/publications/1_я  карточка.jpg" alt="" class = "card__img">  
-          <h3 class="card__title card__title_lower">Topic-driven Ensemble for Online Advertising Generation</h3>
-          <p class="card__info">Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim Petrov, Denis Nasonov</p>
-          <p class="card__desciption">Online advertising is one of the most widespread ways to reach and increase a target audience 
+          <img src="images/publications/1_я  карточка.jpg" alt="" class = "card__img">
+          <div class="card__article">
+            <h3 class="card__title card__title_lower">Topic-driven Ensemble for Online Advertising Generation</h3>
+            <p class="card__info card__info_place">Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim Petrov, Denis Nasonov</p>
+            <p class="card__description">Online advertising is one of the most widespread ways to reach and increase a target audience 
             for those selling products. Usually having a form of a banner, advertising engages users into visiting a corresponding webpage.
             Professional generation of banners requires creative and writing skills and a basi… </p>
+          </div>
+        <div class = "card__read-more">
+            <p class = "card__read-full">Читать полностью</p>
+            <span class = "card__arrow"></span>
+            <span class = "card__share"></span>
+        </div>    
         </li>
+
         <li class="card card_position_publications">
           <img src="images/publications/2_я карточка.jpg" alt="" class = "card__img">
           <h3 class="card__title  card__title_lower">Convolutional neural networks with hierarchical context transfe…</h3>
           <p class="card__info">Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov</p>
-          <p class="card__desciption">In this work, we consider a problem of predicting the next state of a given area 
+          <p class="card__description">In this work, we consider a problem of predicting the next state of a given area 
             using retrospective information. The proposed concept of hierarchical context transfer (HCT) operates on several
             spatial levels of the input data to overcome major issues of next state prediction problems - density variability, a sig… </p>
+
+           <!-- Зеленая полка у карточки-->
+          <div class = "card__read-more">
+            <p class = "card__read-full">Читать полностью</p>
+            <span class = "card__arrow"></span>
+            <span class = "card__share"></span>
+          </div>
+          <div class="popup popup_share popup_no-opacity popup_opened">
+            <div class="popup__container popup__container_share">
+              <ul class ="popup__list-links">
+                <a href="" > <img src="images/vk.svg" alt="" class="popup__icon"></a>
+                <a href="" > <img src="images/facebook.svg" alt="" class="popup__icon"></a>
+                <a href="" > <img src="images/Telegram.svg" alt="" class="popup__icon"></a>
+                <a href="" > <img src="images/instagram.svg" alt="" class="popup__icon"></a>
+                <a href="" > <img src="images/You Tube.svg" alt="" class="popup__icon"></a>
+              </ul>
+        
+            </div>
         </li>
+
         <li class="card card_position_publications">
           <img src="images/publications/3-я карточка.jpg" alt="" class = "card__img">
           <h3 class="card__title  card__title_lower">Spatiotemporal Filtering Pipeline for Efficient Social Networks Dat…</h3>
           <p class="card__info">Ksenia Mukhina, Alexander Visheratin, Denis Nasonov</p>
-          <p class="card__desciption">One of the areas that gathers momentum is the investigation of location-based social 
+          <p class="card__description">One of the areas that gathers momentum is the investigation of location-based social 
             networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to improve quality of living,
             enhance urban management, and advance the development of smart cities. But it is widely known that the… </p>
         </li>
+       
       </ul>
       <button type = "button" class="button-slider button-slider_theme_dark rotate"></button>
     </div>
-
+     <!--popup для карточек-публикаций-->
+    
+      <!-- Селектор карточек-->
     <ul class="selector-card selector-card_position_publications">
       <li class = "selector-card__radio selector-card__radio_active selector-card__radio_color_blue"></li>
       <li class = "selector-card__radio selector-card__radio_color_blue"></li>
@@ -475,79 +463,37 @@
     </ul>
 
      <!-- Три карточки для теста верстки и адаптивности, потом их надо закомментить и  юзать темплате-->
-
-
-      <template id="template-publication">
+      
+      <template id="template-card">
         <li class="card card_position_publications">
           <img src="images/publications/3-я карточка.jpg" alt="" class = "card__img">
           <h3 class="card__title  card__title_lower"></h3>
           <p class="card__info"></p>
           <p class="card__desciption"> </p>
         </li>
+        <div class="popup popup_share popup_no-opacity">
+          <div class="popup__container popup__container_share">
+            <ul class ="popup__list-links">
+              <a href="" > <img src="images/vk.svg" alt="" class="popup__icon"></a>
+              <a href="" > <img src="images/facebook.svg" alt="" class="popup__icon"></a>
+              <a href="" > <img src="images/Telegram.svg" alt="" class="popup__icon"></a>
+              <a href="" > <img src="images/instagram.svg" alt="" class="popup__icon"></a>
+              <a href="" > <img src="images/You Tube.svg" alt="" class="popup__icon"></a>
+            </ul>
+      
+          </div>
       </template>
 
     </ul>
 
   </section>
-          
-    <!--блок our team-->
-    <div class="our-team__div"></div>
-    <section class="our-team">
-      <h3 class="our-team__title">наша команда</h3>
-      <!--div class="our-team__aside"-->
-        <ul class="our-team__list">
-          <li id="one" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img" src="./images/man photo.png">
-            <p class="our-team__name">Бобцов Алексей Алексеевич</p>
-            <p class="our-team__text">Директор, профессор, ДТН</p>
-          </li>
-          <li id="" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img" src="./images/man photo-1.png">
-            <p class="our-team__name">Буханоский Александр Валерьевич</p>
-            <p class="our-team__text">Директор, руководитель, ДТН</p>
-          </li>
-          <li id="" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img" src="./images/man photo-2.png" >
-            <p class="our-team__name">Муромцев Дмитрий Ильич</p>
-            <p class="our-team__text">Руководитель, доцент, КТН</p>
-          </li>
-          <li id="" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img" src="./images/man photo-3.png" >
-            <p class="our-team__name">Матвеев Юрий Николаевич</p>
-            <p class="our-team__text">Руководитель, профессор, ДТН</p>
-          </li>
-          <!--li id="" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img">
-            <p class="our-team__name"></p>
-            <p class="our-team__text"></p>
-          </li>
-          <li id="" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img">
-            <p class="our-team__name"></p>
-            <p class="our-team__text"></p>
-          </li>
-          <li id="" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img">
-            <p class="our-team__name"></p>
-            <p class="our-team__text"></p>
-          </li>
-          <li id="" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img">
-            <p class="our-team__name"></p>
-            <p class="our-team__text"></p>
-          </li-->
-        </ul>
-        <!--button type="button" class="our-team__control-left"></button>
-        <button type="button" class="our-team__control-right"></button>
-        <button type="button" class="our-team__button"></button-->
-      <!--/div-->
-    </section>
-  
+  </div>
   </main>
   <!--Начинается блок footer-->
   <footer class="footer page__content">
     <img src="images/Logo_AI 1.jpg" alt="лого страницы" class="logo_place_footer">
   </footer>
+  <script src = main.js> </script>
 </body>
 
 </html>
