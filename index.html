@@ -397,6 +397,7 @@
             Надеемся на дальнейшее и плодотворное сотрудничество.</p>
         </div>
         <div class="partners__logo-zone">
+
           <a href="#" class="partners__link"><img src="./images/gazprom-logo.svg" alt="Логотип Газпром"
               class="partners__logo"></a>
           <a href="#" class="partners__link"><img src="./images/Sberbank_Logo_2020 1.svg" alt="Логотип Сбербанк"
@@ -427,20 +428,52 @@
         <div class="feedback__subtitle">По всем интересующим вас вопросам вы всегда можете обратиться по указанным
           телефонам,<br>
           написать на почту или оставтиь свое сообщение через форму обратной связи. </div>
-        <form action="" class="form">
-          <input type="text" name="name" placeholder="Имя" class="form__input form__input_type_title-card">
-          <input type="text" name="surname" placeholder="Фамилия" class="form__input form__input_type_title-card">
-          <input type="text" name="mobile" placeholder="Телефон" class="form__input form__input_type_title-card">
-          <input type="text" name="email" placeholder="E-mail" class="form__input form__input_type_title-card">
-          <input type="text" name="message" placeholder="Сообщение" class="form__input form__input_type_title-card">
-          <button>Отправить</button>
-        </form>
+          <form action="" class="form">
+            <input type="text" required name="name" placeholder="Имя" class="form__input form__input_type_name">
+            <input type="text" required name="surname" placeholder="Фамилия" class="form__input form__input_type_surname">
+            <input type="tel" id="inputPhone" required name="mobile" placeholder="Телефон" class="form__input form__input_type_mobile">
+            <input type="email" required name="email" placeholder="E-mail" class="form__input form__input_type_email">
+            <textarea type="text" required name="message" placeholder="Сообщение" class="form__input form__input_type_message"></textarea>
+            <button type="submit" value="Отправить" class="form__button">Отправить</button>
+          </form> 
       </div>
     </section>
   </main>
   <!--Начинается блок footer-->
   <footer class="footer">
     <div class="footer__wrapper">
+
+      <img src="images/Logo_AI 1.png" alt="лого страницы" class = "logo logo_place_footer">
+    <div class="footer__content">
+      <div class="footer__description">
+        <p class="footer__description-copyright">Информация © 2020 Университет ИТМО</p>
+        <p class="footer__description-copyright">Национальный центр когнитивных разработок – центр национальной технологической инициативы (НТИ), получивший государственную 
+          поддержку по направлению «Технологии машинного обучения и когнитивные технологии». Инфраструктурная основа взаимодействия научных, образовательных и 
+          промышленных организаций</p>   
+      </div>
+      <nav class="footer__about">
+        <ul class="footer__column-links">
+          <li class="footer__list"><a href="#" class="footer__link"><span class="footer__link_title">О центре</span></a></li>
+          <li class="footer__list"><a href="#" class="footer__link">О нас</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">Главная</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">Команда</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">Лаборатория</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">Контакты</a></li>
+        </ul>
+      </nav>
+      <nav class="footer__development">
+        <ul class="footer__column-links">
+          <li class="footer__list"><a href="#" class="footer__link"><span class="footer__link_title">Развитие</span></a></li>
+          <li class="footer__list"><a href="#" class="footer__link">Образование</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">Аспирантура</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">Магистратура</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">Публикации</a></li>
+          <li class="footer__list"><a href="#" class="footer__link">Проекты</a></li>
+        </ul>
+      </nav>
+      <nav class="footer__contacts">
+        <div class="footer__contact">
+
       <img src="images/Logo_AI 1.png" alt="лого страницы" class="logo">
       <div class="footer__content">
         <div class="footer__description">
@@ -452,6 +485,7 @@
             промышленных организаций</p>
         </div>
         <nav class="footer__about">
+
           <ul class="footer__column-links">
             <li class="footer__list"><a href="#" class="footer__link"><span class="footer__link_title">О
                   центре</span></a></li>
@@ -461,6 +495,20 @@
             <li class="footer__list"><a href="#" class="footer__link">Лаборатория</a></li>
             <li class="footer__list"><a href="#" class="footer__link">Контакты</a></li>
           </ul>
+
+        </div>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link"><img src="./images/vk-icon.svg" alt="Вконтакте" class="footer__social-icon"></a>
+          <a href="#" class="footer__social-link"><img src="./images/facebook-icon.svg" alt="Фейсбук" class="footer__social-icon"></a>
+          <a href="#" class="footer__social-link"><img src="./images/telegram-icon.svg" alt="Телеграм" class="footer__social-icon"></a>
+          <a href="#" class="footer__social-link"><img src="./images/instagram-icon.svg" alt="Инстаграмм" class="footer__social-icon"></a>
+          <a href="#" class="footer__social-link"><img src="./images/youtube-icon.svg" alt="Ютуб" class="footer__social-icon"></a>
+        </div>
+      </nav>
+    </div>
+    <p class="footer__copyrating">Сделано студентами <a href="https://praktikum.yandex.ru/" class="footer__copyrating-link" target="_blank">Яндекс. Практикума</a></p> 
+    </div> 
+
         </nav>
         <nav class="footer__development">
           <ul class="footer__column-links">
@@ -497,8 +545,9 @@
       </div>
       <p class="footer__copyrating">Сделано студентами Яндекс. Практикума</p>
     </div>
+
   </footer>
   <script src="script/projects.js"></script>
 </body>
-
+<script src="./inputPhone.js"></script>
 </html>
