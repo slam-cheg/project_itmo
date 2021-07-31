@@ -183,6 +183,14 @@
 
 /* form */
 @import url(../blocks/form/form.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form//__button/form__button.css);
+@import url(../blocks/form/__input/_type/form__input_type_name.css);
+@import url(../blocks/form/__input/_type/form__input_type_surname.css);
+@import url(../blocks/form/__input/_type/form__input_type_mobile.css);
+@import url(../blocks/form/__input/_type/form__input_type_email.css);
+@import url(../blocks/form/__input/_type/form__input_type_message.css);
+
 
 /* footer */
 @import url(../blocks/footer/footer.css);
@@ -197,109 +205,31 @@
 @import url(../blocks/footer/__link/_bold/footer__link_bold.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__contact/footer__contact.css);
+@import url(../blocks/footer/__copyrating-link/footer__copyrating-link.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__social-link/footer__social-link.css);
 @import url(../blocks/footer/__copyrating/footer__copyrating.css);
 
 
 
-  
+
+
 
   
-.form {
-  max-width: 1113px;
-  min-height: 237px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 60px 60px 60px;
-  row-gap: 20px;
-  column-gap: 29px;
-  grid-template-areas: " name surname message"
-                       "mobile email message"
-                       ". button ."
-                       ;
-  margin: 0;
-}
 
-.form__input {
-  background: #FFFFFF;
-  border-radius: 10px;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 20px;
-  letter-spacing: 0.1px;
-  color: #009FAC;
-  border: none;
-  box-sizing: border-box;
-  padding-left: 20px;
-}
 
-/* Chrome, Firefox, Opera, Safari 10.1+ */
-.form__input::placeholder {
-  color: #009FAC;
-  font-family: "Open Sans";
-}
- 
-/* Internet Explorer 10-11 */
-.form__input:-ms-input-placeholder {
-  color: #009FAC;
-}
- 
-/* Microsoft Edge */
-.form__input::-ms-input-placeholder {
-  color: #009FAC;
-}
 
-.form__input:focus {
-  background: #eaeaea;
-}
 
-.form__input_type_name {
-  grid-area: name;
-}
 
-.form__input_type_surname {
-  grid-area: surname;
-}
 
-.form__input_type_mobile {
-  grid-area: mobile;
-}
 
-.form__input_type_email {
-  grid-area: email;
-}
 
-.form__input_type_message {
-  grid-area: message;
-  min-height: 60px;
-  padding-top: 20px;
-}
 
-.form__button {
-  grid-area: button;
-  min-width: 350px;
-  max-height: 60px;
-  border: 1px solid #FFFFFF;
-  box-sizing: border-box;
-  border-radius: 10px;
-  background: none;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 30px;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  cursor: pointer;
-  -webkit-writing-mode: horizontal-tb !important;
-  -webkit-appearance: button;
-}
 
-.form__button:hover {
-  border: 1px solid #E0F0FF;
-  color: #E0F0FF;
-}
+
+
+
+
 
 
   

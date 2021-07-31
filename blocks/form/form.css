@@ -1,4 +1,14 @@
 .form {
   max-width: 1113px;
   min-height: 237px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 60px 60px 60px;
+  row-gap: 20px;
+  column-gap: 29px;
+  grid-template-areas: " name surname message"
+                       "mobile email message"
+                       ". button ."
+                       ;
+  margin: 0;
 }
