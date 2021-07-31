@@ -1,21 +1,11 @@
 .ai-research__cards {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    display: flex;
     padding-bottom: 80px;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1180px) {
     .ai-research__cards {
-        grid-template-columns: repeat(4, minmax(130px, 255px));
-        padding-bottom: 60px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .ai-research__cards {
-        grid-template-columns: repeat(2, minmax(140px, 50%));
-        padding-bottom: 40px;
-        gap: 8px;
-    }
+        display: grid;
+        grid-template-columns: repeat(4, minmax(150px, 255px));
+    }   
 }
