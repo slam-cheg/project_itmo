@@ -1,7 +1,6 @@
 .our-team__name {
   width: 255px;
   height: 60px;
-  font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -10,4 +9,20 @@
   color: #000D26;
   margin-top: 20px;
   margin-bottom: 0;
+}
+@media screen and (max-width: 767px) {
+  .our-team__name {
+    width: 210px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .our-team__name {
+    width: 80px;
+    height: 48px;
+    font-size: 12px;
+    line-height: 16px;
+  }
 }
