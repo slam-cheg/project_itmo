@@ -12,12 +12,95 @@
 
   <!--header-->
   <header class="header page__content">
+    <img src="images/Logo_AI 1.png" alt="лого страницы" class="logo logo_place_header">
+    <nav>
+      <ul class="header__list-links">
+        <li class="header__list-item"> <a href="" class="link"> О нас </a></li>
+        <li class="header__list-item"> <a href="" class="link">Лаборатория</a></li>
+        <li class="header__list-item"> <a href="#projects" class="link"> Проекты</a></li>
+        <li class="header__list-item"> <a href="" class="link">Образование</a></li>
+        <li class="header__list-item"> <a href="" class="link">Публикации</a></li>
+        <li class="header__list-item"> <a href="" class="link">Команда</a></li>
+      </ul>
+    </nav>
 
   </header>
 
   <!--Начинается основной контент страницы-->
 
   <main class="content page__content">
+    <!--Секция home-screen -->
+    <section class="home-screen">
+      <div class=home-screen__intro>
+        <h1 class="home-screen__title"><span class="home-screen__text">Когнитивные технологии </span>, машинное обучение
+        </h1>
+        <p class="home-screen__subtitle">Системы прикладного искусственного интеллекта.</p>
+        <button type="button" class=home-screen__button> наши проекты </button>
+      </div>
+
+    </section>
+
+    <!--Секция about -->
+
+    <section class="about">
+      <h2 class="about__title">Несколько слов о нас</h2>
+      <p class="about__subtitle">Национальный центр когнитивных разработок – центр национальной технологической
+        инициативы (НТИ),
+        получивший государственную поддержку по направлению «Технологии машинного обучения
+        и когнитивные технологии».</p>
+      <div class="about__news">
+        <button type="button" class="button-slider"></button>
+        <!-- Три карточки для теста верстки и адаптивности, потом их надо закомментить и  юзать темплате-->
+        <ul class=about__list>
+
+          <li class="card card_about">
+            <button class="card__icon-fixed"></button>
+            <p class="card__info">Понедельник, 5 июля 2021г</p>
+            <h3 class=card__title>ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</h3>
+            <p class="card__desciption">Университет ИТМО провел научно-исследовательскую стажировку для группы
+              магистрантов из Евразийского национального
+              университета имени Л.Н. Гумилева. Ведущие преподаватели в течение десяти дней рассказывали им об основах
+              машинного обучения. </p>
+          </li>
+          <li class="card card_about">
+            <button class="card__icon-fixed"></button>
+            <p class="card__info">Понедельник, 5 июля 2021г</p>
+            <h3 class=card__title>АВТОРЫ РОБОТА-МУЗЫКАНТА РОБЕРТА РОБОТЕЦКОГО ПРИЗНАНЫ ЛУЧШИМИ НОВИЧ…</h3>
+            <p class="card__desciption">Команда ИТМО стала лучшей на международном финале RoboCup-2021. Успех ребятам
+              принес Роберт Роботецкий —
+              робот-виртуоз, исполнивший знаменитый французский романс «Под небом Парижа». В подготовке команды
+              участвовали сотрудники лаборатории.</p>
+          </li>
+          <li class="card card_about">
+            <button class="card__icon-fixed"></button>
+            <p class="card__info">Суббота, 3 июля 2021г</p>
+            <h3 class=card__title>ВОЗВРАЩЕНИЕ НА ПЕТРОПАВЛОВКУ: КАК ПРОШЕЛ ВЫПУСКНОЙ ITMO. LIVE — 2021</h3>
+            <p class="card__desciption">Команда ИТМО сделала многое, чтобы вернуть формат выпускного этого и прошлого
+              года. Из-за эпидемиологической
+              ситуации отменена развлекательная часть, но сохранилась торжественная. Выпускники смогли получить дипломы
+              из рук деканов и услышать поздравления ректора.</p>
+          </li>
+
+          <!-- Собственнно темплейт, который должен заработать через JS, все три карточки выше потом комментим-->
+          <template id="template-card">
+            <li class="card card_about">
+              <button class="card__icon-fixed"></button>
+              <p class="card__card__info"></p>
+              <h3 class=card__title></h3>
+              <p class="card__desciption"></p>
+            </li>
+          </template>
+
+        </ul>
+        <button type="button" class="button-slider rotate"></button>
+      </div>
+      <ul class="selector-card selector-card_position_about">
+        <li class="selector-card__radio selector-card__radio_active"></li>
+        <li class="selector-card__radio "></li>
+        <li class="selector-card__radio"></li>
+        <li class="selector-card__radio"></li>
+      </ul>
+    </section>
 
     <!-- блок AI research -->
 
@@ -130,10 +213,295 @@
       </div>
     </section>
 
-    
-  </main>
+    <!-- блок education-->
+    <section class="education">
+      <h3 class="education__title">ОБРАЗОВАНИЕ</h3>
+      <p class="education__link">В образовательной деятельности НЦКР активно использует существующую в Университете ИТМО
+        инфраструктуру и опыт реализации сетевых форм обучения, опираясь на вузы-диссеминаторы (ННГУ, ДВФУ, ФГБОУ ВО
+        «МГТУ «СТАНКИН», НовГУ), а также профильную компанию ООО «НЦЭО»
+        в области электронного и дистанционного образования. Реализуются образовательные программы различных форматов.
+      </p>
+      <article id="PostgraduateSchool" class="education__inner">
+        <img alt="" class="education__img">
+        <div class="education__paragaph">
+          <h4 class="education__paragaphs">Образовательные программы аспирантуры в области МО и КТ</h4>
+          <ul class="education__list">
+            <li class="education__item">Прикладные технологии искусственного интеллекта;</li>
+            <li class="education__item">Машинное обучение и искусственный интеллект;</li>
+            <li class="education__item">Биометрические информационные системы;</li>
+            <li class="education__item">Речевые информационные системы;</li>
+            <li class="education__item">Когнитивные вычисления и квантовый интеллект;</li>
+            <li class="education__item">Большие данные и экстренные вычисления;</li>
+            <li class="education__item">Семантические системы и инженерия знаний;</li>
+            <li class="education__item">Технологии разработки компьютерных игр</li>
+          </ul>
+          <p href="#" class="education__caph">Подробнее &rarr;</p>
+        </div>
+      </article>
+      <article id="Master'sDegree" class="education__inner education__inner_pic">
+        <img alt="" class="education__img" src="./images/Aspirant.png">
+        <div class="education__paragaph">
+          <h4 class="education__paragaphs">Образовательные программы аспирантуры в области МО и КТ</h4>
+          <ul class="education__list">
+            <li class="education__item">Прикладные технологии искусственного интеллекта;</li>
+            <li class="education__item">Машинное обучение и искусственный интеллект;</li>
+            <li class="education__item">Биометрические информационные системы;</li>
+            <li class="education__item">Речевые информационные системы;</li>
+            <li class="education__item">Когнитивные вычисления и квантовый интеллект;</li>
+            <li class="education__item">Большие данные и экстренные вычисления;</li>
+            <li class="education__item">Семантические системы и инженерия знаний;</li>
+            <li class="education__item">Технологии разработки компьютерных игр</li>
+          </ul>
+          <p href="#" class="education__caph">Подробнее &rarr;</p>
+        </div>
+      </article>
+      <div class="education__tab">
+        <button href="#" type="button" class="education__tab_a education__tab_active">АСПИРАНТУРА</button>
+        <button href="#" type="button" class="education__tab_b">МАГИСТРАТУРА</button>
+      </div>
+    </section>
 
+    <!-- блок publications-->
+
+    <section class="publications">
+      <h3 class="publications__title">публикации</h3>
+      <div class="publications__articles">
+        <button type="button" class="button-slider button-slider_theme_dark"></button>
+        <ul class="publications__list">
+          <li class="card card_position_publications">
+            <img src="images/publications/1_я  карточка.jpg" alt="" class="card__img">
+            <h3 class="card__title card__title_lower">Topic-driven Ensemble for Online Advertising Generation</h3>
+            <p class="card__info">Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim Petrov, Denis Nasonov</p>
+            <p class="card__desciption">Online advertising is one of the most widespread ways to reach and increase a
+              target audience
+              for those selling products. Usually having a form of a banner, advertising engages users into visiting a
+              corresponding webpage.
+              Professional generation of banners requires creative and writing skills and a basi… </p>
+          </li>
+          <li class="card card_position_publications">
+            <img src="images/publications/2_я карточка.jpg" alt="" class="card__img">
+            <h3 class="card__title  card__title_lower">Convolutional neural networks with hierarchical context transfe…
+            </h3>
+            <p class="card__info">Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov</p>
+            <p class="card__desciption">In this work, we consider a problem of predicting the next state of a given area
+              using retrospective information. The proposed concept of hierarchical context transfer (HCT) operates on
+              several
+              spatial levels of the input data to overcome major issues of next state prediction problems - density
+              variability, a sig… </p>
+          </li>
+          <li class="card card_position_publications">
+            <img src="images/publications/3-я карточка.jpg" alt="" class="card__img">
+            <h3 class="card__title  card__title_lower">Spatiotemporal Filtering Pipeline for Efficient Social Networks
+              Dat…</h3>
+            <p class="card__info">Ksenia Mukhina, Alexander Visheratin, Denis Nasonov</p>
+            <p class="card__desciption">One of the areas that gathers momentum is the investigation of location-based
+              social
+              networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to improve
+              quality of living,
+              enhance urban management, and advance the development of smart cities. But it is widely known that the…
+            </p>
+          </li>
+        </ul>
+        <button type="button" class="button-slider button-slider_theme_dark rotate"></button>
+      </div>
+
+      <ul class="selector-card selector-card_position_publications">
+        <li class="selector-card__radio selector-card__radio_active selector-card__radio_color_blue"></li>
+        <li class="selector-card__radio selector-card__radio_color_blue"></li>
+        <li class="selector-card__radio selector-card__radio_color_blue"></li>
+        <li class="selector-card__radio selector-card__radio_color_blue"></li>
+        <li class="selector-card__radio selector-card__radio_color_blue"></li>
+      </ul>
+
+      <!-- Три карточки для теста верстки и адаптивности, потом их надо закомментить и  юзать темплате-->
+
+
+      <template id="template-publication">
+        <li class="card card_position_publications">
+          <img src="images/publications/3-я карточка.jpg" alt="" class="card__img">
+          <h3 class="card__title  card__title_lower"></h3>
+          <p class="card__info"></p>
+          <p class="card__desciption"> </p>
+        </li>
+      </template>
+
+      </ul>
+
+    </section>
+
+    <!--блок our team-->
+
+    <div class="our-team__div"></div>
+    <section class="our-team">
+      <h3 class="our-team__title">наша команда</h3>
+      <div class="our-team__aside">
+        <button type="button" class="our-team__control-left"></button>
+        <ul class="our-team__list">
+          <li id="one" class="our-team__lists">
+            <img alt="фото сотрудника" class="our-team__img" src="./images/man photo.png">
+            <p class="our-team__name">Бобцов Алексей Алексеевич</p>
+            <p class="our-team__text">Директор, профессор, ДТН</p>
+          </li>
+          <li id="" class="our-team__lists">
+            <img alt="фото сотрудника" class="our-team__img" src="./images/man photo-1.png">
+            <p class="our-team__name">Буханоский Александр Валерьевич</p>
+            <p class="our-team__text">Директор, руководитель, ДТН</p>
+          </li>
+          <li id="" class="our-team__lists">
+            <img alt="фото сотрудника" class="our-team__img" src="./images/man photo-2.png">
+            <p class="our-team__name">Муромцев Дмитрий Ильич</p>
+            <p class="our-team__text">Руководитель, доцент, КТН</p>
+          </li>
+          <li id="" class="our-team__lists">
+            <img alt="фото сотрудника" class="our-team__img" src="./images/man photo-3.png">
+            <p class="our-team__name">Матвеев Юрий Николаевич</p>
+            <p class="our-team__text">Руководитель, профессор, ДТН</p>
+          </li>
+          <!--li id="" class="our-team__lists">
+          <img alt="фото сотрудника" class="our-team__img">
+          <p class="our-team__name"></p>
+          <p class="our-team__text"></p>
+        </li>
+        <li id="" class="our-team__lists">
+          <img alt="фото сотрудника" class="our-team__img">
+          <p class="our-team__name"></p>
+          <p class="our-team__text"></p>
+        </li>
+        <li id="" class="our-team__lists">
+          <img alt="фото сотрудника" class="our-team__img">
+          <p class="our-team__name"></p>
+          <p class="our-team__text"></p>
+        </li>
+        <li id="" class="our-team__lists">
+          <img alt="фото сотрудника" class="our-team__img">
+          <p class="our-team__name"></p>
+          <p class="our-team__text"></p>
+        </li-->
+        </ul>
+        <button type="button" class="our-team__control-right"></button>
+      </div>
+      <ul class="our-team__slider">
+        <li class="our-team__button our-team__button_active"></li>
+        <li class="our-team__button"></li>
+        <li class="our-team__button"></li>
+        <lu class="our-team__button"></lu>
+      </ul>
+    </section>
+    <!-- Начинается блок С кем мы работаем  -->
+    <section class="partners">
+      <div class="partners__content">
+        <div class="partners__who-we-work">
+          <h2 class="partners__title">с кем мы работаем</h2>
+          <p class="partners__text">За время сотрудничества компания показала себя как надежный партнер, способный
+            оперативно решать вопросы по внесению необходимых изменений.</p>
+          <p class="partners__text">Отдельно хочется отметить квалифицированный персонал компании, который всегда готов
+            прийти на помощь в решении поставленных задач, дать объективную оценку и свои рекомендации по улучшению
+            деятельности.
+            Надеемся на дальнейшее и плодотворное сотрудничество.</p>
+        </div>
+        <div class="partners__logo-zone">
+          <a href="#" class="partners__link"><img src="./images/gazprom-logo.svg" alt="Логотип Газпром"
+              class="partners__logo"></a>
+          <a href="#" class="partners__link"><img src="./images/Sberbank_Logo_2020 1.svg" alt="Логотип Сбербанк"
+              class="partners__logo"></a>
+          <a href="#" class="partners__link"><img src="./images/MailLogo.svg" alt="Логотип Маил"
+              class="partners__logo"></a>
+          <a href="#" class="partners__link"><img src="./images/Siemens-logo.svg" alt="Логотип Сименс"
+              class="partners__logo"></a>
+          <a href="#" class="partners__link"><img src="./images/huawei-logo 1.svg" alt="Логотип Хуавей"
+              class="partners__logo"></a>
+          <a href="#" class="partners__link"><img src="./images/Sberbank_Logo_2020 1.svg" alt="Логотип Сбербанк"
+              class="partners__logo"></a>
+          <a href="#" class="partners__link"><img src="./images/Rosveft.png" alt="Логотип Роснефть"
+              class="partners__logo"></a>
+          <a href="#" class="partners__link"><img src="./images/gazprom-logo.svg" alt="Логотип Газпром"
+              class="partners__logo"></a>
+          <a href="#" class="partners__link"><img src="./images/huawei-logo 1.svg" alt="Логотип Хуавей"
+              class="partners__logo"></a>
+          <a href="#" class="partners__link"><img src="./images/MailLogo.svg" alt="Логотип Майл"
+              class="partners__logo"></a>
+        </div>
+      </div>
+    </section>
+    <!-- Начинается блок Всегда на связи -->
+    <section class="feedback">
+      <div class="feedback__content">
+        <h2 class="feedback__title">Всегда на связи</h2>
+        <div class="feedback__subtitle">По всем интересующим вас вопросам вы всегда можете обратиться по указанным
+          телефонам,<br>
+          написать на почту или оставтиь свое сообщение через форму обратной связи. </div>
+        <form action="" class="form">
+          <input type="text" name="name" placeholder="Имя" class="form__input form__input_type_title-card">
+          <input type="text" name="surname" placeholder="Фамилия" class="form__input form__input_type_title-card">
+          <input type="text" name="mobile" placeholder="Телефон" class="form__input form__input_type_title-card">
+          <input type="text" name="email" placeholder="E-mail" class="form__input form__input_type_title-card">
+          <input type="text" name="message" placeholder="Сообщение" class="form__input form__input_type_title-card">
+          <button>Отправить</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <!--Начинается блок footer-->
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <img src="images/Logo_AI 1.png" alt="лого страницы" class="logo">
+      <div class="footer__content">
+        <div class="footer__description">
+          <p class="footer__description-copyright">Информация © 2020 Университет ИТМО</p>
+          <p class="footer__description-copyright">Национальный центр когнитивных разработок – центр национальной
+            технологической инициативы (НТИ), получивший государственную
+            поддержку по направлению «Технологии машинного обучения и когнитивные технологии». Инфраструктурная основа
+            взаимодействия научных, образовательных и
+            промышленных организаций</p>
+        </div>
+        <nav class="footer__about">
+          <ul class="footer__column-links">
+            <li class="footer__list"><a href="#" class="footer__link"><span class="footer__link_title">О
+                  центре</span></a></li>
+            <li class="footer__list"><a href="#" class="footer__link">О нас</a></li>
+            <li class="footer__list"><a href="#" class="footer__link">Главная</a></li>
+            <li class="footer__list"><a href="#" class="footer__link">Команда</a></li>
+            <li class="footer__list"><a href="#" class="footer__link">Лаборатория</a></li>
+            <li class="footer__list"><a href="#" class="footer__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__development">
+          <ul class="footer__column-links">
+            <li class="footer__list"><a href="#" class="footer__link"><span
+                  class="footer__link_title">Развитие</span></a></li>
+            <li class="footer__list"><a href="#" class="footer__link">Образование</a></li>
+            <li class="footer__list"><a href="#" class="footer__link">Аспирантура</a></li>
+            <li class="footer__list"><a href="#" class="footer__link">Магистратура</a></li>
+            <li class="footer__list"><a href="#" class="footer__link">Публикации</a></li>
+            <li class="footer__list"><a href="#" class="footer__link">Проекты</a></li>
+          </ul>
+        </nav>
+        <nav class="footer__contacts">
+          <div class="footer__contact">
+            <ul class="footer__column-links">
+              <li class="footer__list"><span class="footer__link_bold">г.Санкт-Петербург</span></li>
+              <li class="footer__list">199034, Санкт-Петербург,
+                Биржевая линия, д. 4, лит. М,
+                ауд. 302С</li>
+              <li class="footer__list">+7 (812) 337-64-90<br>
+                +7 (812) 337-64-94</li>
+              <li class="footer__list">anna.lutsenko@itmo.ru</li>
+            </ul>
+          </div>
+          <div class="footer__social">
+            <a href="#" class=""><img src="./images/vk-icon.svg" alt="Вконтакте" class="footer__social-icon"></a>
+            <a href="#" class=""><img src="./images/facebook-icon.svg" alt="Фейсбук" class="footer__social-icon"></a>
+            <a href="#" class=""><img src="./images/telegram-icon.svg" alt="Телеграм" class="footer__social-icon"></a>
+            <a href="#" class=""><img src="./images/instagram-icon.svg" alt="Инстаграмм"
+                class="footer__social-icon"></a>
+            <a href="#" class=""><img src="./images/youtube-icon.svg" alt="Ютуб" class="footer__social-icon"></a>
+          </div>
+        </nav>
+      </div>
+      <p class="footer__copyrating">Сделано студентами Яндекс. Практикума</p>
+    </div>
+  </footer>
   <script src="script/projects.js"></script>
 </body>
-<script src="./inputPhone.js"></script>
+
 </html>
