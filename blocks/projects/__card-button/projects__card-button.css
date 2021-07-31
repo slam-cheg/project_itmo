@@ -15,4 +15,12 @@
     align-items: center;
     cursor: pointer;
     z-index: 6;
+    transition: .3s;
+}
+
+@media screen and (max-width: 1180px) {
+    .projects__card-button {
+        width: 32px;
+        height: 32px;
+    }
 }

@@ -4,7 +4,6 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__content/page__content.css);
 @import url(../blocks/header/header.css);
-@import url(../blocks/content/content.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
@@ -36,6 +35,7 @@
 
 /* rotate*/
 @import url(../blocks/rotate/rotate.css);
+
 /* about */
  @import url(../blocks/about/about.css);
  @import url(../blocks/about/__title/about__title.css);
@@ -44,7 +44,6 @@
  @import url(../blocks/about/__news/about__news.css);
 
 /* ai research*/
-
 @import url(../blocks/ai-research/ai-research.css);
 @import url(../blocks/ai-research/__title/ai-research__title.css);
 @import url(../blocks/ai-research/__text/_light/ai-research__text_light.css);
@@ -54,7 +53,7 @@
 @import url(../blocks/ai-research/__image/_left/ai-research__image_left.css);
 @import url(../blocks/ai-research/__image/_right/ai-research__image_right.css);
 @import url(../blocks/ai-research/__image/ai-research__image.css);
-@import url(../blocks/ai-research/__icon/ai-research__side-icon.css);
+@import url(../blocks/ai-research/__side-icon/ai-research__side-icon.css);
 @import url(../blocks/ai-research/__icon-background/ai-research__icon-background.css);
 @import url(../blocks/ai-research/__columns/ai-research__columns.css);
 @import url(../blocks/ai-research/__cards/ai-research__cards.css);
@@ -74,15 +73,12 @@
 @import url(../blocks/ai-research/__background/ai-research__background.css);
 
 /* Наши проекты */
-
 @import url(../blocks/projects/projects.css);
 @import url(../blocks/projects/__title/projects__title.css);
 @import url(../blocks/projects/__filter/projects__filter.css);
 @import url(../blocks/projects/__filter-list/projects__filter-list.css);
 @import url(../blocks/projects/__filter-list-item/projects__filter-list-item.css);
 @import url(../blocks/projects/__filter-list-item/_active/projects__filter-list-item_active.css);
-@import url(../blocks/projects/__svg-container/projects__svg-container.css);
-@import url(../blocks/projects/__svg-container/_active/projects__svg-contsiner_active.css);
 @import url(../blocks/projects/__cards/projects__cards.css);
 @import url(../blocks/projects/__card/projects__card.css);
 @import url(../blocks/projects/__card/_active/projects__card_active.css);
@@ -92,6 +88,7 @@
 @import url(../blocks/projects/__card-preview/projects__card-preview.css);
 @import url(../blocks/projects/__card-logo/projects__card-logo.css);
 @import url(../blocks/projects/__card-logo/_active/projects__card-logo_active.css);
+@import url(../blocks/projects/__card-logo/_deactive/projects__card-logo_deactive.css);
 @import url(../blocks/projects/__card-text/_preview/projects__card-text_preview.css);
 @import url(../blocks/projects/__card-preview/_active/projects__card-preview_active.css);
 @import url(../blocks/projects/__card-content/projects__card-content.css);
@@ -111,7 +108,6 @@
 
 /* card */
 @import url(../blocks/card/card.css);
-
 @import url(../blocks/card/__img/card__img.css);
 @import url(../blocks/card/__info/card__info.css);
 @import url(../blocks/card/__title/card__title.css);
