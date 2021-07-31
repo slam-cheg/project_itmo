@@ -1,0 +1,10 @@
+.footer__social-link {
+  margin-right: 8px;
+  width: 100%;
+  height: 100%;
+}
+
+.footer__social-link:last-of-type {
+  margin-right: 8px;
+}
+
