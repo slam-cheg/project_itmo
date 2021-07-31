@@ -15,6 +15,7 @@
   color: #FFFFFF;
   cursor: pointer;
   -webkit-appearance: button;
+  margin-top: 17px;
 }
 
 .form__button:hover {

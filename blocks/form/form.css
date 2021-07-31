@@ -3,7 +3,7 @@
   min-height: 237px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 60px 60px 60px;
+  grid-template-rows: 60px 60px 1fr;
   row-gap: 20px;
   column-gap: 29px;
   grid-template-areas: " name surname message"
