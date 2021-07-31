@@ -14,3 +14,9 @@
 .ai-research__card_analysis:hover {
     background-color: #009FAC;
 }
+
+@media screen and (max-width: 767px) {
+    .ai-research__card_analysis::before{
+        display: none;
+    }
+}
