@@ -1,0 +1,13 @@
+.footer__link {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.footer__link:hover {
+  opacity: .6;
+}

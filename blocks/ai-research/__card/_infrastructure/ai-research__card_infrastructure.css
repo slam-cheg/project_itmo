@@ -1,6 +1,7 @@
 .ai-research__card_infrastructure::before {
     background-image: url(../../../../images/Machine-learning.png);
-    background-position: center;
+    border-radius: 10px;
+    background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
     top: 0;
@@ -13,4 +14,10 @@
 
 .ai-research__card_infrastructure:hover {
     background-color: #009FAC;
+}
+
+@media screen and (max-width: 767px) {
+    .ai-research__card_infrastructure::before{
+        display: none;
+    }
 }

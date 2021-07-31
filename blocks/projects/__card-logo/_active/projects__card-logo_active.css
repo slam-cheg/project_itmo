@@ -1,3 +1,4 @@
 .projects__card-logo_active {
-    fill: #001337;
+    align-self: flex-end;
 }
+
