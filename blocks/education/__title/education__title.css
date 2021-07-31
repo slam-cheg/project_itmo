@@ -1,0 +1,32 @@
+.education__title {
+  /* max-width: 472px; */
+  max-height: 66px;
+  margin-top: 80px;
+  margin-bottom: 0;
+  display: flex;
+  align-self: center;
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 68px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  max-width: calc(100% - 67%);
+}
+@media screen and (max-width: 767px) {
+  .education__title {
+    max-width: calc(100% - 80px);
+    font-size: 24px;
+    line-height: 33px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .education__title {
+    max-width: calc(100% - 32px);
+    font-size: 16px;
+    line-height: 22px;
+  }
+}

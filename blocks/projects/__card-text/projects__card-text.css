@@ -1,0 +1,10 @@
+.projects__card-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #001337;
+    margin: 0 0 20px 0;
+    max-width: 265px;
+}

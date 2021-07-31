@@ -7,3 +7,12 @@
     margin-right: 165px;
 
 }
+
+
+@media (max-width: 1023px) {
+    .header__list-links{
+       display: none;
+       
+
+    }
+  }
