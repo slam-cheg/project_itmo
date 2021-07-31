@@ -179,6 +179,14 @@
 
 /* form */
 @import url(../blocks/form/form.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form//__button/form__button.css);
+@import url(../blocks/form/__input/_type/form__input_type_name.css);
+@import url(../blocks/form/__input/_type/form__input_type_surname.css);
+@import url(../blocks/form/__input/_type/form__input_type_mobile.css);
+@import url(../blocks/form/__input/_type/form__input_type_email.css);
+@import url(../blocks/form/__input/_type/form__input_type_message.css);
+
 
 /* footer */
 @import url(../blocks/footer/footer.css);
@@ -193,15 +201,32 @@
 @import url(../blocks/footer/__link/_bold/footer__link_bold.css);
 @import url(../blocks/footer/__contacts/footer__contacts.css);
 @import url(../blocks/footer/__contact/footer__contact.css);
+@import url(../blocks/footer/__copyrating-link/footer__copyrating-link.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__social-link/footer__social-link.css);
 @import url(../blocks/footer/__copyrating/footer__copyrating.css);
 
 
 
-  
+
+
 
   
 
-  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 
