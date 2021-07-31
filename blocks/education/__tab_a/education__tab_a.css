@@ -19,18 +19,3 @@
 /*   z-index: 2;
   transform: translateX(-5px); */
 }
-
-@media screen and (max-width: 767px) {
-  .education__tab_a {
-    font-size: 14px;
-    line-height: 19px;
-    max-width: calc(100% - 320px);
-  }
-}
-@media screen and (max-width: 767px) {
-  .education__tab_a {
-    font-size: 12px;
-    line-height: 16px;
-    max-width: calc(100% - 32px);
-  }
-}
