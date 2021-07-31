@@ -1,4 +1,5 @@
 .education__paragaphs {
+  font-family: Open Sans;
   font-style: normal;
   font-weight: 600;
   font-weight: bold;
@@ -7,9 +8,4 @@
   letter-spacing: 0.1px;
   color: #000D26;
     
-}
-@media screen and (max-width: 767px) {
-  .education__paragaphs {
-   /*  max-width: calc(100% - 320px); */
-  }
 }

@@ -18,15 +18,3 @@
  /*  z-index: 2;
   transform: translateX(-5px) */
 }
-@media screen and (max-width: 767px) {
-  .education__tab_b {
-    font-size: 14px;
-    line-height: 19px;
-  }
-}
-@media screen and (max-width: 767px) {
-  .education__tab_b {
-    font-size: 12px;
-    line-height: 16px;
-  }
-}

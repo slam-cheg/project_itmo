@@ -1,23 +1,6 @@
 .education__item {
   margin-bottom: 10px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 30px;
 }
 .education__item:last-of-type {
     margin-bottom: 0;
-}
-@media screen and (max-width: 767px) {
-  .education__item {
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-  }
-}
-@media screen and (max-width: 480px) {
-  .education__item {
-
-  }
 }

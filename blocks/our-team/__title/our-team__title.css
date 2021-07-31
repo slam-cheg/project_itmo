@@ -12,10 +12,3 @@
   margin-top: 0;
   margin-bottom: 0;
 }
-@media screen and (max-width: 767px) {
-  .our-team__title {
-    width: 690px;
-    height: 33px;
-    margin-bottom: 20px;
-  }
-}
