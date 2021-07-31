@@ -2,23 +2,38 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/__content/page__content.css);
+@import url(../blocks/page/_content/page_content_header.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/footer/footer.css);
+
+ /* logo */
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
+@import url(../blocks/logo/_place/logo_place_nav-bar.css);
+@import url(../blocks/logo/_active/logo_active.css);
+/* link */
 @import url(../blocks/link/link.css);
-@import url(../blocks/link/_place/link_place_header/link_place_header.css);
-@import url(../blocks/link/_place/link_place_footer/link_place_footer.css);
-
+@import url(../blocks/link/_active/link__active.css);
+@import url(../blocks/link/_place/link_place_header.css);
  /* header */
-@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/_content/header_content.css);
 @import url(../blocks/header/__list-links/header__list-links.css);
 @import url(../blocks/header/__list-item/header__list-item.css);
+@import url(../blocks/header/__button-burger/header__button-burger.css);
+@import url(../blocks/header/_wrapper/header_wrapper.css);
+@import url(../blocks/header/__burger-line/header__burger-line.css);
+@import url(../blocks/header/__list-second-links/header__list-second-links.css);
+@import url(../blocks/header/__list-second-item/header__list-second-item.css);
+@import url(../blocks/header/__nav-bar/header__nav-bar.css);
+@import url(../blocks/header/__nav-bar/_active/header__nav-bar_active.css);
+@import url(../blocks/header/__burger-menu/header__burger-menu.css);
+@import url(../blocks/header/__button-close/header__button-close.css);
+@import url(../blocks/header/__button-burger/_active/header__button-burger_active.css);
 
  /* home-screen */
  @import url(../blocks/home-screen/home-screen.css);
+ @import url(../blocks/home-screen/_wrapper/home-screen_wrapper.css);
  @import url(../blocks/home-screen/__intro/home-screen__intro.css);
  @import url(../blocks/home-screen/__title/home-screen__title.css);
  @import url(../blocks/home-screen/__text/home-screen__text.css);
@@ -110,17 +125,23 @@
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__img/card__img.css);
 @import url(../blocks/card/__info/card__info.css);
+@import url(../blocks/card/__read-more/card__read-more.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__title/_lower/card__title_lower.css);
 @import url(../blocks/card/__description/card__description.css);
 @import url(../blocks/card/__icon-fixed/card__icon-fixed.css);
 @import url(../blocks/card/_position/card_position_about.css);
 @import url(../blocks/card/_position/card_position_publications.css);
+@import url(../blocks/card/__read-full/card__read-full.css);
+@import url(../blocks/card/__arrow/card__arrow.css);
+@import url(../blocks/card/__share/card__share.css);
+@import url(../blocks/card/__article/card__article.css);
+@import url(../blocks/card/__info/_place/card__info_place.css);
+
+
 
 /* button-slider */
 @import url(../blocks/button-slider/button-slider.css);
-@import url(../blocks/button-slider/__rotate/button-slider_rotate.css);
-@import url(../blocks/button-slider/_forward/button-slider_forward.css);
 @import url(../blocks/button-slider/_theme/button-slider_theme_dark.css);
 
 
@@ -186,6 +207,15 @@
 @import url(../blocks/form/__input/_type/form__input_type_mobile.css);
 @import url(../blocks/form/__input/_type/form__input_type_email.css);
 @import url(../blocks/form/__input/_type/form__input_type_message.css);
+/* popup*/
+@import url(../blocks/popup/popup.css);
+@import url(../blocks/popup/_opened/popup_opened.css);
+@import url(../blocks/popup/_no-opacity/popup_no-opacity.css);
+@import url(../blocks/popup/__container/popup__container.css);
+@import url(../blocks/popup/__container/_share/popup__container_share.css);
+@import url(../blocks/popup/__list-links/popup__list-links.css);
+@import url(../blocks/popup/__icon/popup__icon.css);
+
 
 
 /* footer */

@@ -11,4 +11,11 @@
     line-height: 30px;
     margin-bottom: 124px;
     cursor: pointer;
+    transition: color .2s linear; 
+    transition: border .2s linear; 
+}
+
+.home-screen__button:hover {
+    border: solid 1px #009FAC;
+    color: #009FAC;
 }

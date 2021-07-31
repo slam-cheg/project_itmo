@@ -1,0 +1,38 @@
+.header__list-second-links {
+    display: none;
+    max-width: 120px;
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left:0;
+    padding-top: 20px;
+
+}
+
+
+@media screen and (max-width: 1023px) {
+    .header__list-second-links{
+      position: relative;
+      top: 100%;
+      left: 0;
+      padding: 0;
+    }
+    .header__list-second-links  > .header__list-second-item:hover {
+      background: #001337;
+  
+    }
+  
+  }
+  
+ 
+
+  
+@media screen and (min-width: 1020px) {
+  .header__list-second-links  > .header__list-second-item:hover{
+    
+    background: #009FAC;
+  
+  }
+}

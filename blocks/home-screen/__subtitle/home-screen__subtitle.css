@@ -7,3 +7,14 @@
     margin-bottom: 50px;
 
 }
+
+
+@media (max-width: 765px) {
+    .home-screen__subtitle {
+        max-width: 288px;
+        font-size: 14px;
+        line-height: 19px;
+       
+
+    }
+  }
