@@ -14,6 +14,8 @@
         justify-content: flex-start;
         padding-right: 0;
         padding-left: 39px;
+        background-position: top right;
+        background-image: url(../../images/home-screen_image_tab.jpg);
 
     }
   }

@@ -19,23 +19,24 @@
         <span class="header__burger-line"></span>
       </button>
       <img src="images/Logo_AI 1.png" alt="лого страницы" class="logo logo_place_header">
-      <nav class = "header__nav-bar header__nav-bar_active">
+      <nav class = "header__nav-bar">
         <div class = "header__burger-menu">
           <img src="images/Logo_AI 1.png" alt="" class = "logo logo_place_header"> 
           <button type = "button" class = "header__button-close"></button>
         </div>
         <ul class="header__list-links">
-          <li class="header__list-item"> <a href="" class="link link_active"> О нас </a></li>
-          <li class="header__list-item"> <a href="" class="link link_active">Лаборатория</a></li>
-          <li class="header__list-item"> <a href="#projects" class="link link_active"> Проекты</a></li>
-          <li class="header__list-item"> <a href="" class="link link_active">Образование</a>
+          <li class="header__list-item"> <a href="" class="link link_active link_place_header"> О нас </a></li>
+          <li class="header__list-item"> <a href="" class="link link_active link_place_header">Лаборатория</a></li>
+          <li class="header__list-item"> <a href="#projects" class="link link_active link_place_header"> Проекты</a></li>
+          <li class="header__list-item"> <a href="" class="link link_active link_place_header">Образование</a>
             <ul class = "header__list-second-links">
-              <li class="header__list-item"> <a href="" class="link">Аспирантура</a></li>
-              <li class="header__list-item"> <a href="" class="link">Магистратура</a></li>
+              <li class="header__list-second-item"> <a href="" class="link link_place_header">Аспирантура</a></li>
+              <li class="header__list-second-item"> <a href="" class="link link_place_header">Магистратура</a></li>
             </ul>  
           </li>
-          <li class="header__list-item"> <a href="" class="link link_active">Публикации</a></li>
-          <li class="header__list-item"> <a href="" class="link link_active">Команда</a></li>
+          <li class="header__list-item"> <a href="" class="link link_active link_place_header">Публикации</a></li>
+          <li class="header__list-item"> <a href="" class="link link_active link_place_header">Команда</a></li>
+          <li class="header__list-item"> <a href="" class="link link_active link_place_header">Связаться</a></li>
         </ul>
       </nav>
     </div>
@@ -209,7 +210,7 @@
           </div>
         </div>
          
-        <!--<div class="projects__card">
+        <div class="projects__card">
           <div class="projects__card-content">
             <p class="projects__card-text">Направление включает в&nbsp;себя исследования и&nbsp;разработки
               технологий&nbsp;МО и&nbsp;КТ. Модули для внедрения в&nbsp;предметные сетевые программы магистратуры
@@ -343,7 +344,6 @@
         </div>
       </div>
     </section>
-    -->
   <!-- блок education-->
   <!-- <section class="education">
     <h3 class="education__title">ОБРАЗОВАНИЕ</h3>
@@ -399,19 +399,24 @@
         <li class="card card_position_publications">
           <img src="images/publications/1_я  карточка.jpg" alt="" class = "card__img">
           <div class="card__article">
-          <h3 class="card__title card__title_lower">Topic-driven Ensemble for Online Advertising Generation</h3>
-          <p class="card__info">Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim Petrov, Denis Nasonov</p>
-          <p class="card__desciption">Online advertising is one of the most widespread ways to reach and increase a target audience 
+            <h3 class="card__title card__title_lower">Topic-driven Ensemble for Online Advertising Generation</h3>
+            <p class="card__info card__info_place">Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim Petrov, Denis Nasonov</p>
+            <p class="card__description">Online advertising is one of the most widespread ways to reach and increase a target audience 
             for those selling products. Usually having a form of a banner, advertising engages users into visiting a corresponding webpage.
             Professional generation of banners requires creative and writing skills and a basi… </p>
-          </div>    
+          </div>
+        <div class = "card__read-more">
+            <p class = "card__read-full">Читать полностью</p>
+            <span class = "card__arrow"></span>
+            <span class = "card__share"></span>
+        </div>    
         </li>
 
         <li class="card card_position_publications">
           <img src="images/publications/2_я карточка.jpg" alt="" class = "card__img">
           <h3 class="card__title  card__title_lower">Convolutional neural networks with hierarchical context transfe…</h3>
           <p class="card__info">Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov</p>
-          <p class="card__desciption">In this work, we consider a problem of predicting the next state of a given area 
+          <p class="card__description">In this work, we consider a problem of predicting the next state of a given area 
             using retrospective information. The proposed concept of hierarchical context transfer (HCT) operates on several
             spatial levels of the input data to overcome major issues of next state prediction problems - density variability, a sig… </p>
 
@@ -438,7 +443,7 @@
           <img src="images/publications/3-я карточка.jpg" alt="" class = "card__img">
           <h3 class="card__title  card__title_lower">Spatiotemporal Filtering Pipeline for Efficient Social Networks Dat…</h3>
           <p class="card__info">Ksenia Mukhina, Alexander Visheratin, Denis Nasonov</p>
-          <p class="card__desciption">One of the areas that gathers momentum is the investigation of location-based social 
+          <p class="card__description">One of the areas that gathers momentum is the investigation of location-based social 
             networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to improve quality of living,
             enhance urban management, and advance the development of smart cities. But it is widely known that the… </p>
         </li>
