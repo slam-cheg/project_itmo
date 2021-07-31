@@ -39,6 +39,7 @@
 @media screen and (max-width:1180px) {
     .ai-research__card {
         padding: 12px;
+        max-width: 100%;
     }
 }
 
