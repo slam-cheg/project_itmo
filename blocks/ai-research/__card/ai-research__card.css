@@ -47,4 +47,8 @@
     .ai-research__card {
         padding: 10px;
     }
+
+    .ai-research__card:hover {
+        transform: none;
+    }
 }

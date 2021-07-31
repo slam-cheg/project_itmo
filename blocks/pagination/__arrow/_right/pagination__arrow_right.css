@@ -1,6 +1,5 @@
 .pagination__arrow_right {
     background-image: url(../../../../images/arrow-white-left.svg);
-    width: 32px;
     margin-left: 28px;
     transform: rotate(180deg);
 }
