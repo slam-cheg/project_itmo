@@ -133,8 +133,6 @@
 
 /* button-slider */
 @import url(../blocks/button-slider/button-slider.css);
-@import url(../blocks/button-slider/__rotate/button-slider_rotate.css);
-@import url(../blocks/button-slider/_forward/button-slider_forward.css);
 @import url(../blocks/button-slider/_theme/button-slider_theme_dark.css);
 
 
