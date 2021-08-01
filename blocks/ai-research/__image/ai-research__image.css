@@ -14,11 +14,3 @@
         background-position: top right;
     }
 }
-
-
-@media screen and (max-width: 767px) {
-    .ai-research__image {
-        height: 180px;
-        grid-area: image;
-    }
-}

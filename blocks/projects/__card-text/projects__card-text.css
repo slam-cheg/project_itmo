@@ -7,23 +7,4 @@
     color: #001337;
     margin: 0 0 20px 0;
     max-width: 265px;
-    z-index: 5;
-    overflow: hidden;
-    white-space: normal;
-    text-overflow: ellipsis;
-}
-
-@media screen and (max-width: 1180px) {
-    .projects__card-text {
-        font-size: 12px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .projects__card-text {
-        font-size: 10px;
-        line-height: 14px;
-        max-width: 172px;
-        margin: 0;
-    }
 }

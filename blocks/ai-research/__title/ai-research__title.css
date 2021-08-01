@@ -10,19 +10,3 @@
     padding: 80px 0 60px 0;
     color: #000D26;
 }
-
-@media screen and (max-width: 1180px) {
-    .ai-research__title {
-        font-size: 24px;
-        line-height: 33px;
-        padding: 60px 0 30px 0;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .ai-research__title {
-        font-size: 16px;
-        line-height: 22px;
-        padding: 40px 0 20px 0;
-    }
-}
