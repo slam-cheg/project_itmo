@@ -32,18 +32,21 @@
 @media screen and (max-width: 1180px) {
   .education__inner {
     max-width: calc(100% - 60px);
+    margin-top: 40px;
   }
 }
 @media screen and (max-width: 767px) {
   .education__inner {
+    margin-top: 30px;
     max-width: calc(100% - 80px);
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+   /*  grid-template-rows: 1fr; */
     /*   gap: 17px 20px; */
       }
   }
 @media screen and (max-width: 480px) {
   .education__inner {
+    margin-top: 15px;
     max-width: calc(100% - 32px);
     /* grid-template-columns: 1fr; */
      /*  grid-template-columns: 1fr; */

@@ -11,6 +11,11 @@
   transform: translateX(-5px)
 }
 @media screen and (max-width: 767px) {
+  .education__tab { 
+    margin-top: 35px;
+  }
+}
+@media screen and (max-width: 767px) {
   .education__tab {
     max-width: calc(100% - 160px);
   }
