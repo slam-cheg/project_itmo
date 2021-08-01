@@ -1,0 +1,17 @@
+.projects__filter-selection {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 12px 0px 8px 0;
+    background: #001337;
+    border: none;
+    border-bottom: 2px solid #009FAC;
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .projects__filter-selection {
+        display: none;
+    }
+}

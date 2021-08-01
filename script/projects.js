@@ -74,6 +74,7 @@ addedProjects = [
 // Подгружаем карточки проектов из массива на сайт
 
 addedProjects.reverse().forEach(item => {
+
     cardText = item.text;
     cardImage = item.image;
     cardImageActive = item.activeImage;
@@ -82,8 +83,29 @@ addedProjects.reverse().forEach(item => {
     type = item.projectType;
 
     createCard(cardText, cardImage, cardImageActive, company, backgroundImg);
-    addCard(cardText, cardImage, cardImageActive, company, backgroundImg);
+
+    if (window.innerWidth >= 1180) {
+
+        if (cardsContainer.children.length < 8) {
+            addCard(cardText, cardImage, cardImageActive, company, backgroundImg);
+        } else {
+            return;
+        }
+    } if (window.innerWidth < 1180 && window.innerWidth >= 768) {
+        if (cardsContainer.children.length < 6) {
+            addCard(cardText, cardImage, cardImageActive, company, backgroundImg);
+        } else {
+            return;
+        }
+    } if (window.innerWidth <= 767) {
+        if (cardsContainer.children.length < 4) {
+            addCard(cardText, cardImage, cardImageActive, company, backgroundImg);
+        } else {
+            return;
+        }
+    }
 });
+
 
 function createCard(cardText, cardImage, cardImageActive, company, backgroundImg) {
     const cardElement = cardTemplate.querySelector('.projects__card').cloneNode(true);
@@ -105,6 +127,7 @@ function createCard(cardText, cardImage, cardImageActive, company, backgroundImg
 };
 
 function addCard() { // функция создания карточек
+
     const card = createCard(cardText, cardImage, cardImageActive, company, backgroundImg);
     cardsContainer.prepend(card); // создаю карточку с записанными данными в параметр cardElement
 }
@@ -133,7 +156,6 @@ function openProject(event) {
     activeLogo.classList.add('projects__card-logo_deactive');
 
 }
-
 
 function checkOpening(event) {
 

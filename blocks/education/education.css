@@ -1,4 +1,6 @@
 .education {
+  /* max-width: 1440px; */
+  height: 990px;
   display: flex;
   justify-content: center;
   align-items: center;

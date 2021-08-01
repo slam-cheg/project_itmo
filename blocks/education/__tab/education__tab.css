@@ -8,6 +8,15 @@
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px; 
   z-index: 0;
-  transform: translateX(-5px);
-  margin-bottom: 80px;
+  transform: translateX(-5px)
+}
+@media screen and (max-width: 767px) {
+  .education__tab {
+    max-width: calc(100% - 160px);
+  }
+}
+@media screen and (max-width: 740px) {
+  .education__tab {
+    max-width: calc(100% - 32px);
+  }
 }
