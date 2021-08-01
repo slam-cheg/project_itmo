@@ -72,6 +72,7 @@ addedProjects = [
 ];
 
 // Подгружаем карточки проектов из массива на сайт
+
 /*
 addedProjects.reverse().forEach(item => {
     cardText = item.text;
@@ -92,7 +93,7 @@ addedProjects.reverse().filter(item => {
     } else {
 
     }
-    
+
     for (let i = 0; i <= 1; i++) {
 
         cardText = item.text;
