@@ -1,5 +1,4 @@
 .header__list-links {
-    min-height: 44px;
     list-style-type: none;
     display: flex;
     padding: 0;
@@ -12,10 +11,8 @@
 
 @media (max-width: 1023px) {
     .header__list-links{
-       width: 100%;
-       flex-direction: column;
-       justify-items: flex-start;
-       padding-bottom: 36px;
-     
+       display: none;
+       
+
     }
   }
