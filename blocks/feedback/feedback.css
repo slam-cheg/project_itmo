@@ -4,9 +4,14 @@
 	margin: 0;
 }
 
+@media screen and (max-width: 1180px) {
+	.feedback {
+		min-height: 456px;
+	}
+}
+
 @media screen and (max-width: 767px) {
 	.feedback {
 		min-height: 643px;
 	}
-	
 }
