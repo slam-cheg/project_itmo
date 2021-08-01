@@ -1,9 +1,5 @@
 .home-screen__button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: #fff;
-    text-decoration: none;
     background-color: transparent;
     width: 350px;
     border: solid 1px #fff;

@@ -1,19 +1,15 @@
-.footer__description-copyright {
+.footer__description-text {
   color: #FFFFFF;
 	font-family: "Open Sans";
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 19px;
-	margin: 0 0 30px;
-}
-
-.footer__description-copyright:last-of-type {
-	margin: 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 1180px) {
-	.footer__description-copyright {
+	.footer__description-text {
 		font-size: 12px;
 		line-height: 20px;
 	}

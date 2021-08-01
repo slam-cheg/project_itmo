@@ -10,13 +10,9 @@
     z-index: 1;
 }
 
-@media screen and (max-width:1023px) {
+@media screen and (max-width: 767px) {
     .about__list {
-        max-width: 690px;
-        grid-template-columns: repeat(2, 1fr);
-        grid-column-gap: 30px;
-        grid-row-gap: 30px;
-
+        gap: 17px 20px;
         }
     }
 @media screen and (max-width: 767px) {

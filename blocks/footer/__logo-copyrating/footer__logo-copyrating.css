@@ -1,0 +1,14 @@
+@media screen and (max-width: 1180px) {
+  .footer__logo-copyrating {
+    margin: 0 0 30px;
+  }
+}
+
+@media screen and (max-width: 498px) {
+  .footer__logo-copyrating {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-height: 33px;
+  }
+}
