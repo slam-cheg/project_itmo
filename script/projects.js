@@ -73,8 +73,8 @@ addedProjects = [
 
 // Подгружаем карточки проектов из массива на сайт
 
-/*
 addedProjects.reverse().forEach(item => {
+
     cardText = item.text;
     cardImage = item.image;
     cardImageActive = item.activeImage;
@@ -83,31 +83,29 @@ addedProjects.reverse().forEach(item => {
     type = item.projectType;
 
     createCard(cardText, cardImage, cardImageActive, company, backgroundImg);
-    addCard(cardText, cardImage, cardImageActive, company, backgroundImg);
-}); */
 
-addedProjects.reverse().filter(item => {
+    if (window.innerWidth >= 1180) {
 
-    if (window.screen.width) {
-
-    } else {
-
+        if (cardsContainer.children.length < 8) {
+            addCard(cardText, cardImage, cardImageActive, company, backgroundImg);
+        } else {
+            return;
+        }
+    } if (window.innerWidth < 1180 && window.innerWidth >= 768) {
+        if (cardsContainer.children.length < 6) {
+            addCard(cardText, cardImage, cardImageActive, company, backgroundImg);
+        } else {
+            return;
+        }
+    } if (window.innerWidth <= 767) {
+        if (cardsContainer.children.length < 4) {
+            addCard(cardText, cardImage, cardImageActive, company, backgroundImg);
+        } else {
+            return;
+        }
     }
-
-    for (let i = 0; i <= 1; i++) {
-
-        cardText = item.text;
-        cardImage = item.image;
-        cardImageActive = item.activeImage;
-        company = item.company;
-        backgroundImg = item.background;
-        type = item.projectType;
-
-        createCard(cardText, cardImage, cardImageActive, company, backgroundImg);
-        addCard(cardText, cardImage, cardImageActive, company, backgroundImg);
-    }
-
 });
+
 
 function createCard(cardText, cardImage, cardImageActive, company, backgroundImg) {
     const cardElement = cardTemplate.querySelector('.projects__card').cloneNode(true);
