@@ -6,10 +6,18 @@
 	font-size: 14px;
 	line-height: 19px;
 	color: #FFFFFF;
+	letter-spacing: 0.1px;
 }
 
 .footer__copyrating-link:hover {
   opacity: 0.8;
   transition: 0.3s ease-in;
+}
+
+@media screen and (max-width: 1180px) {
+	.footer__copyrating-link {
+		font-size: 12px;
+		line-height: 20px;
+	}
 }
   
