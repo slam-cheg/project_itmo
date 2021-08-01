@@ -7,3 +7,11 @@
     margin-bottom: 30px;
   }
 }
+
+@media screen and (max-width: 498px) {
+  .logo_place_footer {
+    margin-bottom: 0;
+    width: 98px;
+    height: 33px;
+  }
+}

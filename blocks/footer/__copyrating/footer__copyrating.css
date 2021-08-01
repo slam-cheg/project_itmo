@@ -15,5 +15,21 @@
 		font-size: 12px;
 		line-height: 20px;
 		margin: 0;
+		position: absolute;
+		bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.footer__copyrating {
+		line-height: 16px;
+		margin: 0;
+		position: static;
+	}
+}
+
+@media screen and (max-width: 498px) {
+	.footer__copyrating {
+		margin: 0 auto;
 	}
 }
