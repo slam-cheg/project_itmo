@@ -1,0 +1,21 @@
+.footer__link {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.footer__link:hover {
+  opacity: .6;
+	transition: 0.3s ease-in;
+}
+
+@media screen and (max-width: 1180px) {
+	.footer__link {
+		font-size: 12px;
+		line-height: 16px;
+	}
+}

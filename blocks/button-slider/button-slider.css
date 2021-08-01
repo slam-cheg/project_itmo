@@ -9,15 +9,10 @@
     cursor: pointer;
     transition: background-color .7s linear;
 }
-
-.button-slider:hover {
-    background-color: #009FAC;
-    background-image: url('../../images/arrow-down.svg');
-
-}
-@media screen and (max-width: 1023px) {
+    
+@media screen and (max-width: 767px) {
     .button-slider {
-         display: none;
+            display: none;
             
     }
 }

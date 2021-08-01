@@ -1,0 +1,13 @@
+.projects__card-button_active {
+    background: #009FAC;
+    background-image: url(../../../../images/arrow-white-left.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+}
+
+@media screen and (max-width: 767px) {
+    .projects__card-button_active {
+        background-size: 12px;
+    }
+}

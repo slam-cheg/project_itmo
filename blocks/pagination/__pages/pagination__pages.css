@@ -1,0 +1,15 @@
+.pagination__pages {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1180px) {
+    .pagination__pages {
+        max-width: 300px;
+    }
+}

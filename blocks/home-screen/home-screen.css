@@ -5,6 +5,7 @@
     justify-content: flex-end;
     box-sizing: border-box;
     padding-top: 92px;
+    padding-right: 165px;
     border: 0;
 }
 
@@ -13,6 +14,7 @@
         justify-content: flex-start;
         padding-right: 0;
         padding-left: 39px;
+<<<<<<< HEAD
         padding-top: 58px;
     
     }
@@ -25,4 +27,8 @@
         padding-top:30px ;
         padding-left: 0;
     }
+=======
+
+    }
+>>>>>>> main
   }

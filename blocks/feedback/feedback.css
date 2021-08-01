@@ -1,0 +1,12 @@
+.feedback {
+	min-height: 577px;
+	background: #009FAC;
+	margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+	.feedback {
+		min-height: 643px;
+	}
+	
+}

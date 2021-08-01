@@ -1,0 +1,5 @@
+.pagination__arrow_left {
+    background-image: url(../../../../images/arrow-white-left.svg);
+    margin-right: 28px;
+    align-self: flex-start;
+}

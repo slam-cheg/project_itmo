@@ -1,0 +1,27 @@
+.feedback__title {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 68px;
+  text-align: center;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0 auto 37px;	
+}
+
+@media screen and (max-width: 1180px) {
+  .feedback__title {
+    font-size: 24px;
+    line-height: 33px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feedback__title {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 auto 23px;
+  }
+}
