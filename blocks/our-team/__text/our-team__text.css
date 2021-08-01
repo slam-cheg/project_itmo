@@ -13,3 +13,17 @@
   margin-top: 4px;
   margin-bottom: 0;
 }
+@media screen and (max-width: 768px) {
+  .our-team__text {
+    font-size: 12px;
+    line-height: 145%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .our-team__text {
+ /*    width: 71px;
+    height: 14px; */
+    font-size: 10px;
+    line-height: 14px;
+  }
+}

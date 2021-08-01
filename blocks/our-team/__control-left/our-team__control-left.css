@@ -8,3 +8,8 @@
   box-shadow: 1px 1px 10px rgb(224 240 255 / 10%);
   cursor: pointer;
 }
+@media screen and (max-width: 1180px) {
+  .our-team__control-left {
+
+  }
+}

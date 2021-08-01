@@ -3,3 +3,15 @@
   height: 286px;
   border-radius: 10px;
 }
+@media screen and (max-width: 767px) {
+  .our-team__img {
+    width: 170px;
+    height: 226px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .our-team__img {
+    width: 120px;
+    height: 160px;
+  }
+}
