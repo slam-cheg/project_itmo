@@ -40,8 +40,8 @@
 
 @media screen and (max-width: 767px) {
     .projects__card-preview_active {
-        width: 105%;
-        transform: translateX(100%);
+        width: 106%;
+        transform: translateX(99%);
         background-size: cover;
     }
 
