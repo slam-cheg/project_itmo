@@ -18,12 +18,3 @@
         font-size: 12px;
     }
 }
-
-@media screen and (max-width: 767px) {
-    .projects__card-text {
-        font-size: 10px;
-        line-height: 14px;
-        max-width: 172px;
-        margin: 0;
-    }
-}

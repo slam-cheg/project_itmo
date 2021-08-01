@@ -12,9 +12,3 @@
         padding-bottom: 30px;
     }
 }
-
-@media screen and (max-width: 767px) {
-    .projects__filter-list {
-        display: none;
-    }
-}

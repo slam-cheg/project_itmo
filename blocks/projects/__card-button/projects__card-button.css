@@ -24,11 +24,3 @@
         height: 32px;
     }
 }
-
-@media screen and (max-width: 767px) {
-    .projects__card-button {
-        width: 20px;
-        height: 20px;
-        background-size: 12px;
-    }
-}
