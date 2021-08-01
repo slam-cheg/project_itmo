@@ -136,7 +136,6 @@
 @import url(../blocks/projects/__filter-selection/projects__filter-selection.css);
 @import url(../blocks/projects/__filter-selection-item/projects__filter-selection-item.css);
 
-
 /* card */
 @import url(../blocks/card/card.css);
 @import url(../blocks/card/__image/card__image.css);
@@ -155,8 +154,6 @@
 @import url(../blocks/card/__article/card__article.css);
 @import url(../blocks/card/__info/_place/card__info_place.css);
 @import url(../blocks/card/__image-container/card__image-container.css);
-
-
 
 /* button-slider */
 @import url(../blocks/button-slider/button-slider.css);
