@@ -12,17 +12,3 @@
     align-items: center;
     z-index: 3;
 }
-
-@media screen and (max-width: 1180px) {
-    .ai-research__icon-background {
-        margin-bottom: 20px;
-        width: 41px;
-        height: 41px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .ai-research__icon-background {
-        margin-bottom: 16px;
-    }
-}

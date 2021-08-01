@@ -23,10 +23,3 @@
         width: 100%;
     }
 }
-
-@media screen and (max-width: 767px) {
-    .projects__card-preview {
-        width: 100%;
-        padding: 10px;
-    }
-}
