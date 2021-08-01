@@ -17,7 +17,10 @@
 @import url(../blocks/link/link.css);
 @import url(../blocks/link/_active/link__active.css);
 @import url(../blocks/link/_place/link_place_header.css);
+@import url(../blocks/link/_place/link_place_second-menu.css);
+
  /* header */
+
 @import url(../blocks/header/_content/header_content.css);
 @import url(../blocks/header/__list-links/header__list-links.css);
 @import url(../blocks/header/__list-item/header__list-item.css);
@@ -113,8 +116,9 @@
 
 /* card */
 @import url(../blocks/card/card.css);
-@import url(../blocks/card/__img/card__img.css);
+@import url(../blocks/card/__image/card__image.css);
 @import url(../blocks/card/__info/card__info.css);
+@import url(../blocks/card/__link/card__link.css);
 @import url(../blocks/card/__read-more/card__read-more.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__title/_lower/card__title_lower.css);
@@ -127,6 +131,7 @@
 @import url(../blocks/card/__share/card__share.css);
 @import url(../blocks/card/__article/card__article.css);
 @import url(../blocks/card/__info/_place/card__info_place.css);
+@import url(../blocks/card/__image-container/card__image-container.css);
 
 
 
@@ -150,18 +155,18 @@
 
 /* publications */
 @import url(../blocks/publications/publications.css);
-@import url(../blocks/publications/__title/publication__title.css);
+@import url(../blocks/publications/__title/publications__title.css);
 @import url(../blocks/publications/__list/publications__list.css);
 @import url(../blocks/publications/__articles/publications__articles.css);
 
-/* popup*/
-@import url(../blocks/popup/popup.css);
-@import url(../blocks/popup/_opened/popup_opened.css);
-@import url(../blocks/popup/_no-opacity/popup_no-opacity.css);
-@import url(../blocks/popup/__container/popup__container.css);
-@import url(../blocks/popup/__container/_share/popup__container_share.css);
-@import url(../blocks/popup/__list-links/popup__list-links.css);
-@import url(../blocks/popup/__icon/popup__icon.css);
+/* tooltip*/
+@import url(../blocks/tooltip/tooltip.css);
+@import url(../blocks/tooltip/_opened/tooltip_opened.css);
+@import url(../blocks/tooltip/__container/tooltip__container.css);
+@import url(../blocks/tooltip/__container/_share/tooltip__container_share.css);
+@import url(../blocks/tooltip/__list-links/tooltip__list-links.css);
+@import url(../blocks/tooltip/__icon/tooltip__icon.css);
+
 
 
 

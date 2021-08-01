@@ -28,13 +28,13 @@
           <li class="header__list-item"> <a href="" class="link link_active link_place_header"> О нас </a></li>
           <li class="header__list-item"> <a href="" class="link link_active link_place_header">Лаборатория</a></li>
           <li class="header__list-item"> <a href="#projects" class="link link_active link_place_header"> Проекты</a></li>
-          <li class="header__list-item"> <a href="" class="link link_active link_place_header">Образование</a>
+          <li class="header__list-item" id = "test"> <a href="" class="link link_active link_place_header">Образование</a>
             <ul class = "header__list-second-links">
-              <li class="header__list-second-item"> <a href="" class="link link_place_header">Аспирантура</a></li>
-              <li class="header__list-second-item"> <a href="" class="link link_place_header">Магистратура</a></li>
+              <li class="header__list-second-item"> <a href="" class="link link_place_header link_place_second-menu">Аспирантура</a></li>
+              <li class="header__list-second-item"> <a href="" class="link link_place_header link_place_second-menu">Магистратура</a></li>
             </ul>  
           </li>
-          <li class="header__list-item"> <a href="" class="link link_active link_place_header">Публикации</a></li>
+          <li class="header__list-item"> <a href="#publications" class="link link_active link_place_header">Публикации</a></li>
           <li class="header__list-item"> <a href="" class="link link_active link_place_header">Команда</a></li>
           <li class="header__list-item"> <a href="" class="link link_active link_place_header">Связаться</a></li>
         </ul>
@@ -50,7 +50,7 @@
       <div class=home-screen__intro>
         <h1 class="home-screen__title"><span class="home-screen__text">Когнитивные технологии </span>, машинное обучение</h1>
         <p class="home-screen__subtitle">Системы прикладного искусственного интеллекта.</p>
-        <button type="button" class=home-screen__button> наши проекты </button>
+        <a href="#projects" class=home-screen__button> наши проекты </a>
       </div>
 
     </section>
@@ -390,14 +390,20 @@
 
 
     <!-- блок publications-->
-  <section class="publications">
+    
+  <section class="publications" id = "publications">
     <h3 class="publications__title">публикации</h3>
     <div class = "publications__articles">
       <button type = "button" class="button-slider button-slider_theme_dark"></button>
+      <!-- Список публикаций-->  
       <ul class="publications__list">
 
+         <!-- Первая карточка-->  
+
         <li class="card card_position_publications">
-          <img src="images/publications/1_я  карточка.jpg" alt="" class = "card__img">
+          <div class = "card__image-container"> 
+            <img src="images/publications/1_я  карточка.jpg" alt="" class = "card__image">
+          </div>   
           <div class="card__article">
             <h3 class="card__title card__title_lower">Topic-driven Ensemble for Online Advertising Generation</h3>
             <p class="card__info card__info_place">Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim Petrov, Denis Nasonov</p>
@@ -405,53 +411,94 @@
             for those selling products. Usually having a form of a banner, advertising engages users into visiting a corresponding webpage.
             Professional generation of banners requires creative and writing skills and a basi… </p>
           </div>
+        <!-- Контейнер с тултипом-->  
         <div class = "card__read-more">
+            <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate" class = "card__link" target ="_blank">
             <p class = "card__read-full">Читать полностью</p>
-            <span class = "card__arrow"></span>
-            <span class = "card__share"></span>
-        </div>    
-        </li>
-
-        <li class="card card_position_publications">
-          <img src="images/publications/2_я карточка.jpg" alt="" class = "card__img">
-          <h3 class="card__title  card__title_lower">Convolutional neural networks with hierarchical context transfe…</h3>
-          <p class="card__info">Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov</p>
-          <p class="card__description">In this work, we consider a problem of predicting the next state of a given area 
-            using retrospective information. The proposed concept of hierarchical context transfer (HCT) operates on several
-            spatial levels of the input data to overcome major issues of next state prediction problems - density variability, a sig… </p>
-
-           <!-- Зеленая полка у карточки-->
-          <div class = "card__read-more">
-            <p class = "card__read-full">Читать полностью</p>
-            <span class = "card__arrow"></span>
-            <span class = "card__share"></span>
+            <span class = "card__arrow"></span> </a>
+            <button type = "button" class = "card__share"></button>
+        </div>   
+         <!-- Тултип-->
+        <div class="tooltip">
+          <div class="tooltip__container tooltip__container_share">
+            <ul class ="tooltip__list-links">
+              <a href="" > <img src="images/vk.svg" alt="" class="tooltip__icon"></a>
+              <a href="" > <img src="images/facebook.svg" alt="" class="tooltip__icon"></a>
+              <a href="" > <img src="images/Telegram.svg" alt="" class="tooltip__icon"></a>
+              <a href="" > <img src="images/instagram.svg" alt="" class="tooltip__icon"></a>
+              <a href="" > <img src="images/You Tube.svg" alt="" class="tooltip__icon"></a>
+            </ul>
           </div>
-          <div class="popup popup_share popup_no-opacity popup_opened">
-            <div class="popup__container popup__container_share">
-              <ul class ="popup__list-links">
-                <a href="" > <img src="images/vk.svg" alt="" class="popup__icon"></a>
-                <a href="" > <img src="images/facebook.svg" alt="" class="popup__icon"></a>
-                <a href="" > <img src="images/Telegram.svg" alt="" class="popup__icon"></a>
-                <a href="" > <img src="images/instagram.svg" alt="" class="popup__icon"></a>
-                <a href="" > <img src="images/You Tube.svg" alt="" class="popup__icon"></a>
-              </ul>
-        
-            </div>
+        </div>   
         </li>
-
+        <!-- Вторая картчока-->  
         <li class="card card_position_publications">
-          <img src="images/publications/3-я карточка.jpg" alt="" class = "card__img">
-          <h3 class="card__title  card__title_lower">Spatiotemporal Filtering Pipeline for Efficient Social Networks Dat…</h3>
-          <p class="card__info">Ksenia Mukhina, Alexander Visheratin, Denis Nasonov</p>
-          <p class="card__description">One of the areas that gathers momentum is the investigation of location-based social 
-            networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to improve quality of living,
-            enhance urban management, and advance the development of smart cities. But it is widely known that the… </p>
+          <div class = "card__image-container"> 
+            <img src="images/publications/1_я  карточка.jpg" alt="" class = "card__image">
+          </div>   
+          <div class="card__article">
+            <h3 class="card__title card__title_lower">Convolutional neural networks with hierarchical context transfe…</h3>
+            <p class="card__info card__info_place"> Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov</p>
+            <p class="card__description">In this work, we consider a problem of predicting the next state of a given area 
+              using retrospective information. The proposed concept of hierarchical context transfer (HCT) operates on several 
+              spatial levels of the input data to overcome major issues of next state prediction problems - density variability, a sig…</p>
+          </div>
+        <!-- Контейнер с тултипом-->  
+        <div class = "card__read-more">
+            <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate" class = "card__link" target ="_blank">
+            <p class = "card__read-full">Читать полностью</p>
+            <span class = "card__arrow"></span> </a>
+            <button type = "button" class = "card__share"></button>
+        </div>   
+         <!-- Тултип-->
+        <div class="tooltip">
+          <div class="tooltip__container tooltip__container_share">
+            <ul class ="tooltip__list-links">
+              <a href="" > <img src="images/vk.svg" alt="" class="tooltip__icon"></a>
+              <a href="" > <img src="images/facebook.svg" alt="" class="tooltip__icon"></a>
+              <a href="" > <img src="images/Telegram.svg" alt="" class="tooltip__icon"></a>
+              <a href="" > <img src="images/instagram.svg" alt="" class="tooltip__icon"></a>
+              <a href="" > <img src="images/You Tube.svg" alt="" class="tooltip__icon"></a>
+            </ul>
+          </div>
+        </div>   
+        </li>
+         <!-- Вторая картчока-->  
+         <li class="card card_position_publications">
+          <div class = "card__image-container"> 
+            <img src="images/publications/1_я  карточка.jpg" alt="" class = "card__image">
+          </div>   
+          <div class="card__article">
+            <h3 class="card__title card__title_lower">Spatiotemporal Filtering Pipeline for Efficient Social Networks Dat…</h3>
+            <p class="card__info card__info_place">Ksenia Mukhina, Alexander Visheratin, Denis Nasonov </p>
+            <p class="card__description">One of the areas that gathers momentum is the investigation of location-based social 
+              networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to improve quality of 
+              living, enhance urban management, and advance the development of smart cities. But it is widely known that the…</p>
+          </div>
+        <!-- Контейнер с тултипом-->  
+        <div class = "card__read-more">
+            <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate" class = "card__link" target ="_blank">
+            <p class = "card__read-full">Читать полностью</p>
+            <span class = "card__arrow"></span> </a>
+            <button type = "button" class = "card__share"></button>
+        </div>   
+         <!-- Тултип-->
+        <div class="tooltip">
+          <div class="tooltip__container tooltip__container_share">
+            <ul class ="tooltip__list-links">
+              <a href="" > <img src="images/vk.svg" alt="" class="tooltip__icon"></a>
+              <a href="" > <img src="images/facebook.svg" alt="" class="tooltip__icon"></a>
+              <a href="" > <img src="images/Telegram.svg" alt="" class="tooltip__icon"></a>
+              <a href="" > <img src="images/instagram.svg" alt="" class="tooltip__icon"></a>
+              <a href="" > <img src="images/You Tube.svg" alt="" class="tooltip__icon"></a>
+            </ul>
+          </div>
+        </div>   
         </li>
        
       </ul>
       <button type = "button" class="button-slider button-slider_theme_dark rotate"></button>
     </div>
-     <!--popup для карточек-публикаций-->
     
       <!-- Селектор карточек-->
     <ul class="selector-card selector-card_position_publications">
@@ -462,26 +509,36 @@
       <li class = "selector-card__radio selector-card__radio_color_blue"></li>     
     </ul>
 
-     <!-- Три карточки для теста верстки и адаптивности, потом их надо закомментить и  юзать темплате-->
-      
+     <!-- Шаблон, который будет выводить карточки из массива-->
       <template id="template-card">
         <li class="card card_position_publications">
-          <img src="images/publications/3-я карточка.jpg" alt="" class = "card__img">
-          <h3 class="card__title  card__title_lower"></h3>
-          <p class="card__info"></p>
-          <p class="card__desciption"> </p>
-        </li>
-        <div class="popup popup_share popup_no-opacity">
-          <div class="popup__container popup__container_share">
-            <ul class ="popup__list-links">
-              <a href="" > <img src="images/vk.svg" alt="" class="popup__icon"></a>
-              <a href="" > <img src="images/facebook.svg" alt="" class="popup__icon"></a>
-              <a href="" > <img src="images/Telegram.svg" alt="" class="popup__icon"></a>
-              <a href="" > <img src="images/instagram.svg" alt="" class="popup__icon"></a>
-              <a href="" > <img src="images/You Tube.svg" alt="" class="popup__icon"></a>
-            </ul>
-      
+          <div class = "card__image-container"> 
+            <img src="images/publications/1_я  карточка.jpg" alt="" class = "card__image">
+          </div>   
+          <div class="card__article">
+            <h3 class="card__title card__title_lower"></h3>
+            <p class="card__info card__info_place"> </p>
           </div>
+        <!-- Контейнер с тултипом-->  
+        <div class = "card__read-more">
+            <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate" class = "card__link" target ="_blank">
+            <p class = "card__read-full">Читать полностью</p>
+            <span class = "card__arrow"></span> </a>
+            <button type = "button" class = "card__share"></button>
+        </div>   
+         <!-- Тултип-->
+        <div class="tooltip">
+          <div class="tooltip__container tooltip__container_share">
+            <ul class ="tooltip__list-links">
+              <a href="" > <img src="images/vk.svg" alt="" class="tooltip__icon"></a>
+              <a href="" > <img src="images/facebook.svg" alt="" class="tooltip__icon"></a>
+              <a href="" > <img src="images/Telegram.svg" alt="" class="tooltip__icon"></a>
+              <a href="" > <img src="images/instagram.svg" alt="" class="tooltip__icon"></a>
+              <a href="" > <img src="images/You Tube.svg" alt="" class="tooltip__icon"></a>
+            </ul>
+          </div>
+        </div>   
+        </li>
       </template>
 
     </ul>

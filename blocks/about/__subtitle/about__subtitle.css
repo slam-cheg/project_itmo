@@ -7,6 +7,14 @@
     max-width: 907px;
 }
 
+
+@media (max-width: 1023px) {
+    .about__subtitle {
+        max-width: 690px;
+
+    }
+  }
+
 @media (max-width: 460px) {
     .about__subtitle {
         width: 288px;

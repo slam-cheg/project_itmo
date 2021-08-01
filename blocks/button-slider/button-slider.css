@@ -7,7 +7,7 @@
     background:  url('../../images/arrow-down.svg') center no-repeat;
     box-shadow: 1px 1px 10px rgba(224,240,255, .1);
     cursor: pointer;
-    transition: color .7s linear;
+    transition: background-color .7s linear;
 }
 
 .button-slider:hover {

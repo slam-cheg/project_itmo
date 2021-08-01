@@ -30,14 +30,25 @@ function closeMenu(burgerMenu) {
 
 const publicationsList = document.querySelector('.publications__list');
 let templateCard = document.querySelector('#template-card').content;
-/*Открытие popup_share*/ 
-let testCard = document.querySelector('#template-card').content;
-let placeItem = templatePlace.querySelector('.card').cloneNode(true);
-let sharePublication = document.querySelector('.card__share');
-let popupShare = document.querySelector(".popup_share");
+
+/*Открытие tooltip_share тест*/ 
+
+let containerPublications = document.querySelector('.publications__list');
+let cardTestPublication = containerPublications.querySelector('.card');
+let buttonShare = cardTestPublication.querySelector('.card__share');
+let tooltipShare = document.querySelector(".tooltip");
 
  
- popupShare.addEventListener('click', function(evt) {
-   const eventTarget = evt.target;
-   eventTarget.classList.toggle('.popup_opened');
- });
+function openTooltip(tooltipShare) {
+  tooltipShare.classList.toggle('tooltip_opened');
+}
+
+buttonShare.addEventListener('click', () => {
+  openTooltip(tooltipShare)
+});
+
+
+
+
+ /*let testOpenTooltip = document.querySelector('#template-card').content;
+ let placeItem = templatePlace.querySelector('.card').cloneNode(true);*/

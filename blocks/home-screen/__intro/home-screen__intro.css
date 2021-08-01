@@ -1,3 +1,11 @@
 .home-screen__intro {
     
 }
+
+
+@media (max-width: 1050px) {
+    .home-screen__intro{
+       /*display: none*/
+       
+  }
+  
