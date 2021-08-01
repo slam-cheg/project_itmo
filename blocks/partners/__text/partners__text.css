@@ -13,3 +13,17 @@
 .partners__text:last-of-type {
   margin: 0 auto 0;
 }
+
+@media screen and (max-width: 1180px) {
+  .partners__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .partners__title {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

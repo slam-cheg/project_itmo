@@ -5,3 +5,19 @@
   top: 0px;
   margin: 0 auto 100px;
 }
+
+@media screen and (max-width: 1180px) {
+  .partners__who-we-work {
+    max-width: 690px;
+    margin-bottom: 60px;
+    min-height: 203px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .partners__who-we-work {
+    margin-bottom: 60px;
+    min-height: 234px;
+    max-width: 268px;
+  }
+}

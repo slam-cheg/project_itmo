@@ -6,3 +6,9 @@
   padding: 0px;
   max-width: 1110px;
 }
+
+@media screen and (max-width: 1180px) {
+  .partners__content {
+    max-width: 690px;;
+  }
+}

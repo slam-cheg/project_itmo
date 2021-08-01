@@ -172,6 +172,12 @@
 @import url(../blocks/partners/title/partners__title.css);
 @import url(../blocks/partners/__text/partners__text.css);
 @import url(../blocks/partners/__logo-zone/partners__logo-zone.css);
+@import url(../blocks/partners/__logo/_none/partners__logo_none.css);
+@import url(../blocks/partners/__logo/_tablet/partners__logo_tablet.css);
+@import url(../blocks/partners/__logo/partners__logo.css);
+@import url(../blocks/partners/__logo_mobile/partners__logo_mobile.css);
+@import url(../blocks/partners/__logo-zone/_mobile/partners__logo-zone_mobile.css);
+
 
 /* feedback */
 @import url(../blocks/feedback/feedback.css);
@@ -207,26 +213,8 @@
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/footer/__social-link/footer__social-link.css);
 @import url(../blocks/footer/__copyrating/footer__copyrating.css);
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
+@import url(../blocks/footer/__description-text/footer__description-text.css);
+@import url(../blocks/footer/__logo-copyrating/footer__logo-copyrating.css);
+@import url(../blocks/footer/description-copyright/_desktop/footer__description-copyright_desktop.css);
+@import url(../blocks/footer/description-copyright/_tablet/footer__description-copyright_tablet.css);
 

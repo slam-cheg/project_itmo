@@ -1,0 +1,5 @@
+@media screen and (max-width: 1180px) {
+	.footer__description-copyright_desktop {
+    display: none;
+  }
+}
