@@ -193,6 +193,7 @@
 @import url(../blocks/our-team/__button/_active/our-team__button_active.css);
 
 /* publications */
+@import url(../blocks/publications/__wrapper/publications__wrapper.css);
 @import url(../blocks/publications/publications.css);
 @import url(../blocks/publications/__title/publication__title.css);
 @import url(../blocks/publications/__list/publications__list.css);
