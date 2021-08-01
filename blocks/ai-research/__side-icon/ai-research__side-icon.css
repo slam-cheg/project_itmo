@@ -6,3 +6,9 @@
     left: -36px;
     top: 128px;
 }
+
+@media screen and (max-width:768px) {
+    .ai-research__side-icon {
+        display: none;
+    }
+}
