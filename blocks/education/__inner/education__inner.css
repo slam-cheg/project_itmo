@@ -12,7 +12,7 @@
   grid-template-areas:
   "title img"; */
  /*  grid-template-columns: 55% 1fr; */
-  grid-template-rows: 400px 1fr;
+/*   grid-template-rows: 400px 1fr; */
   /* "title se"; */ 
 /*   height: 429px;  */
     margin-top: 60px;
@@ -37,13 +37,15 @@
 @media screen and (max-width: 767px) {
   .education__inner {
     max-width: calc(100% - 80px);
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     /*   gap: 17px 20px; */
       }
   }
 @media screen and (max-width: 480px) {
   .education__inner {
     max-width: calc(100% - 32px);
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
      /*  grid-template-columns: 1fr; */
       }
   }
