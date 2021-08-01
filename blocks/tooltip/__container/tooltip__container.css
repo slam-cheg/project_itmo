@@ -1,0 +1,5 @@
+.tooltip__container {
+  background-color: #fff;
+  box-sizing: border-box;
+  z-index: 100;
+}
