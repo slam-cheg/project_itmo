@@ -1,12 +1,11 @@
 .home-screen {
+    max-width: 1110px;
+    width: 100%;
     display: flex;
     justify-content: flex-end;
     box-sizing: border-box;
     padding-top: 92px;
     border: 0;
-    background-image: url(../../images/home-screen.png);
-    background-size: cover;
-    background-position: center;
 }
 
 @media (max-width: 1100px) {
@@ -15,9 +14,7 @@
         padding-right: 0;
         padding-left: 39px;
         padding-top: 58px;
-        background-position: top right;
-        background-image: url(../../images/home-screen_image_tab.jpg);
-
+    
     }
   }
 

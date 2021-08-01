@@ -1,6 +1,5 @@
 .header__list-item {
     width: 100px;
-    height: 44px;
     position: relative;
     margin-right: 21px;
     border: none;
@@ -9,6 +8,7 @@
     justify-content: center;
     align-items: center;
     transition: background-color .5s linear;
+    border-bottom: solid 2px transparent;
 
 }
 .header__list-item:last-of-type {
@@ -27,12 +27,15 @@
     display: block;
 }
 
+/*До десктопа*/
+
 @media (max-width: 1020px) {
     .header__list-item {
        flex-direction: column;
        align-items: flex-start;
        opacity: .5;
        width: 100%;
+       min-height: 44px;
        margin-right: 0;
        padding-left: 39px;
        

@@ -13,7 +13,6 @@
     gap: 17px 20px;
     max-width: 690px;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: ;
     grid-column-gap: 30px;
 
     }

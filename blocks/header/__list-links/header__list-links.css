@@ -1,4 +1,5 @@
 .header__list-links {
+    min-height: 44px;
     list-style-type: none;
     display: flex;
     padding: 0;
