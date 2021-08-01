@@ -1,0 +1,15 @@
+.popup__image {
+    max-width: 100%;
+    background-image: url(../../../images/popup-image.png);
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+    .popup__image {
+        height: 160px;
+    }
+}
