@@ -9,3 +9,10 @@
         grid-template-columns: 1fr;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .ai-research__images-wrapper {
+        display: block;
+        gap: 0;
+    }
+}
