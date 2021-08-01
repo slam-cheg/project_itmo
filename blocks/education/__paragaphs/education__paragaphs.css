@@ -1,4 +1,6 @@
 .education__paragaphs {
+  /* max-width: 100%; */
+  width: 100%;
   font-style: normal;
   font-weight: 600;
   font-weight: bold;
@@ -6,10 +8,18 @@
   line-height: 30px;
   letter-spacing: 0.1px;
   color: #000D26;
-    
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 @media screen and (max-width: 767px) {
   .education__paragaphs {
-   /*  max-width: calc(100% - 320px); */
+    /* max-width: calc(100% - 100px); */
+  }
+}
+@media screen and (max-width: 480px) {
+  .education__paragaphs {
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 15px;
   }
 }

@@ -2,10 +2,19 @@
   color: #000D26;
   text-decoration: none;
   cursor: pointer;
-
+  margin-top: 30px;
 }
-
 .education__caph:hover {
   opacity: 0.3;
   transition: all 5s 1s;
+}
+@media screen and (max-width: 768px) {
+  .education__caph {
+    margin-top: 25px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .education__caph {
+    margin-top: 15px;
+  }
 }

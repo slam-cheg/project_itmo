@@ -1,6 +1,5 @@
 .education__link {
-  /* max-width: 90%; */
- /*  max-height: 150px; */
+  width: 920px;
   max-width: calc(100% - 260px);
   margin-top: 30px;
   margin-bottom: 0;
