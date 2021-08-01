@@ -85,7 +85,6 @@ addedProjects.reverse().forEach(item => {
     createCard(cardText, cardImage, cardImageActive, company, backgroundImg);
 
     if (document.documentElement.clientWidth >= 1180) {
-
         if (cardsContainer.children.length < 8) {
             addCard(cardText, cardImage, cardImageActive, company, backgroundImg);
         } else {

@@ -1,0 +1,14 @@
+.popup__list-item {
+    margin: 0;
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+}
+
+@media screen and (max-width: 1180px) {
+    .popup__list-item  {
+        font-size: 14px;
+        line-height: 19px;
+    }
+}
