@@ -1,9 +1,5 @@
 .home-screen__button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: #fff;
-    text-decoration: none;
     background-color: transparent;
     width: 350px;
     border: solid 1px #fff;
@@ -15,18 +11,4 @@
     line-height: 30px;
     margin-bottom: 124px;
     cursor: pointer;
-    transition: color .2s linear; 
-    transition: border .2s linear; 
 }
-
-.home-screen__button:hover {
-    border: solid 1px #009FAC;
-    color: #009FAC;
-}
-
-@media (max-width: 765px) {
-    .home-screen__button {
-        width: 288px;  
-
-    }
-  }
