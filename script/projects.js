@@ -84,20 +84,20 @@ addedProjects.reverse().forEach(item => {
 
     createCard(cardText, cardImage, cardImageActive, company, backgroundImg);
 
-    if (window.innerWidth >= 1180) {
+    if (document.documentElement.clientWidth >= 1180) {
 
         if (cardsContainer.children.length < 8) {
             addCard(cardText, cardImage, cardImageActive, company, backgroundImg);
         } else {
             return;
         }
-    } if (window.innerWidth < 1180 && window.innerWidth >= 768) {
+    } if (document.documentElement.clientWidth < 1180 && document.documentElement.clientWidth >= 768) {
         if (cardsContainer.children.length < 6) {
             addCard(cardText, cardImage, cardImageActive, company, backgroundImg);
         } else {
             return;
         }
-    } if (window.innerWidth <= 767) {
+    } if (document.documentElement.clientWidth <= 767) {
         if (cardsContainer.children.length < 4) {
             addCard(cardText, cardImage, cardImageActive, company, backgroundImg);
         } else {
