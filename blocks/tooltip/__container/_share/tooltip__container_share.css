@@ -1,0 +1,12 @@
+.tooltip__container_share{
+    min-height: 56px;
+    width: 184px;
+    border-radius: 8px;
+    position: absolute;
+    right: -60px;
+    bottom: 70px;
+    display: flex;
+
+}
+    
+    
