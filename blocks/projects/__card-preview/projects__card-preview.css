@@ -1,7 +1,10 @@
 .projects__card-preview {
+<<<<<<< HEAD
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+=======
+>>>>>>> main
     display: flex;
     justify-content: space-between;
     position: absolute;
@@ -14,6 +17,7 @@
     width: 254px;
     height: 100%;
     flex-direction: column;
+<<<<<<< HEAD
     z-index: 2;
     transition: .3s;
 }
@@ -22,4 +26,6 @@
     .projects__card-preview {
         width: 100%;
     }
+=======
+>>>>>>> main
 }

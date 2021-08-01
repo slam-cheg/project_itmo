@@ -13,6 +13,7 @@
         background-size: cover;
         background-position: top right;
     }
+<<<<<<< HEAD
 }
 
 
@@ -21,4 +22,6 @@
         height: 180px;
         grid-area: image;
     }
+=======
+>>>>>>> main
 }

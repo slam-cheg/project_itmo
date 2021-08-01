@@ -1,6 +1,7 @@
 .projects__filter-list {
     list-style: none;
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: repeat(4, 1fr);
     margin: 0;
     padding-bottom: 60px;
@@ -11,4 +12,10 @@
     .projects__filter-list{
         padding-bottom: 30px;
     }
+=======
+    grid-template-columns: repeat(4, auto);
+    margin: 0;
+    padding-bottom: 60px;
+    padding-left: 0;
+>>>>>>> main
 }

@@ -1,4 +1,5 @@
 .education__inner {
+<<<<<<< HEAD
   width: 1169px;
   height: 429px;
   margin-top: 60px;
@@ -12,3 +13,38 @@
   "title img"
   "title se";
 }
+=======
+  height: 429px;
+  margin-top: 60px;
+  display: grid;
+  column-gap: 30px;
+ /*  row-gap: 48px; */
+ box-sizing: border-box;
+  border-radius: 10px;
+  background-color: #fff;
+  grid-template-columns: repeat(auto-fit, 520px);
+  max-width: calc(100% - 130px);
+  grid-template-areas:
+  "title img";
+ /*  grid-template-columns: 55% 1fr; */
+  grid-template-rows: 400px 1fr;
+  /* "title se"; */
+}
+@media screen and (max-width: 1180px) {
+  .education__inner {
+    max-width: calc(100% - 60px);
+  }
+}
+@media screen and (max-width: 767px) {
+  .education__inner {
+    max-width: calc(100% - 80px);
+    /*   gap: 17px 20px; */
+      }
+  }
+@media screen and (max-width: 480px) {
+  .education__inner {
+    max-width: calc(100% - 32px);
+     /*  grid-template-columns: 1fr; */
+      }
+  }
+>>>>>>> main

@@ -7,6 +7,7 @@
     color: #001337;
     margin: 0 0 20px 0;
     max-width: 265px;
+<<<<<<< HEAD
     z-index: 5;
     overflow: hidden;
     white-space: normal;
@@ -17,4 +18,6 @@
     .projects__card-text {
         font-size: 12px;
     }
+=======
+>>>>>>> main
 }

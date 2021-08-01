@@ -1,7 +1,11 @@
 .ai-research__card_systems::before {
     background-image: url(../../../../images/Robot.png);
+<<<<<<< HEAD
     border-radius: 10px;
     background-position: top;
+=======
+    background-position: center;
+>>>>>>> main
     background-size: cover;
     background-repeat: no-repeat;
     top: 0;
@@ -14,10 +18,13 @@
 
 .ai-research__card_systems:hover {
     background-color: #009FAC;
+<<<<<<< HEAD
 }
 
 @media screen and (max-width: 767px) {
     .ai-research__card_systems::before{
         display: none;
     }
+=======
+>>>>>>> main
 }

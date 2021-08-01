@@ -1,4 +1,5 @@
 .projects__cards {
+<<<<<<< HEAD
     display: grid;
     grid-template-columns: repeat(4, 254px);
     gap: 30px;
@@ -9,4 +10,9 @@
     .projects__cards {
         grid-template-columns: repeat(3, minmax(210px, 100%));
     }
+=======
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+>>>>>>> main
 }

@@ -1,4 +1,5 @@
 .projects__card_active {
+<<<<<<< HEAD
     border-radius: 10px 0 0 10px;
     transition: .3s;
 }
@@ -14,4 +15,7 @@
     .projects__card_active:nth-of-type(3n) {
         border-radius: 0 10px 10px 0;   
     }
+=======
+    width: 540px;
+>>>>>>> main
 }

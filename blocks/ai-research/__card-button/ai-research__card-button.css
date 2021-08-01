@@ -25,6 +25,7 @@
     border-color: #009FAC !important;
     color: #009FAC !important;
     background-color: #fff;
+<<<<<<< HEAD
 }
 
 @media screen and (max-width: 1180px) {
@@ -34,4 +35,6 @@
         letter-spacing: 0.06px;
         height: 32px;
     }
+=======
+>>>>>>> main
 }

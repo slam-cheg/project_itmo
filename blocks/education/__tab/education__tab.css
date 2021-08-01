@@ -1,10 +1,18 @@
 .education__tab {
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+  max-width: 540px;
+  height: 60px;
+  margin-top: 35px;
+  display: flex;
+>>>>>>> main
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px; 
   z-index: 0;
+<<<<<<< HEAD
   transform: translateX(-5px);
   margin-bottom: 80px;
 =======
@@ -13,4 +21,7 @@
   margin-top: 35px;
   display: flex;
 >>>>>>> Stashed changes
+=======
+  transform: translateX(-5px)
+>>>>>>> main
 }

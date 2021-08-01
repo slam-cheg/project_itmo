@@ -51,14 +51,41 @@
 /* rotate*/
 @import url(../blocks/rotate/rotate.css);
 
+<<<<<<< HEAD
+=======
+ /* home-screen */
+ @import url(../blocks/home-screen/home-screen.css);
+ @import url(../blocks/home-screen/__intro/home-screen__intro.css);
+ @import url(../blocks/home-screen/__title/home-screen__title.css);
+ @import url(../blocks/home-screen/__text/home-screen__text.css);
+ @import url(../blocks/home-screen/__subtitle/home-screen__subtitle.css);
+ @import url(../blocks/home-screen/__button/home-screen__button.css);
+
+/* selector-card */
+@import url(../blocks/selector-card/selector-card.css);
+@import url(../blocks/selector-card/__radio/selector-card__radio.css);
+@import url(../blocks/selector-card/__radio/_active/selector-card__radio_active.css);
+@import url(../blocks/selector-card/__radio/_color/selector-card__radio_color_blue.css);
+@import url(../blocks/selector-card/_position/selector-card_position_about.css);
+@import url(../blocks/selector-card/_position/selector-card_position_publications.css);
+
+/* rotate*/
+@import url(../blocks/rotate/rotate.css);
+>>>>>>> main
 /* about */
  @import url(../blocks/about/about.css);
  @import url(../blocks/about/__title/about__title.css);
  @import url(../blocks/about/__subtitle/about__subtitle.css);
  @import url(../blocks/about/__list/about__list.css);
  @import url(../blocks/about/__news/about__news.css);
+<<<<<<< HEAD
 
 /* ai research*/
+=======
+
+/* ai research*/
+
+>>>>>>> main
 @import url(../blocks/ai-research/ai-research.css);
 @import url(../blocks/ai-research/__title/ai-research__title.css);
 @import url(../blocks/ai-research/__text/_light/ai-research__text_light.css);
@@ -68,7 +95,11 @@
 @import url(../blocks/ai-research/__image/_left/ai-research__image_left.css);
 @import url(../blocks/ai-research/__image/_right/ai-research__image_right.css);
 @import url(../blocks/ai-research/__image/ai-research__image.css);
+<<<<<<< HEAD
 @import url(../blocks/ai-research/__side-icon/ai-research__side-icon.css);
+=======
+@import url(../blocks/ai-research/__icon/ai-research__side-icon.css);
+>>>>>>> main
 @import url(../blocks/ai-research/__icon-background/ai-research__icon-background.css);
 @import url(../blocks/ai-research/__columns/ai-research__columns.css);
 @import url(../blocks/ai-research/__cards/ai-research__cards.css);
@@ -86,6 +117,7 @@
 @import url(../blocks/ai-research/__card-description/ai-research__card-description.css);
 @import url(../blocks/ai-research/__card-button/ai-research__card-button.css);
 @import url(../blocks/ai-research/__background/ai-research__background.css);
+<<<<<<< HEAD
 
 /* Наши проекты */
 @import url(../blocks/projects/projects.css);
@@ -245,4 +277,93 @@
 
   
 
+=======
+
+/* Наши проекты */
+
+@import url(../blocks/projects/projects.css);
+@import url(../blocks/projects/__title/projects__title.css);
+@import url(../blocks/projects/__filter/projects__filter.css);
+@import url(../blocks/projects/__filter-list/projects__filter-list.css);
+@import url(../blocks/projects/__filter-list-item/projects__filter-list-item.css);
+@import url(../blocks/projects/__filter-list-item/_active/projects__filter-list-item_active.css);
+@import url(../blocks/projects/__svg-container/projects__svg-container.css);
+@import url(../blocks/projects/__cards/projects__cards.css);
+@import url(../blocks/projects/__card/projects__card.css);
+@import url(../blocks/projects/__card/_active/projects__card_active.css);
+@import url(../blocks/projects/__card-text/projects__card-text.css);
+@import url(../blocks/projects/__card-link/projects__card-link.css);
+@import url(../blocks/projects/__card-preview/projects__card-preview.css);
+@import url(../blocks/projects/__card-logo/projects__card-logo.css);
+@import url(../blocks/projects/__card-logo/_active/projects__card-logo_active.css);
+@import url(../blocks/projects/__card-text/_preview/projects__card-text_preview.css);
+@import url(../blocks/projects/__card-content/projects__card-content.css);
+@import url(../blocks/projects/__card-button/projects__card-button.css);
+@import url(../blocks/projects/__link-img/projects__link-img.css);
+
+
+/* card */
+@import url(../blocks/card/card.css);
+
+@import url(../blocks/card/__img/card__img.css);
+@import url(../blocks/card/__info/card__info.css);
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__title/_lower/card__title_lower.css);
+@import url(../blocks/card/__description/card__description.css);
+@import url(../blocks/card/__icon-fixed/card__icon-fixed.css);
+@import url(../blocks/card/_position/card_position_about.css);
+@import url(../blocks/card/_position/card_position_publications.css);
+
+/* button-slider */
+@import url(../blocks/button-slider/button-slider.css);
+@import url(../blocks/button-slider/__rotate/button-slider_rotate.css);
+@import url(../blocks/button-slider/_forward/button-slider_forward.css);
+@import url(../blocks/button-slider/_theme/button-slider_theme_dark.css);
+
+
+/*education*/
+@import url(../blocks/education/education.css);
+@import url(../blocks/education/__link/education__link.css);
+@import url(../blocks/education/__inner/education__inner.css);
+@import url(../blocks/education/__title/education__title.css);
+@import url(../blocks/education/__img/education__img.css);
+@import url(../blocks/education/__inner/_pic/education__inner_pic.css);
+@import url(../blocks/education/__paragaph/education__paragaph.css);
+@import url(../blocks/education/__paragaphs/education__paragaphs.css);
+@import url(../blocks/education/__item/education__item.css);
+@import url(../blocks/education/__list/education__list.css);
+@import url(../blocks/education/__caph/education__caph.css);
+@import url(../blocks/education/__tab/education__tab.css);
+@import url(../blocks/education/__tab_a/education__tab_a.css);
+@import url(../blocks/education/__tab_b/education__tab_b.css);
+@import url(../blocks/education/__tab/_active/education__tab_active.css);
+
+/*our-team*/
+@import url(../blocks/our-team/__div/our-team__div.css);
+@import url(../blocks/our-team/our-team.css);
+@import url(../blocks/our-team/__aside/our-team__aside.css);
+@import url(../blocks/our-team/__img/our-team__img.css);
+@import url(../blocks/our-team/__list/our-team__list.css);
+@import url(../blocks/our-team/__lists/our-team__lists.css);
+@import url(../blocks/our-team/__name/our-team__name.css);
+@import url(../blocks/our-team/__text/our-team__text.css);
+@import url(../blocks/our-team/__title/our-team__title.css);
+@import url(../blocks/our-team/__slider/our-team__slider.css);
+@import url(../blocks/our-team/__slider/_about/our-team__slider_about.css);
+@import url(../blocks/our-team/__control-left/our-team__control-left.css);
+@import url(../blocks/our-team/__control-right/our-team__control-right.css);
+@import url(../blocks/our-team/__button/our-team__button.css);
+@import url(../blocks/our-team/__button/_active/our-team__button_active.css);
+
+/* publications */
+@import url(../blocks/publications/publications.css);
+@import url(../blocks/publications/__title/publication__title.css);
+@import url(../blocks/publications/__list/publications__list.css);
+@import url(../blocks/publications/__articles/publications__articles.css);
+
+
+
+/* footer */
+@import url(../blocks/logo/_place/logo_place_footer.css);
+>>>>>>> main
 

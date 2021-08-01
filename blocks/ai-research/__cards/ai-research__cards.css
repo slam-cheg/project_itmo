@@ -5,6 +5,7 @@
     padding-bottom: 80px;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 1280px) {
     .ai-research__cards {
         grid-template-columns: repeat(4, minmax(130px, 255px));
@@ -18,4 +19,11 @@
         padding-bottom: 40px;
         gap: 8px;
     }
+=======
+@media screen and (max-width: 1180px) {
+    .ai-research__cards {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(150px, 255px));
+    }   
+>>>>>>> main
 }

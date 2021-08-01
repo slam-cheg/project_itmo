@@ -11,7 +11,10 @@
 
 @media (max-width: 765px) {
     .home-screen__title {
+<<<<<<< HEAD
         max-width: 288px;
+=======
+>>>>>>> main
         font-size: 32px;
         line-height: 43px;
        

@@ -8,6 +8,7 @@
     padding: 12px 16px;
     box-sizing: border-box;
     cursor: pointer;
+<<<<<<< HEAD
     background-color: transparent;
     border: none;
 }
@@ -25,4 +26,6 @@
         line-height: 16px;
 
     }
+=======
+>>>>>>> main
 }
