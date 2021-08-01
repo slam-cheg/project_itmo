@@ -1,13 +1,5 @@
 .projects__card-button {
-<<<<<<< HEAD
-    background-color: #FFFFFF;
-    background-image: url(../../../images/arrow-emerald-right.svg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 24px;
-=======
     background: #FFFFFF;
->>>>>>> main
     box-shadow: 0px 4px 20px rgb(1 54 157 / 15%);
     border-radius: 36px;
     border: none;
@@ -17,17 +9,4 @@
     display: flex;
     justify-content: center;
     align-items: center;
-<<<<<<< HEAD
-    cursor: pointer;
-    z-index: 6;
-    transition: .3s;
-}
-
-@media screen and (max-width: 1180px) {
-    .projects__card-button {
-        width: 32px;
-        height: 32px;
-    }
-=======
->>>>>>> main
 }

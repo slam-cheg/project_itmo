@@ -1,8 +1,4 @@
 .education__paragaph {
-<<<<<<< HEAD
-  width: 635px;
-}
-=======
   /* width: 60%; */
   display: grid;
   justify-items: start;
@@ -15,4 +11,3 @@
      /*  max-width: calc(100% - 320px); */
     }
   }
->>>>>>> main

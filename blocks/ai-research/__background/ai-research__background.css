@@ -3,22 +3,8 @@
     margin: 0 auto;
 }
 
-<<<<<<< HEAD
-@media screen and (max-width: 1200px) {
-    .ai-research__background {
-        max-width: calc(100% - 80px);
-    }
-}
-
-@media screen and (max-width:768px) {
-    .ai-research__background {
-        max-width: calc(100% - 32px);
-    }
-}
-=======
 @media screen and (max-width: 1180px) {
     .ai-research__background {
         max-width: calc(100% - 160px);
     }
 }
->>>>>>> main

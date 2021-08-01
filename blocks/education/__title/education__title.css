@@ -1,19 +1,11 @@
 .education__title {
-<<<<<<< HEAD
-  max-width: 472px;
-=======
   /* max-width: 472px; */
->>>>>>> main
   max-height: 66px;
   margin-top: 80px;
   margin-bottom: 0;
   display: flex;
   align-self: center;
   color: #fff;
-<<<<<<< HEAD
-  font-family: Open Sans;
-=======
->>>>>>> main
   font-style: normal;
   font-weight: 600;
   font-size: 36px;
@@ -21,8 +13,6 @@
   text-align: center;
   letter-spacing: 0.1px;
   text-transform: uppercase;
-<<<<<<< HEAD
-=======
   max-width: calc(100% - 67%);
 }
 @media screen and (max-width: 767px) {
@@ -39,5 +29,4 @@
     font-size: 16px;
     line-height: 22px;
   }
->>>>>>> main
 }

@@ -1,26 +1,15 @@
 .education__link {
-<<<<<<< HEAD
-  max-width: 920px;
-  max-height: 150px;
-=======
   /* max-width: 90%; */
  /*  max-height: 150px; */
   max-width: calc(100% - 260px);
->>>>>>> main
   margin-top: 30px;
   margin-bottom: 0;
   display: flex;
   color: #fff;
-<<<<<<< HEAD
-  font-family: Open Sans;
-=======
->>>>>>> main
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-<<<<<<< HEAD
-=======
  
 }
 @media screen and (max-width: 1180px) {
@@ -42,5 +31,4 @@
     font-size: 12px;
     line-height: 16px;
   }
->>>>>>> main
 }

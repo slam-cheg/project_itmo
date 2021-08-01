@@ -7,25 +7,11 @@
     background:  url('../../images/arrow-down.svg') center no-repeat;
     box-shadow: 1px 1px 10px rgba(224,240,255, .1);
     cursor: pointer;
-<<<<<<< HEAD
-    transition: color .7s linear;
-}
-
-.button-slider:hover {
-    background-color: #009FAC;
-    background-image: url('../../images/arrow-down.svg');
-
-}
-@media screen and (max-width: 1023px) {
-    .button-slider {
-         display: none;
-=======
 }
     
 @media screen and (max-width: 767px) {
     .button-slider {
             display: none;
->>>>>>> main
             
     }
 }

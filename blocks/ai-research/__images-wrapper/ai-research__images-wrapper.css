@@ -8,14 +8,4 @@
     .ai-research__images-wrapper {
         grid-template-columns: 1fr;
     }
-<<<<<<< HEAD
-}
-
-@media screen and (max-width: 767px) {
-    .ai-research__images-wrapper {
-        display: block;
-        gap: 0;
-    }
-=======
->>>>>>> main
 }

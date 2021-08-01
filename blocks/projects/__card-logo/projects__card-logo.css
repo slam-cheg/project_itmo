@@ -1,17 +1,3 @@
 .projects__card-logo {
-<<<<<<< HEAD
-    height: 48px;
-    align-self: flex-start;
-    z-index: 3;
-    transition: .3s;
-}
-
-@media screen and (max-width:1180px) {
-    .projects__card-logo {
-        max-height: 48px;
-        max-width: 100%;
-    }
-=======
     fill: #fff;
->>>>>>> main
 }

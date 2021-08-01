@@ -1,27 +1,22 @@
 .education__tab {
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
   max-width: 540px;
   height: 60px;
   margin-top: 35px;
   display: flex;
->>>>>>> main
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px; 
   z-index: 0;
-<<<<<<< HEAD
-  transform: translateX(-5px);
-  margin-bottom: 80px;
-=======
-  max-width: 540px;
-  max-height: 60px;
-  margin-top: 35px;
-  display: flex;
->>>>>>> Stashed changes
-=======
   transform: translateX(-5px)
->>>>>>> main
+}
+@media screen and (max-width: 767px) {
+  .education__tab {
+    max-width: calc(100% - 160px);
+  }
+}
+@media screen and (max-width: 740px) {
+  .education__tab {
+    max-width: calc(100% - 32px);
+  }
 }

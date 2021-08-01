@@ -1,13 +1,7 @@
 .education__tab_a {
   width: 270px;
-<<<<<<< HEAD
-  max-height: 60px;
-  display: flex;
-  font-family: Open Sans;
-=======
   height: 60px;
   display: flex;
->>>>>>> main
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -15,9 +9,6 @@
   align-items: center;
   text-align: center;
   letter-spacing: 0.1px;
-<<<<<<< HEAD
-  border-radius: 10px;
-=======
   cursor: pointer;
   justify-content: center;
   background: #E0F0FF;
@@ -42,5 +33,4 @@
     line-height: 16px;
     max-width: calc(100% - 32px);
   }
->>>>>>> main
 }

@@ -2,12 +2,8 @@
     text-decoration: none;
     color: #fff;
     font-weight: 400;
-<<<<<<< HEAD
-    font-size: 14px;
-    line-height: 19px;
-    text-align: center;
-=======
->>>>>>> main
 }
 
-
+link:hover {
+    text-decoration: underline;
+}

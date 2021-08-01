@@ -3,10 +3,7 @@
     justify-content: flex-end;
     box-sizing: border-box;
     padding-top: 92px;
-<<<<<<< HEAD
-=======
     padding-right: 165px;
->>>>>>> main
     border: 0;
     background-image: url(../../images/home-screen.png);
     background-size: cover;
@@ -18,20 +15,6 @@
         justify-content: flex-start;
         padding-right: 0;
         padding-left: 39px;
-<<<<<<< HEAD
-        background-position: top right;
-        background-image: url(../../images/home-screen_image_tab.jpg);
 
     }
-  }
-
-  @media (max-width: 460px) {
-    .home-screen {
-        justify-content: center;
-        padding-left: 0;
-    }
-=======
-
-    }
->>>>>>> main
   }

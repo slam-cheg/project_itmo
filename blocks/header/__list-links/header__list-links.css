@@ -4,31 +4,15 @@
     padding: 0;
     margin-top: 0;
     margin-bottom: 0;
-    background-color: #000D26;;
-    box-sizing: border-box;
+    margin-right: 165px;
 
 }
 
 
 @media (max-width: 1023px) {
     .header__list-links{
-<<<<<<< HEAD
-       width: 100%;
-       flex-direction: column;
-       justify-items: flex-start;
-       padding-left: 39px;
-     
-    }
-  }
-  
-  /*transform-origin: 0% 0%;
-  transform: translate(-100%, 0);
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
-=======
        display: none;
        
 
     }
   }
->>>>>>> main

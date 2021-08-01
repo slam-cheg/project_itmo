@@ -8,6 +8,8 @@
     position: absolute;
     cursor: pointer;
     z-index: 1;
+    opacity: .7;
+    transition: .5s linear;
 
 }
 
@@ -19,7 +21,14 @@
     }
 }
 
-.header__button-burger:active { 
-    transform: none;
-  }
+@media screen and (max-width: 767px) {
+    .header__button-burger  {
+       display: block;
+       align-self: center;
+       left: 16px;
+    }
+}
 
+.header__button-burger:hover {
+    opacity: 1;
+}
