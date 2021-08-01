@@ -1,4 +1,12 @@
 .projects__card-text_preview {
     color: #FFFFFF;
     margin-bottom: 0;
+    max-height: 80px;
+}
+
+@media screen and (max-width: 767px) {
+    .projects__card-text_preview {
+        max-height: 56px;
+        max-width: 120px;
+    }
 }

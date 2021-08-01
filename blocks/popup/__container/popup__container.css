@@ -1,0 +1,26 @@
+.popup__container {
+    background-color: #fff;
+    width: 1110px;
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1180px) {
+    .popup__container {
+        width: 690px;
+        grid-template-columns: 200px 1fr;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .popup__container {
+        width: 300px;
+        grid-template-columns: none;
+    }
+}
