@@ -5,3 +5,10 @@
 	line-height: 19px;
 	color: #FFF;
 }
+
+@media screen and (max-width: 1180px) {
+	.footer__link_title {
+		font-size: 12px;
+		line-height: 16px;
+	}
+}
