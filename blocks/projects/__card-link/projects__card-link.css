@@ -9,17 +9,3 @@
     color: #001337;
     text-decoration: none;
 }
-
-@media screen and (max-width: 1180px) {
-    .projects__card-link {
-        font-size: 12px;
-        line-height: 16px;
-        letter-spacing: 0.1px;
-    }
-}
-
-@media screen and (max-width: 767px) {
-    .projects__card-link {
-        display: none;
-    }
-}

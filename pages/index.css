@@ -53,7 +53,7 @@
 @import url(../blocks/ai-research/__image/_left/ai-research__image_left.css);
 @import url(../blocks/ai-research/__image/_right/ai-research__image_right.css);
 @import url(../blocks/ai-research/__image/ai-research__image.css);
-@import url(../blocks/ai-research/__side-icon/ai-research__side-icon.css);
+@import url(../blocks/ai-research/__icon/ai-research__side-icon.css);
 @import url(../blocks/ai-research/__icon-background/ai-research__icon-background.css);
 @import url(../blocks/ai-research/__columns/ai-research__columns.css);
 @import url(../blocks/ai-research/__cards/ai-research__cards.css);
@@ -104,8 +104,6 @@
 @import url(../blocks/pagination/__arrow/pagination__arrow.css);
 @import url(../blocks/pagination/__arrow/_left/pagination__arrow_left.css);
 @import url(../blocks/pagination/__arrow/_right/pagination__arrow_right.css);
-@import url(../blocks/projects/__filter-selection/projects__filter-selection.css);
-@import url(../blocks/projects/__filter-selection-item/projects__filter-selection-item.css);
 
 
 /* card */

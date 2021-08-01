@@ -73,7 +73,6 @@ addedProjects = [
 
 // Подгружаем карточки проектов из массива на сайт
 
-/*
 addedProjects.reverse().forEach(item => {
     cardText = item.text;
     cardImage = item.image;
@@ -84,29 +83,6 @@ addedProjects.reverse().forEach(item => {
 
     createCard(cardText, cardImage, cardImageActive, company, backgroundImg);
     addCard(cardText, cardImage, cardImageActive, company, backgroundImg);
-}); */
-
-addedProjects.reverse().filter(item => {
-
-    if (window.screen.width) {
-
-    } else {
-
-    }
-
-    for (let i = 0; i <= 1; i++) {
-
-        cardText = item.text;
-        cardImage = item.image;
-        cardImageActive = item.activeImage;
-        company = item.company;
-        backgroundImg = item.background;
-        type = item.projectType;
-
-        createCard(cardText, cardImage, cardImageActive, company, backgroundImg);
-        addCard(cardText, cardImage, cardImageActive, company, backgroundImg);
-    }
-
 });
 
 function createCard(cardText, cardImage, cardImageActive, company, backgroundImg) {
@@ -129,7 +105,6 @@ function createCard(cardText, cardImage, cardImageActive, company, backgroundImg
 };
 
 function addCard() { // функция создания карточек
-
     const card = createCard(cardText, cardImage, cardImageActive, company, backgroundImg);
     cardsContainer.prepend(card); // создаю карточку с записанными данными в параметр cardElement
 }
@@ -158,6 +133,7 @@ function openProject(event) {
     activeLogo.classList.add('projects__card-logo_deactive');
 
 }
+
 
 function checkOpening(event) {
 

@@ -14,9 +14,3 @@
 .ai-research__card_calculations:hover {
     background-color: #009FAC;
 }
-
-@media screen and (max-width: 767px) {
-    .ai-research__card_calculations::before{
-        display: none;
-    }
-}
