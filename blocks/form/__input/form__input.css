@@ -1,7 +1,7 @@
 .form__input {
   background: #FFFFFF;
   border-radius: 10px;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -16,7 +16,7 @@
 /* Chrome, Firefox, Opera, Safari 10.1+ */
 .form__input::placeholder {
   color: #009FAC;
-  font-family: "Open Sans";
+  font-family: 'Open Sans', Arial, sans-serif;
 }
  
 /* Internet Explorer 10-11 */

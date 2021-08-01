@@ -1,6 +1,7 @@
 .footer__description {
   max-width: 263px;
-  
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #fff;
 	margin: 0;
 	margin-right: 16px;
 }
