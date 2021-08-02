@@ -31,6 +31,7 @@ function closeMenu(burgerMenu) {
 /*Контейнер с карточками публикациями*/ 
 let containerPublications = document.querySelector('.publications__list');
 
+
 let cardTestPublication = containerPublications.querySelector('.card');
 let buttonShare = cardTestPublication.querySelector('.card__share');
 let tooltipShare = document.querySelector(".tooltip");
@@ -44,37 +45,34 @@ buttonShare.addEventListener('click', () => {
   openTooltip(tooltipShare)
 });
 
-/*Контейнер с карточками о нас*/ 
-const aboutList = document.querySelector('.about__list');
-let templateCardAbout = document.querySelector('#template-card-about').content;
-
 
 /*Функция создания карточки для блока о нас*/ 
 
 /*Массив готовый*/ 
 const aboutCardsArr = [
-  {
-    date: `Понедельник, 5 июля 2021г`,
-    title: `ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…`,
+
+  { 
+    date: 'Понедельник, 5 июля 2021г',
+    title: 'ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…',
     text: `Университет ИТМО провел научно-исследовательскую стажировку
           для группы магистрантов из Евразийского национального университета имени Л.Н.
       Гумилева.Ведущие преподаватели
           в течение десяти дней рассказывали им об основах машинного обучения.`,
     
   },
-  {
-    date: `Понедельник, 5 июля 2021г`,
-    title: `АВТОРЫ РОБОТА-МУЗЫКАНТА РОБЕРТА РОБОТЕЦКОГО ПРИЗНАНЫ ЛУЧШИМИ НОВИЧ…`,
+  
+  { 
+    date: 'Понедельник, 5 июля 2021г',
+    title: 'АВТОРЫ РОБОТА-МУЗЫКАНТА РОБЕРТА РОБОТЕЦКОГО ПРИЗНАНЫ ЛУЧШИМИ НОВИЧ…',
     text: `Команда ИТМО стала лучшей на
 международном финале RoboCup-2021. Успех
 ребятам принес Роберт Роботецкий — робот-виртуоз,
 исполнивший знаменитый французский романс «Под небом Парижа». В подготовке команды участвовали сотрудники...`,
     
   },
-
-  {
-    date: `Суббота, 3 июля 2021г`,
-    title: `ВОЗВРАЩЕНИЕ НА ПЕТРОПАВЛОВКУ: КАК ПРОШЕЛ ВЫПУСКНОЙ ITMO. LIVE — 2021`,
+  { 
+    date: 'Суббота, 3 июля 2021г',
+    title: 'ВОЗВРАЩЕНИЕ НА ПЕТРОПАВЛОВКУ: КАК ПРОШЕЛ ВЫПУСКНОЙ ITMO. LIVE — 2021',
     text: `Команда ИТМО сделала многое, чтобы вернуть
 формат выпускного этого и прошлого года. Из-за
 эпидемиологической ситуации отменена развлекательная часть,
@@ -82,26 +80,30 @@ const aboutCardsArr = [
 дипломы из рук деканов и услышать поздравления ректора.`,
     
   },
+
+
 ];
 /*Функция создания карточки*/ 
-function createCard(data) {
+
+/*Контейнер с карточками о нас*/ 
+const aboutList = document.querySelector('.about__list');
+let templateCardAbout = document.querySelector('#template-card-about').content;
+
+function createCard(item) {
   let aboutItem = templateCardAbout.querySelector('.card').cloneNode(true);
   /*берем данные из словаря или формы для рендеринга контента карточки*/
 
-  let aboutDate = aboutItem.querySelector('.card__info');
-  let aboutTitle = aboutItem.querySelector('.card__title');
-  let aboutDescription = aboutItem.querySelector('.card__desription');
-
-  aboutTitle.textContent = data.title,
-  aboutDate.textContent = data.date,
-  aboutDescription.textContent = data.text;
+  aboutItem.querySelector('.card__info').textContent = item.date;
+  aboutItem.querySelector('.card__title').textContent = item.title;
+  aboutItem.querySelector('.card__description').textContent = item.text;
 
   return aboutItem;
+
 }
 
-function addCard (data, container) {
-  let cardAbout = createCard(data);
-  container.prepend(cardAbout);
+function addCard (item, container) {
+  let cardAbout = createCard(item);
+  container.append(cardAbout);
 }
 
 

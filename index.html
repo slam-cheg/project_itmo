@@ -66,9 +66,8 @@
       <div class = "about__news">
         <button type = "button" class="button-slider"></button>
         <!-- Три карточки для теста верстки и адаптивности, потом их надо закомментить и  юзать темплате-->
-        <ul class=about__list>
-
-          <li class="card card_about">
+        <ul class = "about__list">
+          <!--<li class="card card_about">
             <button class="card__icon-fixed"></button>
             <p class="card__info">Понедельник, 5 июля 2021г</p>
             <h3 class=card__title>ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</h3>
@@ -90,13 +89,13 @@
             <h3 class=card__title>ВОЗВРАЩЕНИЕ НА ПЕТРОПАВЛОВКУ: КАК ПРОШЕЛ ВЫПУСКНОЙ ITMO. LIVE — 2021</h3>
             <p class="card__description">Команда ИТМО сделала многое, чтобы вернуть формат выпускного этого и прошлого года. Из-за эпидемиологической
             ситуации отменена развлекательная часть, но сохранилась торжественная. Выпускники смогли получить дипломы из рук деканов и услышать поздравления ректора.</p>
-          </li>
+          </li>-->
 
           <!-- Собственнно темплейт, который должен заработать через JS, все три карточки выше потом комментим-->
           <template id="template-card-about">
             <li class="card card_about">
               <button class="card__icon-fixed"></button>
-              <p class="card__card__info"></p>
+              <p class="card__info"></p>
               <h3 class=card__title></h3>
               <p class="card__description"></p>
            </li>
@@ -319,17 +318,17 @@
       <ul class="publications__list">
 
          <!-- Первая карточка-->  
-
-        <li class="card card_position_publications">
+         
+         <li class="card card_position_publications">
           <div class = "card__image-container"> 
             <img src="images/publications/1_карточка.jpg" alt="" class = "card__image">
           </div>   
           <div class="card__article">
-            <h3 class="card__title card__title_lower">Topic-driven Ensemble for Online Advertising Generation</h3>
-            <p class="card__info card__info_place">Egor Nevezhin, Nikolay Butakov, Maria Khodorchenko, Maxim Petrov, Denis Nasonov</p>
-            <p class="card__description">Online advertising is one of the most widespread ways to reach and increase a target audience 
-            for those selling products. Usually having a form of a banner, advertising engages users into visiting a corresponding webpage.
-            Professional generation of banners requires creative and writing skills and a basi… </p>
+            <h3 class="card__title card__title_lower">Convolutional neural networks with hierarchical context transfe…</h3>
+            <p class="card__info card__info_place"> Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov</p>
+            <p class="card__description">In this work, we consider a problem of predicting the next state of a given area 
+              using retrospective information. The proposed concept of hierarchical context transfer (HCT) operates on several 
+              spatial levels of the input data to overcome major issues of next state prediction problems - density variability, a sig…</p>
           </div>
         <!-- Контейнер с тултипом-->  
         <div class = "card__read-more">
@@ -339,8 +338,7 @@
             <button type = "button" class = "card__share"></button>
         </div>   
          <!-- Тултип-->
-        <div class="tooltip">
-          <div class="tooltip__container tooltip__container_share">
+          <div class="tooltip">
             <ul class ="tooltip__list-links">
               <a href="" > <img src="images/vk.svg" alt="" class="tooltip__icon"></a>
               <a href="" > <img src="images/facebook.svg" alt="" class="tooltip__icon"></a>
@@ -349,7 +347,7 @@
               <a href="" > <img src="images/You Tube.svg" alt="" class="tooltip__icon"></a>
             </ul>
           </div>
-        </div>   
+           
         </li>
         <!-- Вторая картчока-->  
         <li class="card card_position_publications">
@@ -371,8 +369,7 @@
             <button type = "button" class = "card__share"></button>
         </div>   
          <!-- Тултип-->
-        <div class="tooltip">
-          <div class="tooltip__container tooltip__container_share">
+          <div class="tooltip">
             <ul class ="tooltip__list-links">
               <a href="" > <img src="images/vk.svg" alt="" class="tooltip__icon"></a>
               <a href="" > <img src="images/facebook.svg" alt="" class="tooltip__icon"></a>
@@ -381,9 +378,9 @@
               <a href="" > <img src="images/You Tube.svg" alt="" class="tooltip__icon"></a>
             </ul>
           </div>
-        </div>   
+           
         </li>
-         <!-- Вторая картчока-->  
+         <!-- Третья картчока-->  
          <li class="card card_position_publications">
           <div class = "card__image-container"> 
             <img src="images/publications/3_карточка.jpg" alt="" class = "card__image">
@@ -403,17 +400,15 @@
             <button type = "button" class = "card__share"></button>
         </div>   
          <!-- Тултип-->
-        <div class="tooltip">
-          <div class="tooltip__container tooltip__container_share">
-            <ul class ="tooltip__list-links">
-              <a href="" > <img src="images/vk.svg" alt="" class="tooltip__icon"></a>
-              <a href="" > <img src="images/facebook.svg" alt="" class="tooltip__icon"></a>
-              <a href="" > <img src="images/Telegram.svg" alt="" class="tooltip__icon"></a>
-              <a href="" > <img src="images/instagram.svg" alt="" class="tooltip__icon"></a>
-              <a href="" > <img src="images/You Tube.svg" alt="" class="tooltip__icon"></a>
-            </ul>
-          </div>
-        </div>   
+         <div class="tooltip">
+          <ul class ="tooltip__list-links">
+            <a href="" > <img src="images/vk.svg" alt="" class="tooltip__icon"></a>
+            <a href="" > <img src="images/facebook.svg" alt="" class="tooltip__icon"></a>
+            <a href="" > <img src="images/Telegram.svg" alt="" class="tooltip__icon"></a>
+            <a href="" > <img src="images/instagram.svg" alt="" class="tooltip__icon"></a>
+            <a href="" > <img src="images/You Tube.svg" alt="" class="tooltip__icon"></a>
+          </ul>
+        </div>
         </li>
        
       </ul>
@@ -447,17 +442,15 @@
             <button type = "button" class = "card__share"></button>
         </div>   
          <!-- Тултип-->
-        <div class="tooltip">
-          <div class="tooltip__container tooltip__container_share">
-            <ul class ="tooltip__list-links">
-              <a href="" > <img src="images/vk.svg" alt="Иконка ВК" class="tooltip__icon"></a>
-              <a href="" > <img src="images/facebook.svg" alt="Иконка Facebook" class="tooltip__icon"></a>
-              <a href="" > <img src="images/Telegram.svg" alt="Иконка Telegram" class="tooltip__icon"></a>
-              <a href="" > <img src="images/instagram.svg" alt="Иконка instagram" class="tooltip__icon"></a>
-              <a href="" > <img src="images/You Tube.svg" alt="Иконка You Tube" class="tooltip__icon"></a>
-            </ul>
-          </div>
-        </div>   
+         <div class="tooltip">
+          <ul class ="tooltip__list-links">
+            <a href="" > <img src="images/vk.svg" alt="" class="tooltip__icon"></a>
+            <a href="" > <img src="images/facebook.svg" alt="" class="tooltip__icon"></a>
+            <a href="" > <img src="images/Telegram.svg" alt="" class="tooltip__icon"></a>
+            <a href="" > <img src="images/instagram.svg" alt="" class="tooltip__icon"></a>
+            <a href="" > <img src="images/You Tube.svg" alt="" class="tooltip__icon"></a>
+          </ul>
+        </div>
         </li>
       </template>
 

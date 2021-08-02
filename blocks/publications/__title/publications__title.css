@@ -8,8 +8,20 @@
     text-align: center;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
     .publications__title {
-        max-width: 690px;   
+        max-width: 690px;  
+        font-size: 24px;
+        line-height: 32px; 
+
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .publications__title {
+        max-width: 690px;  
+        font-size: 16px;
+        line-height: 21px; 
+
     }
 }

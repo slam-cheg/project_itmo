@@ -6,4 +6,5 @@
     box-sizing: border-box;
     border-radius: 10px;
     transition: heigth .7s linear;
+    margin-bottom: 20px;
 }

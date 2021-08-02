@@ -8,7 +8,6 @@
  /* logo */
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
-@import url(../blocks/logo/_place/logo_place_footer.css);
 @import url(../blocks/logo/_place/logo_place_nav-bar.css);
 @import url(../blocks/logo/_active/logo_active.css);
 /* link */
@@ -17,8 +16,6 @@
 @import url(../blocks/link/_place/link_place_second-menu.css);
 
  /* header */
-
-@import url(../blocks/header/_content/header_content.css);
 @import url(../blocks/header/__list-links/header__list-links.css);
 @import url(../blocks/header/__list-item/header__list-item.css);
 @import url(../blocks/header/__button-burger/header__button-burger.css);
@@ -194,7 +191,7 @@
 /* publications */
 @import url(../blocks/publications/__wrapper/publications__wrapper.css);
 @import url(../blocks/publications/publications.css);
-@import url(../blocks/publications/__title/publication__title.css);
+@import url(../blocks/publications/__title/publications__title.css);
 @import url(../blocks/publications/__list/publications__list.css);
 @import url(../blocks/publications/__articles/publications__articles.css);
 
@@ -253,7 +250,5 @@
 /* tooltip*/
 @import url(../blocks/tooltip/tooltip.css);
 @import url(../blocks/tooltip/_opened/tooltip_opened.css);
-@import url(../blocks/tooltip/__container/tooltip__container.css);
-@import url(../blocks/tooltip/__container/_share/tooltip__container_share.css);
 @import url(../blocks/tooltip/__list-links/tooltip__list-links.css);
 @import url(../blocks/tooltip/__icon/tooltip__icon.css);
