@@ -6,6 +6,7 @@
     text-decoration: none;
     background-color: transparent;
     width: 350px;
+    margin-bottom: 124px;
     border: solid 1px #fff;
     border-radius: 10px;
     height: 60px;
@@ -13,7 +14,6 @@
     font-size: 18px;
     font-weight: 600;
     line-height: 30px;
-    margin-bottom: 124px;
     cursor: pointer;
     transition: color .2s linear; 
     transition: border .2s linear; 
@@ -24,9 +24,17 @@
     color: #009FAC;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 1023px) {
     .home-screen__button {
         width: 288px;  
+        margin-bottom: 120px;
+
+    }
+  }
+@media (max-width: 460px) {
+    .home-screen__button {
+        width: 288px;  
+        margin-bottom: 60px;
 
     }
   }

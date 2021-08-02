@@ -7,3 +7,11 @@
     padding-bottom: 20px;
     border-bottom: solid 2px #009FAC;
 }
+
+@media (max-width: 460px) {
+    .card__title  {
+        font-size: 14px;
+        line-height: 19px;
+
+    }
+  }

@@ -1,5 +1,8 @@
 .about {
-    display: grid;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #001337;
 }
+

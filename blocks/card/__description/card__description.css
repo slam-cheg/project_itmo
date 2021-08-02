@@ -5,4 +5,11 @@
     font-weight: 400;
     
 }
-}
+
+@media (max-width: 460px) {
+    .card__description  {
+        font-size: 12px;
+        line-height: 16px;
+
+    }
+  }
