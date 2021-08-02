@@ -14,8 +14,8 @@
 
 @media screen and (max-width: 498px) {
   .footer__description-copyright_tablet {
-    max-width: 140px;
-    padding-left: 25px;
+    max-width: 160px;
+    padding-left: 40px;
     box-sizing: border-box;
   }
 }

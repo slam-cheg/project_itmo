@@ -1,14 +1,10 @@
 .footer__description-copyright {
-  color: #FFFFFF;
-	font-family: "Open Sans";
+	color: #FFFFFF;
+	font-family: 'Open Sans', Arial, sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 19px;
-	margin: 0 0 30px;
-}
-
-.footer__description-copyright:last-of-type {
 	margin: 0;
 }
 
