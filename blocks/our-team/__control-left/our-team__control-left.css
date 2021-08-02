@@ -7,9 +7,12 @@
   background: url(../../../images/arrow-down.svg) center no-repeat;
   box-shadow: 1px 1px 10px rgb(224 240 255 / 10%);
   cursor: pointer;
+  position: absolute;
+  left: 0;
 }
-@media screen and (max-width: 1180px) {
-  .our-team__control-left {
 
+@media screen and (max-width: 1270px) {
+  .our-team__control-left {
+    display: none;
   }
 }

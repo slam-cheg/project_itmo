@@ -1,7 +1,13 @@
 .our-team__aside {
-  width: 100%;
-  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  width: 1262px;
+}
+
+@media screen and (max-width: 1180px) {
+  .our-team__aside {
+    width: 100%;
+  }
 }

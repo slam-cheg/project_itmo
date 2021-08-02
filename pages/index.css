@@ -187,6 +187,7 @@
 @import url(../blocks/our-team/__control-right/our-team__control-right.css);
 @import url(../blocks/our-team/__button/our-team__button.css);
 @import url(../blocks/our-team/__button/_active/our-team__button_active.css);
+@import url(../blocks/our-team/__sub-profession/our-team__sub-profession.css);
 
 /* publications */
 @import url(../blocks/publications/__wrapper/publications__wrapper.css);

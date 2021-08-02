@@ -1,6 +1,5 @@
 .our-team__text {
- /*  width: 245px; */
- font-family: 'Open Sans', Arial, sans-serif;
+  font-family: 'Open Sans', Arial, sans-serif;
   font-style: italic;
   font-weight: normal;
   font-size: 14px;
@@ -12,13 +11,15 @@
   margin-top: 4px;
   margin-bottom: 0;
 }
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1180px) {
   .our-team__text {
     font-size: 12px;
     line-height: 145%;
   }
 }
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 767px) {
   .our-team__text {
     font-size: 10px;
     line-height: 14px;

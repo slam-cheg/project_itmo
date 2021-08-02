@@ -1,5 +1,5 @@
 .our-team__control-right {
-  transform: rotate(180deg);
+  transform: rotate( 180deg);
   width: 60px;
   height: 60px;
   border-radius: 30px;
@@ -8,4 +8,12 @@
   background: url(../../../images/arrow-down.svg) center no-repeat;
   box-shadow: 1px 1px 10px rgb(224 240 255 / 10%);
   cursor: pointer;
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 1270px) {
+  .our-team__control-right {
+    display: none;
+  }
 }

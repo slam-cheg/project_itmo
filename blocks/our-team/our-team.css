@@ -9,6 +9,6 @@
 }
 @media screen and (max-width: 767px) {
   .our-team {
-    max-width: calc(100% - 160px);
+    max-width: 100%;
   }
 }

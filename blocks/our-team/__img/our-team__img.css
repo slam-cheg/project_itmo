@@ -1,17 +1,16 @@
 .our-team__img {
-  width: 215px;
-  height: 286px;
+  width: 100%;
   border-radius: 10px;
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 1180px) {
   .our-team__img {
     width: 170px;
-    height: 226px;
   }
 }
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 767px) {
   .our-team__img {
     width: 120px;
-    height: 160px;
   }
 }
