@@ -6,14 +6,11 @@
 
 @media (max-width: 1023px) {
     .header__burger-menu {
-       padding-left: 39px;
-       padding-right: 30px;
-       height: 60px;
-       display: flex;
-       justify-content: space-between;
-       align-items: center;
-       z-index: 10;
-       margin-bottom: 20px;
+        padding: 10px 16px 0 16px;
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10;
     }
-  }
-  
+}

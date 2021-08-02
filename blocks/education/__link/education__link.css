@@ -24,5 +24,6 @@
   .education__link {
     font-size: 12px;
     line-height: 16px;
+    max-width: calc(100% - 32px);
   }
 }

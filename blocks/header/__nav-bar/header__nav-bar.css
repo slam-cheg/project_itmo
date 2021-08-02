@@ -11,7 +11,7 @@
        left: 0;
        box-sizing: border-box;
        width: 100%;
-       max-width: 330px;
+       max-width: 100%;
        width: 100%;
        flex-direction: column;
        z-index: 100;

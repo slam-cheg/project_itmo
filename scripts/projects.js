@@ -2,6 +2,7 @@
 
 const cardsContainer = document.querySelector('.projects__cards');
 const cardTemplate = document.querySelector('#projects-card').content;
+const smoothLinks = document.querySelectorAll('a[href^="#"]');
 
 
 addedProjects = [
@@ -184,3 +185,17 @@ function closeProject() {
     deactiveLogo.classList.remove('projects__card-logo_active');
     activeLogo.classList.remove('projects__card-logo_deactive');
 }
+
+
+
+for (let smoothLink of smoothLinks) {
+    smoothLink.addEventListener('click', function (e) {
+        e.preventDefault();
+        const id = smoothLink.getAttribute('href');
+
+        document.querySelector(id).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+};

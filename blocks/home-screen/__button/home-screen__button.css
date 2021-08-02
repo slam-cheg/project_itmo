@@ -33,7 +33,7 @@
   }
 @media (max-width: 460px) {
     .home-screen__button {
-        width: 288px;  
+        width: 100%;  
         margin-bottom: 60px;
 
     }
