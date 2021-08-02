@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 767px) {
   .partners__logo-zone_mobile {
-    width: 300px;
+    width: calc(100% - 32px);
     display: flex;
     justify-content: space-between;
   }

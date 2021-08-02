@@ -23,6 +23,6 @@
     font-size: 12px;
     line-height: 16px;
     margin: 0 auto 23px;
-    max-width: 288px;
+    width: calc(100% - 32px);
   }
 }

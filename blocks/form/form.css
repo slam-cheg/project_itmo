@@ -22,16 +22,17 @@
 
 @media screen and (max-width: 767px) {
   .form {
-    grid-template-columns: 288px;
+    width: calc(100% - 32px);
+    grid-template-columns: 100%;
     grid-template-rows: 44px 44px 44px 44px 140px 1fr;
-    grid-template-areas: "name"
-                       "surname"
-                       "mobile"
-                       "email"
-                       "message"
-                       "button"
-                       ;
+    grid-template-areas:
+        "name"
+        "surname"
+        "mobile"
+        "email"
+        "message"
+        "button";
     row-gap: 12px;
     column-gap: 0;
-  }
+}
 }
