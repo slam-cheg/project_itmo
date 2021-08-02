@@ -16,7 +16,7 @@
 
 @media (max-width: 760px) {
     .about__subtitle {
-        width: 288px;
+        max-width: 288px;;
         font-size: 12px;
         line-height: 16px;
 
