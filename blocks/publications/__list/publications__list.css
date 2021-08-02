@@ -9,17 +9,17 @@
 }
 
 @media screen and (max-width: 1023px) {
-.publications__list {
-    gap: 17px 20px;
-    max-width: 690px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 30px;
-
+    .publications__list {
+        gap: 17px 20px;
+        max-width: 690px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
     }
 }
 
 @media screen and (max-width: 460px) {
     .publications__list {
-        grid-template-columns: 1fr;
-        }
+        grid-template-columns: 100%;
+        margin: 0 0 14px 0;
     }
+}

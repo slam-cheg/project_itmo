@@ -32,7 +32,7 @@
 
 @media (max-width: 460px) {
     .card {
-        max-width: 288px;
-
+        max-width: calc(100% - 32px);
+        margin: 0 auto;
     }
   }
