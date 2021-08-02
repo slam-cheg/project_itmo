@@ -6,3 +6,19 @@
     line-height: 30px;
     max-width: 907px;
 }
+
+@media (max-width: 1023px) {
+    .about__subtitle {
+        max-width: 690px;
+
+    }
+  }
+
+@media (max-width: 760px) {
+    .about__subtitle {
+        max-width: 288px;;
+        font-size: 12px;
+        line-height: 16px;
+
+    }
+  }

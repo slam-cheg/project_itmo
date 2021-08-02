@@ -22,17 +22,17 @@
 }
 
 
-@media (max-width: 1023x) {
+@media (max-width: 1023px) {
     .card {
-        width: 330px;
+        max-width: 330px;
 
     }
   }
 
 
-@media (max-width: 767x) {
+@media (max-width: 460px) {
     .card {
-        width: 320px;
+        max-width: 288px;
 
     }
   }
