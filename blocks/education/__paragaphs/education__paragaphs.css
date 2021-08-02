@@ -11,12 +11,15 @@
   margin-top: 0;
   margin-bottom: 30px;
 }
-@media screen and (max-width: 767px) {
+
+@media screen and (max-width: 1180px) {
   .education__paragaphs {
-    /* max-width: calc(100% - 100px); */
+    font-size: 12px;
+    line-height: 16px;
   }
 }
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 767px) {
   .education__paragaphs {
     font-size: 12px;
     line-height: 16px;

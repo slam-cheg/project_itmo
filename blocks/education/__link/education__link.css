@@ -1,6 +1,6 @@
 .education__link {
   width: 920px;
-  max-width: calc(100% - 260px);
+  max-width: calc(100% - 160px);
   margin-top: 30px;
   margin-bottom: 0;
   display: flex;
@@ -9,24 +9,19 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
- 
 }
+
 @media screen and (max-width: 1180px) {
   .education__link {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
     max-width: calc(100% - 80px);
   }
 }
+
 @media screen and (max-width: 767px) {
   .education__link {
-    max-width: calc(100% - 40px);
-    font-size: 14px;
-    line-height: 20px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .education__link {
-    max-width: calc(100% - 16px);
     font-size: 12px;
     line-height: 16px;
   }

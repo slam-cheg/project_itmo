@@ -6,8 +6,3 @@
   justify-content: center;
   grid-area: title;
 }
-@media screen and (max-width: 767px) {
-    .education__paragaph {
-     /*  max-width: calc(100% - 320px); */
-    }
-  }
