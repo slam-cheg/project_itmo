@@ -5,7 +5,7 @@
     color: #fff;
     text-decoration: none;
     background-color: transparent;
-    width: 350px;
+    max-width: 350px;
     margin-bottom: 124px;
     border: solid 1px #fff;
     border-radius: 10px;
@@ -17,6 +17,7 @@
     cursor: pointer;
     transition: color .2s linear; 
     transition: border .2s linear; 
+    box-sizing: border-box;
 }
 
 .home-screen__button:hover {
@@ -26,14 +27,15 @@
 
 @media (max-width: 1023px) {
     .home-screen__button {
-        width: 288px;  
+        max-width: 330px;  
         margin-bottom: 120px;
 
     }
   }
 @media (max-width: 460px) {
     .home-screen__button {
-        width: 100%;  
+        align-self: center;
+        width: 288px;  
         margin-bottom: 60px;
 
     }
