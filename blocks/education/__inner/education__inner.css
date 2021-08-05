@@ -21,13 +21,16 @@
 
 @media screen and (max-width: 767px) {
   .education__inner {
+    max-width: calc(100% - 40px);
     margin-top: 30px;
-    grid-template-columns: 1fr;
+    grid-template-columns: 340px 1fr;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
   .education__inner {
+    display: flex;
+    flex-direction: column;
     margin-top: 15px;
     max-width: calc(100% - 32px);
   }

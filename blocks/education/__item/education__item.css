@@ -10,18 +10,26 @@
 }
 @media screen and (max-width: 1180px) {
   .education__item {
-    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 20px; 
+  }
+}
+@media screen and (max-width: 920px) {
+  .education__item {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .education__item {
+    margin-bottom: 10px;
     font-size: 12px;
     line-height: 16px;
   }
 }
-@media screen and (max-width: 767px) {
-  .education__item {
- 
-  }
-}
 @media screen and (max-width: 480px) {
   .education__item {
-
+  /*   font-size: 12px;
+    line-height: 16px; */
   }
 }
