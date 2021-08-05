@@ -1,3 +1,8 @@
+.home-screen__intro {
+    display: flex;
+    flex-direction: column;
+}
+
 @media (max-width: 767px) {
     .home-screen__intro {
         width: calc(100% - 32px);
