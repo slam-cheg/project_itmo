@@ -14,31 +14,31 @@
 
   <!--header-->
   <header class="header">
-    <div class="header_wrapper">
+    <div class="header__wrapper">
       <button type="button" class="header__button-burger">
         <span class="header__burger-line"></span>
         <span class="header__burger-line"></span>
         <span class="header__burger-line"></span>
       </button>
-      <img src="images/Logo_AI 1.png" alt="лого страницы" class="logo logo_place_header">
+      <img src="images/Logo_AI.svg" alt="лого страницы" class="logo logo_place_header">
       <nav class="header__nav-bar">
         <div class="header__burger-menu">
-          <img src="images/Logo_AI 1.png" alt="" class="logo logo_place_header">
+          <img src="images/Logo_AI.svg" alt="" class="logo logo_place_header">
           <button type="button" class="header__button-close"></button>
         </div>
         <ul class="header__list-links">
-          <li class="header__list-item"> <a href="" class="link "> О нас </a></li>
-          <li class="header__list-item"> <a href="" class="link ">Лаборатория</a></li>
+          <li class="header__list-item"> <a href="#about" class="link "> О нас </a></li>
+          <li class="header__list-item"> <a href="#ai-research" class="link ">Лаборатория</a></li>
           <li class="header__list-item"> <a href="#projects" class="link "> Проекты</a></li>
-          <li class="header__list-item" id="test"> <a href="" class="link ">Образование</a>
+          <li class="header__list-item" id="test"> <a href="#education" class="link ">Образование</a>
             <ul class="header__list-second-links">
               <li class="header__list-second-item"> <a href="" class="link link_place_second-menu">Аспирантура</a></li>
               <li class="header__list-second-item"> <a href="" class="link link_place_second-menu">Магистратура</a></li>
             </ul>
           </li>
           <li class="header__list-item"> <a href="#publications" class="link ">Публикации</a></li>
-          <li class="header__list-item"> <a href="" class="link  ">Команда</a></li>
-          <li class="header__list-item"> <a href="" class="link  ">Связаться</a></li>
+          <li class="header__list-item"> <a href="#our-team" class="link  ">Команда</a></li>
+          <li class="header__list-item"> <a href="#feedback" class="link ">Связаться</a></li>
         </ul>
       </nav>
     </div>
@@ -46,10 +46,10 @@
   <!--main-->
   <main>
     <!--СЕКЦИЯ HOME_SCREEN -->
-    <div class="home-screen_wrapper">
-      <section class="home-screen page_section">
+    <div class="home-screen__wrapper">
+      <section class="home-screen page__section">
         <div class=home-screen__intro>
-          <h1 class="home-screen__title"><span class="home-screen__text">Когнитивные технологии </span>, машинное
+          <h1 class="home-screen__title"><span class="home-screen__text">Когнитивные технологии</span>, машинное
             обучение</h1>
           <p class="home-screen__subtitle">Системы прикладного искусственного интеллекта.</p>
           <a href="#projects" class=home-screen__button> наши проекты </a>
@@ -60,33 +60,68 @@
 
     <!--СЕКЦИЯ ABOUT -->
 
-    <section class="about page_section">
+    <section class="about page__section" id="about">
       <h2 class="about__title">Несколько слов о нас</h2>
       <p class="about__subtitle">Национальный центр когнитивных разработок – центр национальной технологической
         инициативы (НТИ),
         получивший государственную поддержку по направлению «Технологии машинного обучения
         и когнитивные технологии».</p>
-      <div class="about__news">
-        <button type="button" class="button-slider"></button>
-        <!-- Три карточки для теста верстки и адаптивности, потом их надо закомментить и  юзать темплате-->
-        <ul class="about__list">
-          <!--<li class="card card_about">
+      <div class="glide">
+        <div class="about__news glide__track" data-glide-el="track">
+          <!--<button type="button" class="button-slider"></button>-->
+          <!-- Три карточки для теста верстки и адаптивности, потом их надо закомментить и  юзать темплате-->
+          <ul class="about__list glide__slides">
+
+            <template id="template-card-about">
+              <li class="card card_about">
+                <button class="card__icon-fixed"></button>
+                <p class="card__info"></p>
+                <h3 class=card__title></h3>
+                <p class="card__description"></p>
+              </li>
+            </template>
+
+            <!--<li class="card card_about glide__slide">
             <button class="card__icon-fixed"></button>
             <p class="card__info">Понедельник, 5 июля 2021г</p>
             <h3 class=card__title>ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</h3>
             <p class="card__description">Университет ИТМО провел научно-исследовательскую стажировку для группы магистрантов из Евразийского национального 
             университета имени Л.Н. Гумилева. Ведущие преподаватели  в течение десяти дней рассказывали им об основах машинного обучения. </p>
            
-           
           </li>
-          <li class="card card_about">
+          </li>
+          <li class="card card_about glide__slide">
             <button class="card__icon-fixed"></button>
             <p class="card__info">Понедельник, 5 июля 2021г</p>
             <h3 class=card__title>АВТОРЫ РОБОТА-МУЗЫКАНТА РОБЕРТА РОБОТЕЦКОГО ПРИЗНАНЫ ЛУЧШИМИ НОВИЧ…</h3>
             <p class="card__description">Команда ИТМО стала лучшей на международном финале RoboCup-2021. Успех ребятам принес Роберт Роботецкий — 
             робот-виртуоз, исполнивший знаменитый французский романс «Под небом Парижа». В подготовке команды участвовали сотрудники лаборатории.</p>
           </li>
-          <li class="card card_about">
+          <li class="card card_about glide__slide">
+            <button class="card__icon-fixed"></button>
+            <p class="card__info">Суббота, 3 июля 2021г</p>
+            <h3 class=card__title>ВОЗВРАЩЕНИЕ НА ПЕТРОПАВЛОВКУ: КАК ПРОШЕЛ ВЫПУСКНОЙ ITMO. LIVE — 2021</h3>
+            <p class="card__description">Команда ИТМО сделала многое, чтобы вернуть формат выпускного этого и прошлого года. Из-за эпидемиологической
+            ситуации отменена развлекательная часть, но сохранилась торжественная. Выпускники смогли получить дипломы из рук деканов и услышать поздравления ректора.</p>
+          </li>
+
+          <li class="card card_about glide__slide">
+            <button class="card__icon-fixed"></button>
+            <p class="card__info">Суббота, 3 июля 2021г</p>
+            <h3 class=card__title>ВОЗВРАЩЕНИЕ НА ПЕТРОПАВЛОВКУ: КАК ПРОШЕЛ ВЫПУСКНОЙ ITMO. LIVE — 2021</h3>
+            <p class="card__description">Команда ИТМО сделала многое, чтобы вернуть формат выпускного этого и прошлого года. Из-за эпидемиологической
+            ситуации отменена развлекательная часть, но сохранилась торжественная. Выпускники смогли получить дипломы из рук деканов и услышать поздравления ректора.</p>
+          </li>
+
+          <li class="card card_about glide__slide">
+            <button class="card__icon-fixed"></button>
+            <p class="card__info">Суббота, 3 июля 2021г</p>
+            <h3 class=card__title>ВОЗВРАЩЕНИЕ НА ПЕТРОПАВЛОВКУ: КАК ПРОШЕЛ ВЫПУСКНОЙ ITMO. LIVE — 2021</h3>
+            <p class="card__description">Команда ИТМО сделала многое, чтобы вернуть формат выпускного этого и прошлого года. Из-за эпидемиологической
+            ситуации отменена развлекательная часть, но сохранилась торжественная. Выпускники смогли получить дипломы из рук деканов и услышать поздравления ректора.</p>
+          </li>
+
+          <li class="card card_about glide__slide">
             <button class="card__icon-fixed"></button>
             <p class="card__info">Суббота, 3 июля 2021г</p>
             <h3 class=card__title>ВОЗВРАЩЕНИЕ НА ПЕТРОПАВЛОВКУ: КАК ПРОШЕЛ ВЫПУСКНОЙ ITMO. LIVE — 2021</h3>
@@ -94,18 +129,11 @@
             ситуации отменена развлекательная часть, но сохранилась торжественная. Выпускники смогли получить дипломы из рук деканов и услышать поздравления ректора.</p>
           </li>-->
 
-          <!-- Собственнно темплейт, который должен заработать через JS, все три карточки выше потом комментим-->
-          <template id="template-card-about">
-            <li class="card card_about">
-              <button class="card__icon-fixed"></button>
-              <p class="card__info"></p>
-              <h3 class=card__title></h3>
-              <p class="card__description"></p>
-            </li>
-          </template>
+            <!-- Собственнно темплейт, который должен заработать через JS, все три карточки выше потом комментим-->
 
-        </ul>
-        <button type="button" class="button-slider rotate"></button>
+          </ul>
+          <!--<button type="button" class="button-slider rotate"></button>-->
+        </div>
       </div>
       <ul class="selector-card selector-card_position_about">
         <li class="selector-card__radio selector-card__radio_active"></li>
@@ -113,10 +141,12 @@
         <li class="selector-card__radio"></li>
         <li class="selector-card__radio"></li>
       </ul>
+
+
     </section>
     <!-- блок AI research -->
 
-    <section class="ai-research">
+    <section class="ai-research" id="ai-research">
       <div class="ai-research__background">
         <h2 class="ai-research__title">INDUSTRIAL AI RESEARCH LAB</h2>
         <div class="ai-research__columns">
@@ -173,6 +203,7 @@
             <button class="ai-research__card-button" type="button" aria-label="подробнее">Подробнее</button>
           </div>
         </div>
+      </div>
     </section>
 
     <!--popup для AI-research-->
@@ -214,12 +245,15 @@
       <h2 class="projects__title">Наши проекты</h2>
       <ul class="projects__filter-list">
         <li><button class="projects__filter-list-item projects__filter-list-item_active" type="button"
-            aria-label="все проекты">ВСЕ ПРОЕКТЫ</button></li>
-        <li><button class="projects__filter-list-item" type="button" aria-label="гос. проекты">ГОС. ПРОЕКТЫ</button>
+            aria-label="все проекты" id="all-projects">ВСЕ ПРОЕКТЫ</button></li>
+        <li><button class="projects__filter-list-item" type="button" aria-label="гос. проекты" id="gos-projects">ГОС.
+            ПРОЕКТЫ</button>
         </li>
-        <li><button class="projects__filter-list-item" type="button" aria-label="спецпрограммы">СПЕЦПРОГРАММЫ</button>
+        <li><button class="projects__filter-list-item" type="button" aria-label="спецпрограммы"
+            id="spec-projects">СПЕЦПРОГРАММЫ</button>
         </li>
-        <li><button class="projects__filter-list-item" type="button" aria-label="в разработке">В РАЗРАБОТКЕ</button>
+        <li><button class="projects__filter-list-item" type="button" aria-label="в разработке" id="progress-projects">В
+            РАЗРАБОТКЕ</button>
         </li>
       </ul>
       <select class="projects__filter-selection">
@@ -246,7 +280,6 @@
             <button class="projects__card-button" type="button" aria-label="подробнее"></button>
           </div>
         </div>
-        </div>
       </template>
 
       <div class="projects__pagination">
@@ -264,7 +297,7 @@
     </section>
 
     <!-- блок education-->
-    <section class="education">
+    <section class="education " id="education">
       <h3 class="education__title">ОБРАЗОВАНИЕ</h3>
       <p class="education__link">В образовательной деятельности НЦКР активно использует существующую в Университете ИТМО
         инфраструктуру и опыт реализации сетевых форм обучения, опираясь на вузы-диссеминаторы (ННГУ, ДВФУ, ФГБОУ ВО
@@ -272,7 +305,7 @@
         в области электронного и дистанционного образования. Реализуются образовательные программы различных форматов.
       </p>
       <article id="PostgraduateSchool" class="education__inner">
-        <img alt="" class="education__img">
+        <img src="" alt="Фон видов образования" class="education__img">
         <div class="education__paragaph">
           <h4 class="education__paragaphs">Образовательные программы аспирантуры в области МО и КТ</h4>
           <ul class="education__list">
@@ -285,7 +318,7 @@
             <li class="education__item">Семантические системы и инженерия знаний;</li>
             <li class="education__item">Технологии разработки компьютерных игр</li>
           </ul>
-          <p href="#" class="education__caph">Подробнее &rarr;</p>
+          <a href="#" class="education__caph">Подробнее &rarr;</a>
         </div>
       </article>
       <!--article id="Master'sDegree" class="education__inner education__inner_pic">
@@ -315,127 +348,194 @@
     <div class="publications__wrapper">
       <section class="publications page_section" id="publications">
         <h3 class="publications__title">публикации</h3>
-        <div class="publications__articles">
-          <button type="button" class="button-slider button-slider_theme_dark"></button>
-          <!-- Список публикаций-->
-          <ul class="publications__list">
+        <div>
+          <div class="publications__articles ">
+            <!-- <button type="button" class="button-slider button-slider_theme_dark"></button>-->
+            <!-- Список публикаций-->
+            <ul class="publications__list">
 
-            <!-- Первая карточка-->
+              <!-- Первая карточка-->
 
-            <li class="card card_position_publications">
-              <div class="card__image-container">
-                <img src="images/publications/1_карточка.jpg" alt="" class="card__image">
-              </div>
-              <div class="card__article">
-                <h3 class="card__title card__title_lower">Convolutional neural networks with hierarchical context
-                  transfe…</h3>
-                <p class="card__info card__info_place"> Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov</p>
-                <p class="card__description">In this work, we consider a problem of predicting the next state of a given
-                  area
-                  using retrospective information. The proposed concept of hierarchical context transfer (HCT) operates
-                  on several
-                  spatial levels of the input data to overcome major issues of next state prediction problems - density
-                  variability, a sig…</p>
-              </div>
-              <!-- Контейнер с тултипом-->
-              <div class="card__read-more">
-                <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
-                  class="card__link" target="_blank">
-                  <p class="card__read-full">Читать полностью</p>
-                  <span class="card__arrow"></span>
-                </a>
-                <button type="button" class="card__share"></button>
-              </div>
-              <!-- Тултип-->
-              <div class="tooltip">
-                <ul class="tooltip__list-links">
-                  <a href=""> <img src="images/vk.svg" alt="" class="tooltip__icon"></a>
-                  <a href=""> <img src="images/facebook.svg" alt="" class="tooltip__icon"></a>
-                  <a href=""> <img src="images/Telegram.svg" alt="" class="tooltip__icon"></a>
-                  <a href=""> <img src="images/instagram.svg" alt="" class="tooltip__icon"></a>
-                  <a href=""> <img src="images/You Tube.svg" alt="" class="tooltip__icon"></a>
-                </ul>
-              </div>
+              <li class="card card_position_publications">
+                <div class="card__image-container">
+                  <img src="images/publications/1_карточка.jpg" alt="" class="card__image">
+                </div>
+                <div class="card__article">
+                  <h3 class="card__title card__title_lower">Convolutional neural networks with hierarchical context
+                    transfe…</h3>
+                  <p class="card__info card__info_place"> Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov</p>
+                  <p class="card__description">In this work, we consider a problem of predicting the next state of a
+                    given
+                    area
+                    using retrospective information. The proposed concept of hierarchical context transfer (HCT)
+                    operates
+                    on several
+                    spatial levels of the input data to overcome major issues of next state prediction problems -
+                    density
+                    variability, a sig…</p>
+                </div>
+                <!-- Контейнер с тултипом-->
+                <div class="card__read-more">
+                  <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
+                    class="card__link" target="_blank">
+                    <p class="card__read-full">Читать полностью</p>
+                    <span class="card__arrow"></span>
+                  </a>
+                  <button type="button" class="card__share"></button>
+                </div>
+                <!-- Тултип-->
+                <div class="tooltip">
+                  <ul class="tooltip__list-links">
+                    <li><a href="https://vk.com/itmoru" target="_blank"> <img src="images/vk.svg" alt="Иконка ВК"
+                          class="tooltip__icon"></a></li>
+                    <li><a href="https://www.facebook.com/itmoRU/" target="_blank"> <img src="images/facebook.svg"
+                          alt="Иконка facebook" class="tooltip__icon"></a></li>
+                    <li> <a href="https://t.me/itmoru" target="_blank"> <img src="images/Telegram.svg"
+                          alt="Иконка Telegram" class="tooltip__icon"></a></li>
+                    <li><a href="https://www.instagram.com/itmoru/" target="_blank"> <img src="images/instagram.svg"
+                          alt="Иконка instagram" class="tooltip__icon"></a></li>
+                    <li><a href="https://www.youtube.com/c/IfmoRu" target="_blank"> <img src="images/YouTube.svg"
+                          alt="Иконка youtbe" class="tooltip__icon"></a></li>
+                  </ul>
+                </div>
 
-            </li>
-            <!-- Вторая картчока-->
-            <li class="card card_position_publications">
-              <div class="card__image-container">
-                <img src="images/publications/2_карточка.jpg" alt="" class="card__image">
-              </div>
-              <div class="card__article">
-                <h3 class="card__title card__title_lower">Convolutional neural networks with hierarchical context
-                  transfe…</h3>
-                <p class="card__info card__info_place"> Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov</p>
-                <p class="card__description">In this work, we consider a problem of predicting the next state of a given
-                  area
-                  using retrospective information. The proposed concept of hierarchical context transfer (HCT) operates
-                  on several
-                  spatial levels of the input data to overcome major issues of next state prediction problems - density
-                  variability, a sig…</p>
-              </div>
-              <!-- Контейнер с тултипом-->
-              <div class="card__read-more">
-                <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
-                  class="card__link" target="_blank">
-                  <p class="card__read-full">Читать полностью</p>
-                  <span class="card__arrow"></span>
-                </a>
-                <button type="button" class="card__share"></button>
-              </div>
-              <!-- Тултип-->
-              <div class="tooltip">
-                <ul class="tooltip__list-links">
-                  <a href=""> <img src="images/vk.svg" alt="" class="tooltip__icon"></a>
-                  <a href=""> <img src="images/facebook.svg" alt="" class="tooltip__icon"></a>
-                  <a href=""> <img src="images/Telegram.svg" alt="" class="tooltip__icon"></a>
-                  <a href=""> <img src="images/instagram.svg" alt="" class="tooltip__icon"></a>
-                  <a href=""> <img src="images/You Tube.svg" alt="" class="tooltip__icon"></a>
-                </ul>
-              </div>
+              </li>
+              <!-- Вторая картчока-->
+              <li class="card card_position_publications">
+                <div class="card__image-container">
+                  <img src="images/publications/2_карточка.jpg" alt="" class="card__image">
+                </div>
+                <div class="card__article">
+                  <h3 class="card__title card__title_lower">Convolutional neural networks with hierarchical context
+                    transfe…</h3>
+                  <p class="card__info card__info_place"> Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov</p>
+                  <p class="card__description">In this work, we consider a problem of predicting the next state of a
+                    given
+                    area
+                    using retrospective information. The proposed concept of hierarchical context transfer (HCT)
+                    operates
+                    on several
+                    spatial levels of the input data to overcome major issues of next state prediction problems -
+                    density
+                    variability, a sig…</p>
+                </div>
+                <!-- Контейнер с тултипом-->
+                <div class="card__read-more">
+                  <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
+                    class="card__link" target="_blank">
+                    <p class="card__read-full">Читать полностью</p>
+                    <span class="card__arrow"></span>
+                  </a>
+                  <button type="button" class="card__share"></button>
+                </div>
+                <!-- Тултип-->
+              </li>
+              <!-- Третья картчока-->
+              <li class="card card_position_publications">
+                <div class="card__image-container">
+                  <img src="images/publications/3_карточка.jpg" alt="" class="card__image">
+                </div>
+                <div class="card__article">
+                  <h3 class="card__title card__title_lower">Spatiotemporal Filtering Pipeline for Efficient Social
+                    Networks Dat…</h3>
+                  <p class="card__info card__info_place">Ksenia Mukhina, Alexander Visheratin, Denis Nasonov </p>
+                  <p class="card__description">One of the areas that gathers momentum is the investigation of
+                    location-based social
+                    networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to
+                    improve
+                    quality of
+                    living, enhance urban management, and advance the development of smart cities. But it is widely
+                    known
+                    that the…</p>
+                </div>
+                <!-- Контейнер с тултипом-->
+                <div class="card__read-more">
+                  <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
+                    class="card__link" target="_blank">
+                    <p class="card__read-full">Читать полностью</p>
+                    <span class="card__arrow"></span>
+                  </a>
+                  <button type="button" class="card__share"></button>
+                </div>
+                <!-- Тултип-->
+              </li>
+              <li class="card card_position_publications">
+                <div class="card__image-container">
+                  <img src="images/publications/3_карточка.jpg" alt="" class="card__image">
+                </div>
+                <div class="card__article">
+                  <h3 class="card__title card__title_lower">Spatiotemporal Filtering Pipeline for Efficient Social
+                    Networks Dat…</h3>
+                  <p class="card__info card__info_place">Ksenia Mukhina, Alexander Visheratin, Denis Nasonov </p>
+                  <p class="card__description">One of the areas that gathers momentum is the investigation of
+                    location-based social
+                    networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to
+                    improve
+                    quality of
+                    living, enhance urban management, and advance the development of smart cities. But it is widely
+                    known
+                    that the…</p>
+                </div>
+                <!-- Контейнер с тултипом-->
+                <div class="card__read-more">
+                  <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
+                    class="card__link" target="_blank">
+                    <p class="card__read-full">Читать полностью</p>
+                    <span class="card__arrow"></span>
+                  </a>
+                  <button type="button" class="card__share"></button>
+                </div>
+                <!-- Тултип-->
+              </li>
 
-            </li>
-            <!-- Третья картчока-->
-            <li class="card card_position_publications">
-              <div class="card__image-container">
-                <img src="images/publications/3_карточка.jpg" alt="" class="card__image">
-              </div>
-              <div class="card__article">
-                <h3 class="card__title card__title_lower">Spatiotemporal Filtering Pipeline for Efficient Social
-                  Networks Dat…</h3>
-                <p class="card__info card__info_place">Ksenia Mukhina, Alexander Visheratin, Denis Nasonov </p>
-                <p class="card__description">One of the areas that gathers momentum is the investigation of
-                  location-based social
-                  networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to improve
-                  quality of
-                  living, enhance urban management, and advance the development of smart cities. But it is widely known
-                  that the…</p>
-              </div>
-              <!-- Контейнер с тултипом-->
-              <div class="card__read-more">
-                <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
-                  class="card__link" target="_blank">
-                  <p class="card__read-full">Читать полностью</p>
-                  <span class="card__arrow"></span>
-                </a>
-                <button type="button" class="card__share"></button>
-              </div>
-              <!-- Тултип-->
-              <div class="tooltip">
-                <ul class="tooltip__list-links">
-                  <a href=""> <img src="images/vk.svg" alt="" class="tooltip__icon"></a>
-                  <a href=""> <img src="images/facebook.svg" alt="" class="tooltip__icon"></a>
-                  <a href=""> <img src="images/Telegram.svg" alt="" class="tooltip__icon"></a>
-                  <a href=""> <img src="images/instagram.svg" alt="" class="tooltip__icon"></a>
-                  <a href=""> <img src="images/You Tube.svg" alt="" class="tooltip__icon"></a>
-                </ul>
-              </div>
-            </li>
+              <li class="card card_position_publications">
+                <div class="card__image-container">
+                  <img src="images/publications/3_карточка.jpg" alt="" class="card__image">
+                </div>
+                <div class="card__article">
+                  <h3 class="card__title card__title_lower">Spatiotemporal Filtering Pipeline for Efficient Social
+                    Networks Dat…</h3>
+                  <p class="card__info card__info_place">Ksenia Mukhina, Alexander Visheratin, Denis Nasonov </p>
+                  <p class="card__description">One of the areas that gathers momentum is the investigation of
+                    location-based social
+                    networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to
+                    improve
+                    quality of
+                    living, enhance urban management, and advance the development of smart cities. But it is widely
+                    known
+                    that the…</p>
+                </div>
+                <!-- Контейнер с тултипом-->
+                <div class="card__read-more">
+                  <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
+                    class="card__link" target="_blank">
+                    <p class="card__read-full">Читать полностью</p>
+                    <span class="card__arrow"></span>
+                  </a>
+                  <button type="button" class="card__share"></button>
+                </div>
+                <!-- Тултип-->
+                <div class="tooltip">
+                  <ul class="tooltip__list-links">
+                    <li><a href="https://vk.com/itmoru"> <img src="images/vk.svg" alt="" class="tooltip__icon"></a></li>
+                    <li> <a href="https://www.facebook.com/itmoRU/"> <img src="images/facebook.svg" alt=""
+                          class="tooltip__icon"></a></li>
+                    <li><a href="https://t.me/itmoru"> <img src="images/Telegram.svg" alt="" class="tooltip__icon"></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/itmoru/"> <img src="images/instagram.svg" alt=""
+                          class="tooltip__icon"></a></li>
+                    <li><a href="https://www.youtube.com/c/IfmoRu"> <img src="images/YouTube.svg" alt=""
+                          class="tooltip__icon"></a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
 
-          </ul>
-          <button type="button" class="button-slider button-slider_theme_dark rotate"></button>
+            <div id="dots" class="glider-dots"></div>
+
+            <!--<button type="button" class="button-slider button-slider_theme_dark rotate"></button>-->
+          </div>
         </div>
-
         <!-- Селектор карточек-->
         <ul class="selector-card selector-card_position_publications">
           <li class="selector-card__radio selector-card__radio_active selector-card__radio_color_blue"></li>
@@ -467,46 +567,53 @@
             <!-- Тултип-->
             <div class="tooltip">
               <ul class="tooltip__list-links">
-                <a href=""> <img src="images/vk.svg" alt="" class="tooltip__icon"></a>
-                <a href=""> <img src="images/facebook.svg" alt="" class="tooltip__icon"></a>
-                <a href=""> <img src="images/Telegram.svg" alt="" class="tooltip__icon"></a>
-                <a href=""> <img src="images/instagram.svg" alt="" class="tooltip__icon"></a>
-                <a href=""> <img src="images/You Tube.svg" alt="" class="tooltip__icon"></a>
+                <li><a href="https://vk.com/itmoru" target="_blank"> <img src="images/vk.svg" alt="Иконка ВК"
+                      class="tooltip__icon"></a></li>
+                <li><a href="https://www.facebook.com/itmoRU/" target="_blank"> <img src="images/facebook.svg"
+                      alt="Иконка facebook" class="tooltip__icon"></a></li>
+                <li> <a href="https://t.me/itmoru" target="_blank"> <img src="images/Telegram.svg" alt="Иконка Telegram"
+                      class="tooltip__icon"></a></li>
+                <li><a href="https://www.instagram.com/itmoru/" target="_blank"> <img src="images/instagram.svg"
+                      alt="Иконка instagram" class="tooltip__icon"></a></li>
+                <li><a href="https://www.youtube.com/c/IfmoRu" target="_blank"> <img src="images/YouTube.svg"
+                      alt="Иконка youtbe" class="tooltip__icon"></a></li>
               </ul>
             </div>
           </li>
         </template>
-
-        </ul>
       </section>
     </div>
 
     <div class="our-team__div"></div>
 
-    <section class="our-team">
+    <section class="our-team" id="our-team">
       <h3 class="our-team__title">наша команда</h3>
       <div class="our-team__aside">
         <button type="button" class="our-team__control-left"></button>
         <ul class="our-team__list">
           <li id="one" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img" src="./images/man photo.png">
+            <img alt="фото сотрудника" class="our-team__img" src="./images/man_photo.png">
             <p class="our-team__name">Бобцов Алексей Алексеевич</p>
-            <p class="our-team__text">Директор,&nbsp;<span class="our-team__sub-profession">профессор</span>,&nbsp;ДТН</p>
+            <p class="our-team__text">Директор,&nbsp;<span class="our-team__sub-profession">профессор</span>,&nbsp;ДТН
+            </p>
           </li>
-          <li id="" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img" src="./images/man photo-1.png">
+          <li class="our-team__lists">
+            <img alt="фото сотрудника" class="our-team__img" src="./images/man_photo-1.png">
             <p class="our-team__name">Буханоский Александр Валерьевич</p>
-            <p class="our-team__text">Директор,&nbsp;<span class="our-team__sub-profession">руководитель</span>,&nbsp;ДТН</p>
+            <p class="our-team__text">Директор,&nbsp;<span
+                class="our-team__sub-profession">руководитель</span>,&nbsp;ДТН</p>
           </li>
-          <li id="" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img" src="./images/man photo-2.png">
+          <li class="our-team__lists">
+            <img alt="фото сотрудника" class="our-team__img" src="./images/man_photo-2.png">
             <p class="our-team__name">Муромцев Дмитрий Ильич</p>
-            <p class="our-team__text">Руководитель,&nbsp;<span class="our-team__sub-profession">доцент</span>,&nbsp;КТН</p>
+            <p class="our-team__text">Руководитель,&nbsp;<span class="our-team__sub-profession">доцент</span>,&nbsp;КТН
+            </p>
           </li>
-          <li id="" class="our-team__lists">
-            <img alt="фото сотрудника" class="our-team__img" src="./images/man photo-3.png">
+          <li class="our-team__lists">
+            <img alt="фото сотрудника" class="our-team__img" src="./images/man_photo-3.png">
             <p class="our-team__name">Матвеев Юрий Николаевич</p>
-            <p class="our-team__text">Руководитель,&nbsp;<span class="our-team__sub-profession">профессор</span>,&nbsp;ДТН</p>
+            <p class="our-team__text">Руководитель,&nbsp;<span
+                class="our-team__sub-profession">профессор</span>,&nbsp;ДТН</p>
           </li>
         </ul>
         <button type="button" class="our-team__control-right"></button>
@@ -515,7 +622,7 @@
         <li class="our-team__button our-team__button_active"></li>
         <li class="our-team__button"></li>
         <li class="our-team__button"></li>
-        <lu class="our-team__button"></lu>
+        <li class="our-team__button"></li>
       </ul>
     </section>
 
@@ -533,29 +640,29 @@
         </div>
         <div class="partners__logo-zone">
           <img src="./images/gazprom-logo.svg" alt="Логотип Газпром" class="partners__logo">
-          <img src="./images/Sberbank_Logo_2020 1.svg" alt="Логотип Сбербанк"
+          <img src="./images/Sberbank_Logo_2020_1.svg" alt="Логотип Сбербанк"
             class="partners__logo partners__logo_none">
           <img src="./images/MailLogo.svg" alt="Логотип Маил" class="partners__logo">
           <img src="./images/Siemens-logo.svg" alt="Логотип Сименс" class="partners__logo">
-          <img src="./images/huawei-logo 1.svg" alt="Логотип Хуавей" class="partners__logo partners__logo_tablet">
+          <img src="./images/huawei-logo_1.svg" alt="Логотип Хуавей" class="partners__logo partners__logo_tablet">
         </div>
         <div class="partners__logo-zone">
-          <img src="./images/Sberbank_Logo_2020 1.svg" alt="Логотип Сбербанк"
+          <img src="./images/Sberbank_Logo_2020_1.svg" alt="Логотип Сбербанк"
             class="partners__logo partners__logo_tablet">
           <img src="./images/Rosveft.png" alt="Логотип Роснефть" class="partners__logo">
           <img src="./images/gazprom-logo.svg" alt="Логотип Газпром" class="partners__logo">
-          <img src="./images/huawei-logo 1.svg" alt="Логотип Хуавей" class="partners__logo partners__logo_none">
+          <img src="./images/huawei-logo_1.svg" alt="Логотип Хуавей" class="partners__logo partners__logo_none">
           <img src="./images/MailLogo.svg" alt="Логотип Майл" class="partners__logo">
         </div>
         <div class="partners__logo-zone_mobile">
-          <img src="./images/Sberbank_Logo_2020 1.svg" alt="Логотип Сбербанк" class="partners__logo_mobile">
-          <img src="./images/huawei-logo 1.svg" alt="Логотип Хуавей" class="partners__logo_mobile">
+          <img src="./images/Sberbank_Logo_2020_1.svg" alt="Логотип Сбербанк" class="partners__logo_mobile">
+          <img src="./images/huawei-logo_1.svg" alt="Логотип Хуавей" class="partners__logo_mobile">
         </div>
       </div>
     </section>
     <!-- Начинается блок Всегда на связи -->
 
-    <section class="feedback">
+    <section class="feedback" id="feedback">
       <div class="feedback__content">
         <h2 class="feedback__title">Всегда на связи</h2>
         <div class="feedback__subtitle">По всем интересующим вас вопросам вы всегда можете обратиться по указанным
@@ -578,7 +685,7 @@
   <footer class="footer">
     <div class="footer__wrapper">
       <div class="footer__logo-copyrating">
-        <img src="images/Logo_AI 1.png" alt="лого страницы" class="logo logo_place_footer">
+        <img src="images/Logo_AI.svg" alt="лого страницы" class="logo logo_place_footer">
         <p class="footer__description-copyright footer__description-copyright_tablet">Информация © 2020 Университет ИТМО
         </p>
       </div>
@@ -608,11 +715,11 @@
           <ul class="footer__column-links">
             <li class="footer__list"><a href="#" class="footer__link"><span
                   class="footer__link_title">Развитие</span></a></li>
-            <li class="footer__list"><a href="#" class="footer__link">Образование</a></li>
+            <li class="footer__list"><a href="#education" class="footer__link">Образование</a></li>
             <li class="footer__list"><a href="#" class="footer__link">Аспирантура</a></li>
             <li class="footer__list"><a href="#" class="footer__link">Магистратура</a></li>
-            <li class="footer__list"><a href="#" class="footer__link">Публикации</a></li>
-            <li class="footer__list"><a href="#" class="footer__link">Проекты</a></li>
+            <li class="footer__list"><a href="#publications" class="footer__link">Публикации</a></li>
+            <li class="footer__list"><a href="#projects" class="footer__link">Проекты</a></li>
           </ul>
         </nav>
 
@@ -647,11 +754,23 @@
     </div>
   </footer>
   </main>
-  <!--Начинается блок footer-->
-  <script src="scripts/main.js"> </script>
+
+
   <script src="scripts/publications-cards.js"> </script>
   <script src="scripts/projects.js"></script>
   <script src="scripts/inputPhone.js"></script>
+  <script src="scripts/main.js"> </script>
+  <script src="scripts/glide.min.js"></script>
+  <script>
+    const config = {
+      type: 'carousel',
+      perView: 3,
+      Infinity: true,
+
+    }
+    new Glide('.glide', config).mount()
+  </script>
+
 </body>
 
 </html>
