@@ -1,4 +1,3 @@
-
 /*Открытие навигационного меню */
 let burgerMenuButton = document.querySelector('.header__button-burger');
 let burgerMenu = document.querySelector('.header__nav-bar');
