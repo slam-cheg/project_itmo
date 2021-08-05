@@ -9,7 +9,7 @@
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
 
     .ai-research__background {
         max-width: calc(100% - 32px);

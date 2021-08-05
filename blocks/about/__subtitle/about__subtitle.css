@@ -1,6 +1,6 @@
 .about__subtitle {
     margin: 0 0 45px 0;
-    color:#fff;
+    color: #fff;
     font-size: 18px;
     font-weight: normal;
     line-height: 30px;
@@ -15,7 +15,7 @@
         letter-spacing: 0.1;
 
     }
-  }
+}
 
 @media (max-width: 760px) {
     .about__subtitle {
@@ -23,4 +23,4 @@
         font-size: 12px;
         line-height: 16px;
     }
-  }
+}

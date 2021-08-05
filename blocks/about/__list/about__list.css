@@ -15,10 +15,13 @@
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 30px;
         gap: 17px 20px;
-        }
+        margin: 0 39px 21px 39px;
     }
+}
+
 @media screen and (max-width: 460px) {
     .about__list {
         grid-template-columns: 1fr;
-        }
+        margin: 0 16px 13px 16px;
     }
+}
