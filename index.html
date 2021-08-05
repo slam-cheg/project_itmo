@@ -60,16 +60,16 @@
 
     <!--СЕКЦИЯ ABOUT -->
 
-    <section class="about page__section" id = "about">
+    <section class="about page__section" id="about">
       <h2 class="about__title">Несколько слов о нас</h2>
       <p class="about__subtitle">Национальный центр когнитивных разработок – центр национальной технологической
         инициативы (НТИ),
         получивший государственную поддержку по направлению «Технологии машинного обучения
         и когнитивные технологии».</p>
-      <div class = "glide">
+      <div class="glide">
         <div class="about__news glide__track" data-glide-el="track">
-        <!--<button type="button" class="button-slider"></button>-->
-        <!-- Три карточки для теста верстки и адаптивности, потом их надо закомментить и  юзать темплате-->
+          <!--<button type="button" class="button-slider"></button>-->
+          <!-- Три карточки для теста верстки и адаптивности, потом их надо закомментить и  юзать темплате-->
           <ul class="about__list glide__slides">
 
             <template id="template-card-about">
@@ -81,7 +81,7 @@
               </li>
             </template>
 
-          <!--<li class="card card_about glide__slide">
+            <!--<li class="card card_about glide__slide">
             <button class="card__icon-fixed"></button>
             <p class="card__info">Понедельник, 5 июля 2021г</p>
             <h3 class=card__title>ЗНАКОМСТВО С МАШИННЫМ ОБУЧЕНИЕМ: СТУДЕНТЫ ЕВРАЗИЙСКОГО НАЦИОНАЛЬ…</h3>
@@ -129,12 +129,12 @@
             ситуации отменена развлекательная часть, но сохранилась торжественная. Выпускники смогли получить дипломы из рук деканов и услышать поздравления ректора.</p>
           </li>-->
 
-          <!-- Собственнно темплейт, который должен заработать через JS, все три карточки выше потом комментим-->
-          
+            <!-- Собственнно темплейт, который должен заработать через JS, все три карточки выше потом комментим-->
+
           </ul>
-        <!--<button type="button" class="button-slider rotate"></button>-->
+          <!--<button type="button" class="button-slider rotate"></button>-->
         </div>
-      </div>  
+      </div>
       <ul class="selector-card selector-card_position_about">
         <li class="selector-card__radio selector-card__radio_active"></li>
         <li class="selector-card__radio "></li>
@@ -142,11 +142,11 @@
         <li class="selector-card__radio"></li>
       </ul>
 
-    
+
     </section>
     <!-- блок AI research -->
 
-    <section class="ai-research" id = "ai-research">
+    <section class="ai-research" id="ai-research">
       <div class="ai-research__background">
         <h2 class="ai-research__title">INDUSTRIAL AI RESEARCH LAB</h2>
         <div class="ai-research__columns">
@@ -167,7 +167,7 @@
         </div>
         <div class="ai-research__cards">
           <div class="ai-research__card ai-research__card_analysis">
-            <p class="ai-research__card-title">Анализ социальных данных</p>
+            <p class="ai-research__card-title">Анализ социальных<br> данных</p>
             <div class="ai-research__icon-background">
               <div class="ai-research__card-icon ai-research__card-icon_analysis"></div>
             </div>
@@ -185,7 +185,7 @@
             <button class="ai-research__card-button" type="button" aria-label="подробнее">Подробнее</button>
           </div>
           <div class="ai-research__card ai-research__card_calculations">
-            <p class="ai-research__card-title">Облачные вычисления</p>
+            <p class="ai-research__card-title">Облачные<br>вычисления</p>
             <div class="ai-research__icon-background">
               <div class="ai-research__card-icon ai-research__icon-background_calculations"></div>
             </div>
@@ -194,7 +194,7 @@
             <button class="ai-research__card-button" type="button" aria-label="подробнее">Подробнее</button>
           </div>
           <div class="ai-research__card ai-research__card_systems">
-            <p class="ai-research__card-title">QA системы</p>
+            <p class="ai-research__card-title">QA<br>системы</p>
             <div class="ai-research__icon-background">
               <div class="ai-research__card-icon  ai-research__icon-background_systems"></div>
             </div>
@@ -203,7 +203,7 @@
             <button class="ai-research__card-button" type="button" aria-label="подробнее">Подробнее</button>
           </div>
         </div>
-      </div>  
+      </div>
     </section>
 
     <!--popup для AI-research-->
@@ -213,7 +213,7 @@
         <div class="popup__image"></div>
         <button class="popup__close-button" type="button" aria-label="закрыть"></button>
         <div class="popup__text-wrapper">
-          <h4 class="popup__title">Анализ социальных данных</h4>
+          <p class="popup__title">Анализ социальных данных</p>
           <p class="popup__text">Учебные лаборатории оснащены современным компьютерным оборудованием, техническими
             средствами защиты информации, программными и&nbsp;программно-аппаратными комплексами средств защиты,
             разработанными ведущими производителями: Positive Technologies, Infotecs, SearchInform, &laquo;Лаборатория
@@ -245,12 +245,15 @@
       <h2 class="projects__title">Наши проекты</h2>
       <ul class="projects__filter-list">
         <li><button class="projects__filter-list-item projects__filter-list-item_active" type="button"
-            aria-label="все проекты">ВСЕ ПРОЕКТЫ</button></li>
-        <li><button class="projects__filter-list-item" type="button" aria-label="гос. проекты">ГОС. ПРОЕКТЫ</button>
+            aria-label="все проекты" id="all-projects">ВСЕ ПРОЕКТЫ</button></li>
+        <li><button class="projects__filter-list-item" type="button" aria-label="гос. проекты" id="gos-projects">ГОС.
+            ПРОЕКТЫ</button>
         </li>
-        <li><button class="projects__filter-list-item" type="button" aria-label="спецпрограммы">СПЕЦПРОГРАММЫ</button>
+        <li><button class="projects__filter-list-item" type="button" aria-label="спецпрограммы"
+            id="spec-projects">СПЕЦПРОГРАММЫ</button>
         </li>
-        <li><button class="projects__filter-list-item" type="button" aria-label="в разработке">В РАЗРАБОТКЕ</button>
+        <li><button class="projects__filter-list-item" type="button" aria-label="в разработке" id="progress-projects">В
+            РАЗРАБОТКЕ</button>
         </li>
       </ul>
       <select class="projects__filter-selection">
@@ -302,7 +305,7 @@
         в области электронного и дистанционного образования. Реализуются образовательные программы различных форматов.
       </p>
       <article id="PostgraduateSchool" class="education__inner">
-        <img src = "" alt="Фон видов образования" class="education__img">
+        <img src="" alt="Фон видов образования" class="education__img">
         <div class="education__paragaph">
           <h4 class="education__paragaphs">Образовательные программы аспирантуры в области МО и КТ</h4>
           <ul class="education__list">
@@ -347,169 +350,190 @@
         <h3 class="publications__title">публикации</h3>
         <div>
           <div class="publications__articles ">
-          <!-- <button type="button" class="button-slider button-slider_theme_dark"></button>-->
-          <!-- Список публикаций-->
+            <!-- <button type="button" class="button-slider button-slider_theme_dark"></button>-->
+            <!-- Список публикаций-->
             <ul class="publications__list">
 
-            <!-- Первая карточка-->
+              <!-- Первая карточка-->
 
               <li class="card card_position_publications">
-              <div class="card__image-container">
-                <img src="images/publications/1_карточка.jpg" alt="" class="card__image">
-              </div>
-              <div class="card__article">
-                <h3 class="card__title card__title_lower">Convolutional neural networks with hierarchical context
-                  transfe…</h3>
-                <p class="card__info card__info_place"> Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov</p>
-                <p class="card__description">In this work, we consider a problem of predicting the next state of a given
-                  area
-                  using retrospective information. The proposed concept of hierarchical context transfer (HCT) operates
-                  on several
-                  spatial levels of the input data to overcome major issues of next state prediction problems - density
-                  variability, a sig…</p>
-              </div>
-              <!-- Контейнер с тултипом-->
-              <div class="card__read-more">
-                <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
-                  class="card__link" target="_blank">
-                  <p class="card__read-full">Читать полностью</p>
-                  <span class="card__arrow"></span>
-                </a>
-                <button type="button" class="card__share"></button>
-              </div>
-              <!-- Тултип-->
-              <div class="tooltip">
-                <ul class="tooltip__list-links">
-                  <li><a href="https://vk.com/itmoru" target="_blank"> <img src="images/vk.svg" alt="Иконка ВК" class="tooltip__icon" ></a></li>
-                  <li><a href="https://www.facebook.com/itmoRU/" target="_blank"> <img src="images/facebook.svg" alt="Иконка facebook" class="tooltip__icon" ></a></li>
-                  <li> <a href="https://t.me/itmoru" target="_blank"> <img src="images/Telegram.svg" alt="Иконка Telegram" class="tooltip__icon" ></a></li>
-                  <li><a href="https://www.instagram.com/itmoru/" target="_blank"> <img src="images/instagram.svg" alt="Иконка instagram" class="tooltip__icon" ></a></li>
-                  <li><a href="https://www.youtube.com/c/IfmoRu" target="_blank"> <img src="images/YouTube.svg" alt="Иконка youtbe" class="tooltip__icon" ></a></li>
-                </ul>
-              </div>
+                <div class="card__image-container">
+                  <img src="images/publications/1_карточка.jpg" alt="" class="card__image">
+                </div>
+                <div class="card__article">
+                  <h3 class="card__title card__title_lower">Convolutional neural networks with hierarchical context
+                    transfe…</h3>
+                  <p class="card__info card__info_place"> Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov</p>
+                  <p class="card__description">In this work, we consider a problem of predicting the next state of a
+                    given
+                    area
+                    using retrospective information. The proposed concept of hierarchical context transfer (HCT)
+                    operates
+                    on several
+                    spatial levels of the input data to overcome major issues of next state prediction problems -
+                    density
+                    variability, a sig…</p>
+                </div>
+                <!-- Контейнер с тултипом-->
+                <div class="card__read-more">
+                  <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
+                    class="card__link" target="_blank">
+                    <p class="card__read-full">Читать полностью</p>
+                    <span class="card__arrow"></span>
+                  </a>
+                  <button type="button" class="card__share"></button>
+                </div>
+                <!-- Тултип-->
+                <div class="tooltip">
+                  <ul class="tooltip__list-links">
+                    <li><a href="https://vk.com/itmoru" target="_blank"> <img src="images/vk.svg" alt="Иконка ВК"
+                          class="tooltip__icon"></a></li>
+                    <li><a href="https://www.facebook.com/itmoRU/" target="_blank"> <img src="images/facebook.svg"
+                          alt="Иконка facebook" class="tooltip__icon"></a></li>
+                    <li> <a href="https://t.me/itmoru" target="_blank"> <img src="images/Telegram.svg"
+                          alt="Иконка Telegram" class="tooltip__icon"></a></li>
+                    <li><a href="https://www.instagram.com/itmoru/" target="_blank"> <img src="images/instagram.svg"
+                          alt="Иконка instagram" class="tooltip__icon"></a></li>
+                    <li><a href="https://www.youtube.com/c/IfmoRu" target="_blank"> <img src="images/YouTube.svg"
+                          alt="Иконка youtbe" class="tooltip__icon"></a></li>
+                  </ul>
+                </div>
 
               </li>
-            <!-- Вторая картчока-->
+              <!-- Вторая картчока-->
               <li class="card card_position_publications">
-              <div class="card__image-container">
-                <img src="images/publications/2_карточка.jpg" alt="" class="card__image">
-              </div>
-              <div class="card__article">
-                <h3 class="card__title card__title_lower">Convolutional neural networks with hierarchical context
-                  transfe…</h3>
-                <p class="card__info card__info_place"> Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov</p>
-                <p class="card__description">In this work, we consider a problem of predicting the next state of a given
-                  area
-                  using retrospective information. The proposed concept of hierarchical context transfer (HCT) operates
-                  on several
-                  spatial levels of the input data to overcome major issues of next state prediction problems - density
-                  variability, a sig…</p>
-              </div>
-              <!-- Контейнер с тултипом-->
-              <div class="card__read-more">
-                <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
-                  class="card__link" target="_blank">
-                  <p class="card__read-full">Читать полностью</p>
-                  <span class="card__arrow"></span>
-                </a>
-                <button type="button" class="card__share"></button>
-              </div>
-              <!-- Тултип-->
+                <div class="card__image-container">
+                  <img src="images/publications/2_карточка.jpg" alt="" class="card__image">
+                </div>
+                <div class="card__article">
+                  <h3 class="card__title card__title_lower">Convolutional neural networks with hierarchical context
+                    transfe…</h3>
+                  <p class="card__info card__info_place"> Ksenia D Mukhina, Alexander A Visheratin, Denis Nasonov</p>
+                  <p class="card__description">In this work, we consider a problem of predicting the next state of a
+                    given
+                    area
+                    using retrospective information. The proposed concept of hierarchical context transfer (HCT)
+                    operates
+                    on several
+                    spatial levels of the input data to overcome major issues of next state prediction problems -
+                    density
+                    variability, a sig…</p>
+                </div>
+                <!-- Контейнер с тултипом-->
+                <div class="card__read-more">
+                  <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
+                    class="card__link" target="_blank">
+                    <p class="card__read-full">Читать полностью</p>
+                    <span class="card__arrow"></span>
+                  </a>
+                  <button type="button" class="card__share"></button>
+                </div>
+                <!-- Тултип-->
               </li>
-            <!-- Третья картчока-->
-              <li  class="card card_position_publications">
-              <div class="card__image-container">
-                <img src="images/publications/3_карточка.jpg" alt="" class="card__image">
-              </div>
-              <div class="card__article">
-                <h3 class="card__title card__title_lower">Spatiotemporal Filtering Pipeline for Efficient Social
-                  Networks Dat…</h3>
-                <p class="card__info card__info_place">Ksenia Mukhina, Alexander Visheratin, Denis Nasonov </p>
-                <p class="card__description">One of the areas that gathers momentum is the investigation of
-                  location-based social
-                  networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to improve
-                  quality of
-                  living, enhance urban management, and advance the development of smart cities. But it is widely known
-                  that the…</p>
-              </div>
-              <!-- Контейнер с тултипом-->
-              <div class="card__read-more">
-                <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
-                  class="card__link" target="_blank">
-                  <p class="card__read-full">Читать полностью</p>
-                  <span class="card__arrow"></span>
-                </a>
-                <button type="button" class="card__share"></button>
-              </div>
-              <!-- Тултип-->
+              <!-- Третья картчока-->
+              <li class="card card_position_publications">
+                <div class="card__image-container">
+                  <img src="images/publications/3_карточка.jpg" alt="" class="card__image">
+                </div>
+                <div class="card__article">
+                  <h3 class="card__title card__title_lower">Spatiotemporal Filtering Pipeline for Efficient Social
+                    Networks Dat…</h3>
+                  <p class="card__info card__info_place">Ksenia Mukhina, Alexander Visheratin, Denis Nasonov </p>
+                  <p class="card__description">One of the areas that gathers momentum is the investigation of
+                    location-based social
+                    networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to
+                    improve
+                    quality of
+                    living, enhance urban management, and advance the development of smart cities. But it is widely
+                    known
+                    that the…</p>
+                </div>
+                <!-- Контейнер с тултипом-->
+                <div class="card__read-more">
+                  <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
+                    class="card__link" target="_blank">
+                    <p class="card__read-full">Читать полностью</p>
+                    <span class="card__arrow"></span>
+                  </a>
+                  <button type="button" class="card__share"></button>
+                </div>
+                <!-- Тултип-->
               </li>
               <li class="card card_position_publications">
-              <div class="card__image-container">
-                <img src="images/publications/3_карточка.jpg" alt="" class="card__image">
-              </div>
-              <div class="card__article">
-                <h3 class="card__title card__title_lower">Spatiotemporal Filtering Pipeline for Efficient Social
-                  Networks Dat…</h3>
-                <p class="card__info card__info_place">Ksenia Mukhina, Alexander Visheratin, Denis Nasonov </p>
-                <p class="card__description">One of the areas that gathers momentum is the investigation of
-                  location-based social
-                  networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to improve
-                  quality of
-                  living, enhance urban management, and advance the development of smart cities. But it is widely known
-                  that the…</p>
-              </div>
-              <!-- Контейнер с тултипом-->
-              <div class="card__read-more">
-                <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
-                  class="card__link" target="_blank">
-                  <p class="card__read-full">Читать полностью</p>
-                  <span class="card__arrow"></span>
-                </a>
-                <button type="button" class="card__share"></button>
-              </div>
-              <!-- Тултип-->
+                <div class="card__image-container">
+                  <img src="images/publications/3_карточка.jpg" alt="" class="card__image">
+                </div>
+                <div class="card__article">
+                  <h3 class="card__title card__title_lower">Spatiotemporal Filtering Pipeline for Efficient Social
+                    Networks Dat…</h3>
+                  <p class="card__info card__info_place">Ksenia Mukhina, Alexander Visheratin, Denis Nasonov </p>
+                  <p class="card__description">One of the areas that gathers momentum is the investigation of
+                    location-based social
+                    networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to
+                    improve
+                    quality of
+                    living, enhance urban management, and advance the development of smart cities. But it is widely
+                    known
+                    that the…</p>
+                </div>
+                <!-- Контейнер с тултипом-->
+                <div class="card__read-more">
+                  <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
+                    class="card__link" target="_blank">
+                    <p class="card__read-full">Читать полностью</p>
+                    <span class="card__arrow"></span>
+                  </a>
+                  <button type="button" class="card__share"></button>
+                </div>
+                <!-- Тултип-->
               </li>
 
               <li class="card card_position_publications">
-              <div class="card__image-container">
-                <img src="images/publications/3_карточка.jpg" alt="" class="card__image">
-              </div>
-              <div class="card__article">
-                <h3 class="card__title card__title_lower">Spatiotemporal Filtering Pipeline for Efficient Social
-                  Networks Dat…</h3>
-                <p class="card__info card__info_place">Ksenia Mukhina, Alexander Visheratin, Denis Nasonov </p>
-                <p class="card__description">One of the areas that gathers momentum is the investigation of
-                  location-based social
-                  networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to improve
-                  quality of
-                  living, enhance urban management, and advance the development of smart cities. But it is widely known
-                  that the…</p>
-              </div>
-              <!-- Контейнер с тултипом-->
-              <div class="card__read-more">
-                <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
-                  class="card__link" target="_blank">
-                  <p class="card__read-full">Читать полностью</p>
-                  <span class="card__arrow"></span>
-                </a>
-                <button type="button" class="card__share"></button>
-              </div>
-              <!-- Тултип-->
-              <div class="tooltip">
-                <ul class="tooltip__list-links">
-                  <li><a href="https://vk.com/itmoru"> <img src="images/vk.svg" alt="" class="tooltip__icon"></a></li>
-                  <li> <a href="https://www.facebook.com/itmoRU/"> <img src="images/facebook.svg" alt="" class="tooltip__icon"></a></li>
-                  <li><a href="https://t.me/itmoru"> <img src="images/Telegram.svg" alt="" class="tooltip__icon"></a></li>
-                  <li><a href="https://www.instagram.com/itmoru/"> <img src="images/instagram.svg" alt="" class="tooltip__icon"></a></li>
-                  <li><a href="https://www.youtube.com/c/IfmoRu"> <img src="images/YouTube.svg" alt="" class="tooltip__icon"></a></li>
-                </ul>
-              </div>
+                <div class="card__image-container">
+                  <img src="images/publications/3_карточка.jpg" alt="" class="card__image">
+                </div>
+                <div class="card__article">
+                  <h3 class="card__title card__title_lower">Spatiotemporal Filtering Pipeline for Efficient Social
+                    Networks Dat…</h3>
+                  <p class="card__info card__info_place">Ksenia Mukhina, Alexander Visheratin, Denis Nasonov </p>
+                  <p class="card__description">One of the areas that gathers momentum is the investigation of
+                    location-based social
+                    networks (LBSNs) because the understanding of citizens’ behavior on various scales can help to
+                    improve
+                    quality of
+                    living, enhance urban management, and advance the development of smart cities. But it is widely
+                    known
+                    that the…</p>
+                </div>
+                <!-- Контейнер с тултипом-->
+                <div class="card__read-more">
+                  <a href="https://scholar.google.ru/citations?hl=ru&user=r5WYVCIAAAAJ&view_op=list_works&sortby=pubdate"
+                    class="card__link" target="_blank">
+                    <p class="card__read-full">Читать полностью</p>
+                    <span class="card__arrow"></span>
+                  </a>
+                  <button type="button" class="card__share"></button>
+                </div>
+                <!-- Тултип-->
+                <div class="tooltip">
+                  <ul class="tooltip__list-links">
+                    <li><a href="https://vk.com/itmoru"> <img src="images/vk.svg" alt="" class="tooltip__icon"></a></li>
+                    <li> <a href="https://www.facebook.com/itmoRU/"> <img src="images/facebook.svg" alt=""
+                          class="tooltip__icon"></a></li>
+                    <li><a href="https://t.me/itmoru"> <img src="images/Telegram.svg" alt="" class="tooltip__icon"></a>
+                    </li>
+                    <li><a href="https://www.instagram.com/itmoru/"> <img src="images/instagram.svg" alt=""
+                          class="tooltip__icon"></a></li>
+                    <li><a href="https://www.youtube.com/c/IfmoRu"> <img src="images/YouTube.svg" alt=""
+                          class="tooltip__icon"></a></li>
+                  </ul>
+                </div>
               </li>
             </ul>
 
-          <div id = "dots" class = "glider-dots"></div>
-   
-          <!--<button type="button" class="button-slider button-slider_theme_dark rotate"></button>-->
+            <div id="dots" class="glider-dots"></div>
+
+            <!--<button type="button" class="button-slider button-slider_theme_dark rotate"></button>-->
           </div>
         </div>
         <!-- Селектор карточек-->
@@ -543,11 +567,16 @@
             <!-- Тултип-->
             <div class="tooltip">
               <ul class="tooltip__list-links">
-                <li><a href="https://vk.com/itmoru" target="_blank"> <img src="images/vk.svg" alt="Иконка ВК" class="tooltip__icon" ></a></li>
-                <li><a href="https://www.facebook.com/itmoRU/" target="_blank"> <img src="images/facebook.svg" alt="Иконка facebook" class="tooltip__icon" ></a></li>
-                <li> <a href="https://t.me/itmoru" target="_blank"> <img src="images/Telegram.svg" alt="Иконка Telegram" class="tooltip__icon" ></a></li>
-                <li><a href="https://www.instagram.com/itmoru/" target="_blank"> <img src="images/instagram.svg" alt="Иконка instagram" class="tooltip__icon" ></a></li>
-                <li><a href="https://www.youtube.com/c/IfmoRu" target="_blank"> <img src="images/YouTube.svg" alt="Иконка youtbe" class="tooltip__icon" ></a></li>
+                <li><a href="https://vk.com/itmoru" target="_blank"> <img src="images/vk.svg" alt="Иконка ВК"
+                      class="tooltip__icon"></a></li>
+                <li><a href="https://www.facebook.com/itmoRU/" target="_blank"> <img src="images/facebook.svg"
+                      alt="Иконка facebook" class="tooltip__icon"></a></li>
+                <li> <a href="https://t.me/itmoru" target="_blank"> <img src="images/Telegram.svg" alt="Иконка Telegram"
+                      class="tooltip__icon"></a></li>
+                <li><a href="https://www.instagram.com/itmoru/" target="_blank"> <img src="images/instagram.svg"
+                      alt="Иконка instagram" class="tooltip__icon"></a></li>
+                <li><a href="https://www.youtube.com/c/IfmoRu" target="_blank"> <img src="images/YouTube.svg"
+                      alt="Иконка youtbe" class="tooltip__icon"></a></li>
               </ul>
             </div>
           </li>
@@ -557,7 +586,7 @@
 
     <div class="our-team__div"></div>
 
-    <section class="our-team" id = "our-team">
+    <section class="our-team" id="our-team">
       <h3 class="our-team__title">наша команда</h3>
       <div class="our-team__aside">
         <button type="button" class="our-team__control-left"></button>
@@ -633,11 +662,12 @@
     </section>
     <!-- Начинается блок Всегда на связи -->
 
-    <section class="feedback" id = "feedback">
+    <section class="feedback" id="feedback">
       <div class="feedback__content">
         <h2 class="feedback__title">Всегда на связи</h2>
         <div class="feedback__subtitle">По всем интересующим вас вопросам вы всегда можете обратиться по указанным
-          телефонам, написать на почту или оставтиь свое сообщение через форму обратной связи. </div>
+          телефонам,<br>
+          написать на почту или оставтиь свое сообщение через форму обратной связи. </div>
         <form action="" class="form">
           <input type="text" required name="name" placeholder="Имя" class="form__input form__input_type_name">
           <input type="text" required name="surname" placeholder="Фамилия" class="form__input form__input_type_surname">
@@ -700,7 +730,7 @@
               <li class="footer__list">199034, Санкт-Петербург,
                 Биржевая линия, д. 4, лит. М,
                 ауд. 302С</li>
-              <li class="footer__list">+7 (812) 337-64-90
+              <li class="footer__list">+7 (812) 337-64-90<br>
                 +7 (812) 337-64-94</li>
               <li class="footer__list">anna.lutsenko@itmo.ru</li>
             </ul>
@@ -725,13 +755,12 @@
   </footer>
   </main>
 
-  <!--Начинается блок footer-->
-  
+
   <script src="scripts/publications-cards.js"> </script>
   <script src="scripts/projects.js"></script>
   <script src="scripts/inputPhone.js"></script>
   <script src="scripts/main.js"> </script>
-<!-- <script src="scripts/glide.min.js"></script> 
+  <script src="scripts/glide.min.js"></script>
   <script>
     const config = {
       type: 'carousel',
@@ -740,8 +769,8 @@
 
     }
     new Glide('.glide', config).mount()
-  </script> -->
- 
+  </script>
+
 </body>
 
 </html>

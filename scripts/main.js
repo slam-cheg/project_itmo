@@ -109,7 +109,7 @@ const aboutCardsArr = [
 const aboutList = document.querySelector('.about__list');
 let templateCardAbout = document.querySelector('#template-card-about').content;
 
-function createCard(item) {
+function createNewsCard(item) {
 
   let aboutItem = templateCardAbout.querySelector('.card ').cloneNode(true);
 
@@ -122,8 +122,8 @@ function createCard(item) {
 
 }
 
-function addCard (item, container) {
-  let cardAbout = createCard(item);
+function addNewsCard (item, container) {
+  let cardAbout = createNewsCard(item);
   container.append(cardAbout);
 }
 
@@ -131,7 +131,7 @@ function addCard (item, container) {
 /*Вызов функции добавления карточек "из коробки на страницу" на страницу в цикле по массиву*/ 
 
 aboutCardsArr.forEach((item) => {
-  addCard(item, aboutList)
+  addNewsCard(item, aboutList)
 });
 
 
