@@ -1,4 +1,3 @@
-
 /*Открытие навигационного меню */ 
 let burgerMenuButton = document.querySelector('.header__button-burger');
 let burgerMenu = document.querySelector('.header__nav-bar');
@@ -81,26 +80,7 @@ const aboutCardsArr = [
 дипломы из рук деканов и услышать поздравления ректора.`,
     
   },
-  { 
-    date: 'Суббота, 3 июля 2021г',
-    title: 'ВОЗВРАЩЕНИЕ НА ПЕТРОПАВЛОВКУ: КАК ПРОШЕЛ ВЫПУСКНОЙ ITMO. LIVE — 2021',
-    text: `Команда ИТМО сделала многое, чтобы вернуть
-формат выпускного этого и прошлого года. Из-за
-эпидемиологической ситуации отменена развлекательная часть,
-но сохранилась торжественная. Выпускники смогли получить
-дипломы из рук деканов и услышать поздравления ректора.`,
-    
-  },
-  { 
-    date: 'Суббота, 3 июля 2021г',
-    title: 'ВОЗВРАЩЕНИЕ НА ПЕТРОПАВЛОВКУ: КАК ПРОШЕЛ ВЫПУСКНОЙ ITMO. LIVE — 2021',
-    text: `Команда ИТМО сделала многое, чтобы вернуть
-формат выпускного этого и прошлого года. Из-за
-эпидемиологической ситуации отменена развлекательная часть,
-но сохранилась торжественная. Выпускники смогли получить
-дипломы из рук деканов и услышать поздравления ректора.`,
-    
-  },
+
 
 ];
 /*Функция создания карточки*/ 
@@ -110,15 +90,14 @@ const aboutList = document.querySelector('.about__list');
 let templateCardAbout = document.querySelector('#template-card-about').content;
 
 function createCard(item) {
-
-  let aboutItem = templateCardAbout.querySelector('.card ').cloneNode(true);
-
+  let aboutItem = templateCardAbout.querySelector('.card').cloneNode(true);
   /*берем данные из словаря или формы для рендеринга контента карточки*/
-  aboutItem.classList.add('glide__slide');
+
   aboutItem.querySelector('.card__info').textContent = item.date;
   aboutItem.querySelector('.card__title').textContent = item.title;
   aboutItem.querySelector('.card__description').textContent = item.text;
-  return  aboutItem;
+
+  return aboutItem;
 
 }
 

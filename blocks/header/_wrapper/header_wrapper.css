@@ -1,4 +1,4 @@
-.header__wrapper {
+.header_wrapper {
     width: 100%;
     max-width: 1110px;
     margin: 0 auto;
@@ -10,7 +10,7 @@
 
 
 @media (max-width: 1023px) {
-    .header__wrapper {
+    .header_wrapper {
         justify-content: center;
     }
   }

@@ -2,7 +2,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/__section/page__section.css);
+@import url(../blocks/page/_section/page_section.css);
 @import url(../blocks/header/header.css);
 
  /* logo */
@@ -12,13 +12,14 @@
 @import url(../blocks/logo/_active/logo_active.css);
 /* link */
 @import url(../blocks/link/link.css);
+@import url(../blocks/link/_place/link_place_header.css);
 @import url(../blocks/link/_place/link_place_second-menu.css);
 
  /* header */
 @import url(../blocks/header/__list-links/header__list-links.css);
 @import url(../blocks/header/__list-item/header__list-item.css);
 @import url(../blocks/header/__button-burger/header__button-burger.css);
-@import url(../blocks/header/__wrapper/header__wrapper.css);
+@import url(../blocks/header/_wrapper/header_wrapper.css);
 @import url(../blocks/header/__burger-line/header__burger-line.css);
 @import url(../blocks/header/__list-second-links/header__list-second-links.css);
 @import url(../blocks/header/__list-second-item/header__list-second-item.css);
@@ -30,7 +31,7 @@
 
  /* home-screen */
  @import url(../blocks/home-screen/home-screen.css);
- @import url(../blocks/home-screen/__wrapper/home-screen__wrapper.css);
+ @import url(../blocks/home-screen/_wrapper/home-screen_wrapper.css);
  @import url(../blocks/home-screen/__intro/home-screen__intro.css);
  @import url(../blocks/home-screen/__title/home-screen__title.css);
  @import url(../blocks/home-screen/__text/home-screen__text.css);
