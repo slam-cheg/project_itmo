@@ -3,10 +3,19 @@
 const cardsContainer = document.querySelector('.projects__cards');
 const cardTemplate = document.querySelector('#projects-card').content;
 const smoothLinks = document.querySelectorAll('a[href^="#"]');
+
 const allProjectsTab = document.querySelector('#all-projects');
 const gosProjectsTab = document.querySelector('#gos-projects');
 const specProjectsTab = document.querySelector('#spec-projects');
 const progressProjectsTab = document.querySelector('#progress-projects');
+
+const allProjectsOption = document.querySelector('#all-option');
+const gosProjectsOption = document.querySelector('#gos-option');
+const specProjectsOption = document.querySelector('#spec-option');
+const progressProjectsOption = document.querySelector('#progress-option');
+
+
+// ARRAYS
 
 const gosProjects = [];
 const specProjects = [];
@@ -117,7 +126,28 @@ addedProjects.forEach(item => {
 
 })
 
+
+// Слушатели
+
 changeCards(addedProjects);
+
+allProjectsOption.addEventListener('click', (event) => {
+    changeTabs(addedProjects);
+    changebuttons(event);
+});
+
+gosProjectsOption.addEventListener('click', (event) => {
+    changeTabs(gosProjects);
+    changebuttons(event);
+});
+specProjectsOption.addEventListener('click', (event) => {
+    changeTabs(specProjects);
+    changebuttons(event);
+});
+progressProjectsOption.addEventListener('click', (event) => {
+    changeTabs(progressProjects);
+    changebuttons(event);
+});
 
 allProjectsTab.addEventListener('click', (event) => {
     changeTabs(addedProjects);
@@ -137,6 +167,7 @@ progressProjectsTab.addEventListener('click', (event) => {
     changebuttons(event);
 });
 
+// Functions
 
 function changebuttons(event) {
     const button = event.target;
@@ -270,7 +301,7 @@ function closeProject() {
     activeLogo.classList.remove('projects__card-logo_deactive');
 }
 
-
+// плавный скролл до якорных ссылок
 
 for (let smoothLink of smoothLinks) {
     smoothLink.addEventListener('click', function (e) {
