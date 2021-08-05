@@ -1,8 +1,9 @@
 .projects__cards {
     display: grid;
-    grid-template-columns: repeat(4, 254px);
+    grid-template-columns: repeat(4, minmax(254px, 100%));
     gap: 30px;
     margin-bottom: 30px;
+    transition: .3s;
 }
 
 @media screen and (max-width: 1180px) {
