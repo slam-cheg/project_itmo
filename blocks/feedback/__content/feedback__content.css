@@ -1,0 +1,14 @@
+.feedback__content {
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 767px) {
+  .feedback__content {
+    padding-top: 40px;
+  }
+}

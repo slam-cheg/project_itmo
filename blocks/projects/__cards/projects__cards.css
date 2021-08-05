@@ -1,0 +1,21 @@
+.projects__cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(254px, 100%));
+    gap: 30px;
+    margin-bottom: 30px;
+    transition: .3s;
+}
+
+@media screen and (max-width: 1180px) {
+    .projects__cards {
+        grid-template-columns: repeat(3, minmax(210px, 100%));
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .projects__cards {
+        grid-template-columns: repeat(2, minmax(140px, 100%));
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+}

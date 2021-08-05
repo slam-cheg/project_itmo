@@ -1,0 +1,24 @@
+.partners__logo-zone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1110px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.partners__logo-zone:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 1180px) {
+  .partners__logo-zone {
+    width: 730px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .partners__logo-zone {
+    width: calc(100% - 32px);
+  }
+}

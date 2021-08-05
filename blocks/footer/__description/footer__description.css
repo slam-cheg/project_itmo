@@ -1,0 +1,19 @@
+.footer__description {
+  max-width: 263px;
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #fff;
+	margin: 0;
+	margin-right: 16px;
+}
+
+@media screen and (max-width: 767px) {
+	.footer__description {
+    display: none;
+	}
+}
+
+@media screen and (max-width: 518px) {
+  .footer__description {
+    margin-right: 70px;
+  }
+}

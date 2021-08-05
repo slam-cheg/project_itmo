@@ -1,0 +1,6 @@
+.card_position_publications {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}

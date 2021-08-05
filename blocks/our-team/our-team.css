@@ -1,0 +1,14 @@
+.our-team {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+@media screen and (max-width: 767px) {
+  .our-team {
+    max-width: 100%;
+  }
+}

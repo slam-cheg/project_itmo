@@ -1,0 +1,38 @@
+.card {
+    position: relative;
+    max-width: 348px;
+    padding: 20px 20px 30px;
+    background-color: #E0F0FF;
+    border-radius: 10px;
+}
+
+.card:hover  > .card__read-more{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: visibility 0s, opacity 1s linear;
+    visibility: visible;
+    opacity: 1;
+    pointer-events: all;
+    
+}
+
+.card:hover > .card__image-container {
+    height: 153px;  
+}
+
+
+@media (max-width: 1023px) {
+    .card {
+        max-width: 330px;
+
+    }
+  }
+
+
+@media (max-width: 460px) {
+    .card {
+        max-width: calc(100% - 32px);
+        margin: 0 auto;
+    }
+  }

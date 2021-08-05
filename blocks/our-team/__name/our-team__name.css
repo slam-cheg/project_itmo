@@ -1,0 +1,26 @@
+.our-team__name {
+  font-family: 'Open Sans', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  color: #000D26;
+  margin-top: 20px;
+  margin-bottom: 4px;
+}
+
+@media screen and (max-width: 1180px) {
+  .our-team__name {
+    font-size: 14px;
+    line-height: 19px;
+    width: 180px;
+}
+}
+
+@media screen and (max-width: 767px) {
+  .our-team__name {
+    font-size: 12px;
+    width: 75px;
+    line-height: 16px;
+}
+}

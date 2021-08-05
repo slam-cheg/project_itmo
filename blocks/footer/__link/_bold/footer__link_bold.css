@@ -1,0 +1,14 @@
+.footer__link_bold {
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+	color: #FFF;
+}
+
+@media screen and (max-width: 1180px) {
+	.footer__link_bold {
+		font-size: 12px;
+		line-height: 16px;
+	}
+}

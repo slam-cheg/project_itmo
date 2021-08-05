@@ -1,0 +1,6 @@
+.projects__filter-list-item_active {
+    border-bottom: 5px solid #009FAC;
+    padding-bottom: 7px;
+    font-weight: 600;
+    transition: .3s;
+}

@@ -1,0 +1,38 @@
+.form {
+  max-width: 1113px;
+  min-height: 237px;
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  grid-template-rows: 60px 60px 1fr;
+  row-gap: 20px;
+  column-gap: 29px;
+  grid-template-areas: "name surname message"
+                       "mobile email message"
+                       ". button ."
+                       ;
+}
+
+@media screen and (max-width: 1180px) {
+  .form {
+    max-width: 688px;
+    grid-template-columns: repeat(3, 210px);
+    grid-template-rows: 44px 44px 1fr;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .form {
+    width: calc(100% - 32px);
+    grid-template-columns: 100%;
+    grid-template-rows: 44px 44px 44px 44px 140px 1fr;
+    grid-template-areas:
+        "name"
+        "surname"
+        "mobile"
+        "email"
+        "message"
+        "button";
+    row-gap: 12px;
+    column-gap: 0;
+}
+}

@@ -1,0 +1,29 @@
+.partners__text {
+  font-family: 'Open Sans', Arial, sans-serif;;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.1px;
+  color: #FFFFFF;
+  margin: 0 auto 30px;
+  letter-spacing: 0.1px;
+}
+
+.partners__text:last-of-type {
+  margin: 0 auto 0;
+}
+
+@media screen and (max-width: 1180px) {
+  .partners__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .partners__title {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

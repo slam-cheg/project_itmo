@@ -1,0 +1,21 @@
+.our-team__slider {
+  margin: 0;
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+  width: 68px;
+  list-style: none;
+  margin-top: 50px;
+}
+
+@media screen and (max-width:1180px) {
+  .our-team__slider{
+    margin-top: 24px;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .our-team__slider{
+    margin-top: 14px;
+  }
+}

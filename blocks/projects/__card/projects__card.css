@@ -1,0 +1,23 @@
+.projects__card {
+    width: 254px;
+    min-height: 228px;
+    background-color: #E0F0FF;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+    transition: .3s;
+}
+
+@media screen and (max-width:1180px) {
+    .projects__card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .projects__card {
+        min-height: 130px;
+        padding: 10px;
+    }
+}

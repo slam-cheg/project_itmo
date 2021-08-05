@@ -1,0 +1,11 @@
+.pagination__arrow {
+    width: 32px;
+    height: 32px;
+}
+
+@media screen and (max-width: 1180px) {
+    .pagination__arrow {
+        width: 24px;
+        height: 24px;
+    }
+}

@@ -1,0 +1,8 @@
+.pagination__arrow_right {
+    background-image: url(../../../../images/arrow-white-left.svg);
+    margin-left: 28px;
+    transform: rotate(
+180deg
+);
+    align-self: flex-end;
+}

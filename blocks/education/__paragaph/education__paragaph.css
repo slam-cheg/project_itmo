@@ -1,0 +1,8 @@
+.education__paragaph {
+  /* width: 60%; */
+  display: grid;
+  justify-items: start;
+  align-items: center;
+  justify-content: center;
+  grid-area: title;
+}

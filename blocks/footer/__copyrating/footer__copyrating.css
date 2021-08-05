@@ -1,0 +1,35 @@
+.footer__copyrating {
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 19px;
+	color: #FFFFFF;
+	opacity: 0.5;
+	margin: 38px 0 0 0;
+	letter-spacing: 0.1px;
+}
+
+@media screen and (max-width: 1180px) {
+	.footer__copyrating {
+		font-size: 12px;
+		line-height: 20px;
+		margin: 0;
+		position: absolute;
+		bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.footer__copyrating {
+		line-height: 16px;
+		margin: 0;
+		position: static;
+	}
+}
+
+@media screen and (max-width: 498px) {
+	.footer__copyrating {
+		margin: 0 auto;
+	}
+}

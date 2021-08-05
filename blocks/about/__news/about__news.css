@@ -1,0 +1,5 @@
+.about__news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

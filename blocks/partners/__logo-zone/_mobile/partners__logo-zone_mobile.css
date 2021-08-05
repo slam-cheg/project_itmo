@@ -1,0 +1,11 @@
+.partners__logo-zone_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .partners__logo-zone_mobile {
+    width: calc(100% - 32px);
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,9 @@
+.tooltip__list-links {
+    width: 152px;
+    margin: auto;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

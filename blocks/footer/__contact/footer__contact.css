@@ -1,0 +1,12 @@
+.footer__contact {
+  
+  box-sizing: border-box;
+	margin-bottom: 65px;
+}
+
+@media screen and (max-width: 511px) {
+  .footer__contact {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}

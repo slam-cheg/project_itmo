@@ -1,0 +1,16 @@
+.our-team__img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 1180px) {
+  .our-team__img {
+    width: 170px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .our-team__img {
+    width: 120px;
+  }
+}

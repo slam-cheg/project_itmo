@@ -1,0 +1,23 @@
+.button-slider {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border: none;
+    background-color: #001337;
+    background:  url('../../images/arrow-down.svg') center no-repeat;
+    box-shadow: 1px 1px 10px rgba(224,240,255, .1);
+    cursor: pointer;
+    transition: background-color .7s linear;
+}
+
+.button-slider:hover {
+    background-color: #009FAC;
+    background-image: url('../../images/arrow-down.svg');
+
+}
+@media screen and (max-width: 1023px) {
+    .button-slider {
+         display: none;
+            
+    }
+}

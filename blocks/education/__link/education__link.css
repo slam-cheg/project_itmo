@@ -1,0 +1,29 @@
+.education__link {
+  width: 920px;
+  max-width: calc(100% - 160px);
+  margin-top: 30px;
+  margin-bottom: 0;
+  display: flex;
+  color: #fff;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 1180px) {
+  .education__link {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    max-width: calc(100% - 80px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .education__link {
+    font-size: 12px;
+    line-height: 16px;
+    max-width: calc(100% - 32px);
+  }
+}

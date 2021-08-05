@@ -1,0 +1,42 @@
+.home-screen__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+    max-width: 350px;
+    margin-bottom: 124px;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    height: 60px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 30px;
+    cursor: pointer;
+    transition: color .2s linear; 
+    transition: border .2s linear; 
+    box-sizing: border-box;
+}
+
+.home-screen__button:hover {
+    border: solid 1px #009FAC;
+    color: #009FAC;
+}
+
+@media (max-width: 1023px) {
+    .home-screen__button {
+        max-width: 330px;  
+        margin-bottom: 120px;
+
+    }
+  }
+@media (max-width: 460px) {
+    .home-screen__button {
+        align-self: center;
+        width: 288px;  
+        margin-bottom: 60px;
+
+    }
+  }
