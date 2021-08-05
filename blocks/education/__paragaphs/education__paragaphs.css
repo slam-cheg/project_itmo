@@ -14,15 +14,15 @@
 
 @media screen and (max-width: 1180px) {
   .education__paragaphs {
-    font-size: 12px;
-    line-height: 16px;
+    /* font-size: 12px;
+    line-height: 16px; */
   }
 }
 
 @media screen and (max-width: 767px) {
   .education__paragaphs {
-    font-size: 12px;
-    line-height: 16px;
+  /*   font-size: 12px;
+    line-height: 16px; */
     margin-bottom: 15px;
   }
 }
