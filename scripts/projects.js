@@ -131,7 +131,7 @@ addedProjects.forEach(item => {
 
 changeCards(addedProjects);
 
-allProjectsOption.addEventListener('click', (event) => {
+/*allProjectsOption.addEventListener('click', (event) => {
     changeTabs(addedProjects);
     changebuttons(event);
 });
@@ -147,7 +147,7 @@ specProjectsOption.addEventListener('click', (event) => {
 progressProjectsOption.addEventListener('click', (event) => {
     changeTabs(progressProjects);
     changebuttons(event);
-});
+}); */
 
 allProjectsTab.addEventListener('click', (event) => {
     changeTabs(addedProjects);
