@@ -10,6 +10,7 @@
     cursor: pointer;
     background-color: transparent;
     border: none;
+    transition: .3s;
 }
 
 @media screen and (max-width: 1180px) {
