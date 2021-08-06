@@ -1,24 +1,19 @@
 .education__img {
-  max-width: 445px;
-    max-height: 364px;
-    width: 100vw;
-    height: 100vh;
-    background-image: url(../../../images/image\ 43.jpg);
-    background-size: cover;
-    object-fit: cover;
-    border-radius: 10px;
-    grid-area: img;
+  min-height: 364px;
+  width: 100%;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 10px;
+  grid-area: img;
 }
 
 @media screen and (max-width: 1180px) {
   .education__img {
-    width: 47vw;
-    height: 45vh
+
   }
 }
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 767px) {
   .education__img {
-    width: 34vw;
-    height: 43vh;
+    min-height: 284px;
   }
 }
