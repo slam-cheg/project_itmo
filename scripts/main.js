@@ -171,4 +171,3 @@ function getCardsPerPage() {
  return cardsPerPage;
 }
 */
-
